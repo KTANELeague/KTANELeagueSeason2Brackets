@@ -1,13 +1,13 @@
 body {
     padding-top: 70px;
-    padding-left: 90px;
+    padding-left: 104px;
 }
 
 .icon-bar {
     width: 90px; /* Set a specific width */
     background-color: #555; /* Dark-grey background */
     position: fixed;
-    top: 70px;
+    top: 56px;
     right: 0;
     left: 0;
     z-index: 1030;
