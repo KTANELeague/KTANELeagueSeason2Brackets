@@ -1,0 +1,137 @@
+{
+    "players": [
+        {
+            "name": "ZekNikZ",
+            "discord": "ZekNikZ#0878",
+            "categories": [
+                "ExperimentalEFM"
+            ],
+            "eliminated-categories": [],
+            "modded-modules": [],
+            "vetoed-modules": []
+        },
+        {
+            "name": "OdderOtter",
+            "discord": "OdderOtter#2802",
+            "categories": [
+                "ModdedEFM", "ExperimentalEFM"
+            ],
+            "eliminated-categories": [],
+            "modded-modules": [],
+            "vetoed-modules": []
+        },
+        {
+            "name": "doubleA-Ron",
+            "discord": null,
+            "categories": [],
+            "eliminated-categories": [],
+            "modded-modules": [],
+            "vetoed-modules": []
+        }
+    ],
+    "teams": [
+        {
+            "name": "Team OdderOtter",
+            "discord": "483663689841377280",
+            "icon": null,
+            "categories": [
+                "VanillaTeam", "ModdedTeam", "ExperimentalTeam"
+            ],
+            "eliminated-categories": [],
+            "members": [
+                "OdderOtter", "doubleA-Ron"
+            ],
+            "modded-modules": [],
+            "vetoed-modules": []
+        }
+    ],
+    "categories": [
+        {
+            "id": "VanillaTeam",
+            "name": "Vanilla Team",
+            "type": "BattleRoyale" ,
+            "participant-type": "team",
+            "icon": null
+        },
+        {
+            "id": "ModdedTeam",
+            "name": "Modded Team",
+            "type": ["RoundRobin-Groups", "Brackets"],
+            "weeks-per-stage": 5,
+            "participant-type": "team",
+            "icon": null
+        },
+        {
+            "id": "ModdedEFM",
+            "name": "Modded EFM",
+            "type": ["RoundRobin", "Brackets"],
+            "weeks-per-stage": 5,
+            "participant-type": "individual"
+        },
+        {
+            "id": "ExperimentalEFM",
+            "name": "Experimental EFM",
+            "type": "WeekByWeek",
+            "participant-type": "individual"
+        },
+        {
+            "id": "ExperimentalTeam",
+            "name": "Experimental Team",
+            "type": "WeekByWeek",
+            "participant-type": "team"
+        }
+    ],
+    "matches": [
+        {
+            "id": "EE1A-A",
+            "match-group": "Week 1",
+            "group": "A",
+            "category": "ExperimentalEFM",
+            "stream-url": null,
+            "date": null,
+            "competitors": [
+                "ZekNikZ", "OdderOtter"
+            ],
+            "bombs": [
+                {
+                    "bomb-info": "modsWeek1A",
+                    "type": "normal",
+                    "seed": 2032133,
+                    "times": [
+                        {
+                            "player": "ZekNikZ",
+                            "time-left": 24.5,
+                            "strikes": 1,
+                            "modules": null,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                        {
+                            "player": "OdderOtter",
+                            "time-left": 10.233,
+                            "strikes": 2,
+                            "modules": null,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": "ZekNikZ"
+                }
+            ],
+            "winner": "ZekNikZ",
+            "connection": null
+        }
+    ],
+    "bombs": [
+        {
+            "id": "modsWeek1A",
+            "time": 300,
+            "strikes": 5,
+            "pools-and-vetos": {
+                "ZekNikZ": ["hexamaze"],
+                "OdderOtter": ["taxReturnModule"]
+            },
+            "log-link": null
+        }
+    ]
+}
