@@ -4,24 +4,48 @@ body {
     position: relative;
 }
 
-.icon-bar {
-    width: 60px; /* Set a specific width */
-    background-color: #555; /* Dark-grey background */
-    position: fixed;
-    top: 56px;
-    right: 0;
-    left: 0;
-    z-index: 1020;
-    height: 100%;
+@media(max-width: 767px) { /* HORIZONTAL */
+    .icon-bar {
+        width: 100%; /* Set a specific width */
+        background-color: #555; /* Dark-grey background */
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 1020;
+        height: 60px;
+    }
+
+    .icon-bar a { /* TODO: FINISH */
+        display: inline-block; /* Make the links appear below each other instead of side-by-side */
+        text-align: center; /* Center-align text */
+        padding: 0 9px; /* Add some padding */
+        transition: all 0.3s ease; /* Add transition for hover effects */
+        color: white; /* White text color */
+        font-size: 34px; /* Increased font-size */
+    }
 }
 
-.icon-bar a {
-    display: block; /* Make the links appear below each other instead of side-by-side */
-    text-align: center; /* Center-align text */
-    padding: 8px 0; /* Add some padding */
-    transition: all 0.3s ease; /* Add transition for hover effects */
-    color: white; /* White text color */
-    font-size: 34px; /* Increased font-size */
+@media(min-width: 768px) {
+    .icon-bar {
+        width: 60px; /* Set a specific width */
+        background-color: #555; /* Dark-grey background */
+        position: fixed;
+        top: 56px;
+        right: 0;
+        left: 0;
+        z-index: 1020;
+        height: 100%;
+    }
+
+    .icon-bar a {
+        display: block; /* Make the links appear below each other instead of side-by-side */
+        text-align: center; /* Center-align text */
+        padding: 8px 0; /* Add some padding */
+        transition: all 0.3s ease; /* Add transition for hover effects */
+        color: white; /* White text color */
+        font-size: 34px; /* Increased font-size */
+    }
 }
 
 .icon-bar a:hover {
