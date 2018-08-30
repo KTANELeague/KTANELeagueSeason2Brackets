@@ -1,32 +1,77 @@
 body {
-    padding-top: 70px;
-    padding-left: 104px;
+    padding-top: 56px;
+    padding-left: 60px;
+    position: relative;
 }
 
 .icon-bar {
-    width: 90px; /* Set a specific width */
+    width: 60px; /* Set a specific width */
     background-color: #555; /* Dark-grey background */
     position: fixed;
     top: 56px;
     right: 0;
     left: 0;
-    z-index: 1030;
+    z-index: 1020;
     height: 100%;
 }
 
 .icon-bar a {
     display: block; /* Make the links appear below each other instead of side-by-side */
     text-align: center; /* Center-align text */
-    padding: 16px; /* Add some padding */
+    padding: 8px 0; /* Add some padding */
     transition: all 0.3s ease; /* Add transition for hover effects */
     color: white; /* White text color */
-    font-size: 36px; /* Increased font-size */
+    font-size: 34px; /* Increased font-size */
 }
 
 .icon-bar a:hover {
-    background-color: #000; /* Add a hover color */
+    background-color: #333; /* Add a hover color */
+    text-decoration: none;
 }
 
-.icon-bar-active {
-    background-color: #4CAF50; /* Add an active/current color */
+.icon-bar .active {
+    background-color: gray; /* Add an active/current color */
+}
+
+.match-card {
+    margin: 2em;
+    width: 275px;
+}
+
+.match-card a {
+    color: black;
+}
+
+.match-card .winner {
+    font-weight: bold;
+}
+
+.match-card .eliminated {
+    background: #ffcccc;
+}
+
+.match-card .score {
+    text-align: right;
+}
+
+.match-card .title {
+    text-align: center;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.match-card a.date {
+    text-align: right;
+    font-style: italic;
+    color: gray;
+    padding-top: 10px;
+}
+
+.match-card a.date:hover {
+    color: gray;
+}
+
+.match-card .link {
+    padding-top: 10px;
+    color: #0000EE;
 }
