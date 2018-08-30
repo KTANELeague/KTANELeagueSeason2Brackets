@@ -1,3 +1,32 @@
 body {
     padding-top: 70px;
+    padding-left: 90px;
+}
+
+.icon-bar {
+    width: 90px; /* Set a specific width */
+    background-color: #555; /* Dark-grey background */
+    position: fixed;
+    top: 70px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    height: 100%;
+}
+
+.icon-bar a {
+    display: block; /* Make the links appear below each other instead of side-by-side */
+    text-align: center; /* Center-align text */
+    padding: 16px; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.icon-bar-active {
+    background-color: #4CAF50; /* Add an active/current color */
 }
