@@ -6,3 +6,4 @@
 /teams#{team} - specific info for a team -> redirect to /competitors
 /matches - list of all matches by bracket, then by id
 /matches#{match} - specific info for a match
+/standings

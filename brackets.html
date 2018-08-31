@@ -1,5 +1,7 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <!-- Bootstrap and jQuery -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -11,7 +13,7 @@
         <script>
             // Navbar loading
             $(function(){
-                $("#navbar-placeholder").load("nav.html");
+                //$("#navbar-placeholder").load("nav.html");
             });
         </script>
         <link rel="stylesheet" href="css/main.css"/>
@@ -24,49 +26,49 @@
     </head>
     <body data-spy="scroll" data-target=".icon-bar" data-offset="50">
         <!-- Import Navbar -->
-        <div id="navbar-placeholder" class="container">
+        <!--<div id="navbar-placeholder" class="container">-->
                 <nav class="navbar navbar-expand-md bg-dark fixed-top navbar-dark ">
-                        <a class="navbar-brand" href="index">KTANE League Season 2</a>
+                        <a class="navbar-brand" href="#">KTANE League Season 2</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="collapsibleNavbar">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#section1">Information</a>
+                                    <a class="nav-link" href="#">Information</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#section2">Brackets</a>
+                                    <a class="nav-link" href="#">Brackets</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#section3">Players</a>
+                                    <a class="nav-link" href="#">Standings</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#section3">Teams</a>
+                                    <a class="nav-link" href="#">Players</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="matches">Matches</a>
+                                    <a class="nav-link" href="#">Teams</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Matches</a>
                                 </li>
                             </ul>
                         </div>
                     </nav>
-        </div>
+        <!--</div>-->
 
-        <!-- Icon Sidebar-->
+        
+
         <div class="icon-bar">
             <a href="#vanilla-team">VT</a>
             <a href="#vanilla-team">MI</a>
             <a href="#vanilla-team">MT</a>
             <a href="#vanilla-team">EI</a>
             <a href="#vanilla-team">ET</a>
-            <a href="#section1"><span class="fa fa-home"></span></a> 
-            <a href="#section2"><span class="fa fa-search"></span></a> 
-            <a href="#section3"><span class="fa fa-envelope"></span></a> 
-            <a href="#globe"><span class="fa fa-globe"></span></a>
-            <a href="#trash"><span class="fa fa-trash"></span></a> 
         </div>
 
         <h1>Vanilla Team</h1>
+        <div class="bracket-week card-deck" style="width: 275px; margin: 2em;">
         <div class="card bg-light match-card">
             <div class="card-body container">
                 <div class="row winner">
@@ -110,26 +112,69 @@
                 </div>
             </div>
         </div>
-<!--
-            <div id="section1" class="container-fluid">
-                <h1>Section 1</h1>
-                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-              </div>
-              <div id="section2" class="container-fluid">
-                <h1>Section 2</h1>
-                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-              </div>
-              <div id="section3" class="container-fluid">
-                <h1>Section 3</h1>
-                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-              </div>
-              <div id="section4" class="container-fluid">
-                <h1>Section 3</h1>
-                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-                <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-              </div>-->
+        <div class="card bg-light match-card">
+            <div class="card-body container">
+                <div class="row winner">
+                    <a class="col-10" href="players#ZekNikZ">ZekNikZ</a>
+                    <a class="col-2 score">4</a>
+                </div>
+                <div class="row">
+                    <a class="col-10">OdderOtter</a>
+                    <a class="col-2 score">3</a>
+                </div>
+                <div class="row eliminated">
+                    <a class="col-10">Timwi</a>
+                    <a class="col-2 score">2</a>
+                </div>
+                <div class="row">
+                    <a class="col-4 link" href="matches#1234">Details</a>
+                </div>
+                <div class="row">
+                        <a class="col-4 link" href="matches#1234">Details</a>
+                        <a class="col-8 date">Not Started</a>
+                    </div>
+                <div class="row">
+                    <a class="col-4 link" href="matches#1234">Details</a>
+                    <a class="col-8 date">Not Completed</a>
+                </div>
+                <div class="row">
+                    <a class="col-4 link" href="matches#1234">Details</a>
+                    <a class="col-8 date" href="https://twitch.tv">Match in Progress</a>
+                </div>
+                <div class="row">
+                    <a class="col-4 link" href="matches#1234">Details</a>
+                    <a class="col-8 date">Final Score</a>
+                </div>
+                <div class="row">
+                    <a class="col-4 link" href="matches#1234">Details</a>
+                    <a class="col-8 date">September 16, 12:30pm</a>
+                </div>
+                <div class="row">
+                    <a class="col-4 link" href="matches#1234">Details</a>
+                    <a class="col-8 date">Time TBD</a>
+                </div>
+            </div>
+        </div></div>
+
+        <div id="section1" class="container-fluid">
+            <h1>Section 1</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+          </div>
+          <div id="section2" class="container-fluid">
+            <h1>Section 2</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+          </div>
+          <div id="section3" class="container-fluid">
+            <h1>Section 3</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+          </div>
+          <div id="section4" class="container-fluid">
+            <h1>Section 3</h1>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+          </div>
     </body>
 </html>

@@ -1,10 +1,13 @@
 body {
     padding-top: 56px;
-    padding-left: 60px;
     position: relative;
 }
 
 @media(max-width: 767px) { /* HORIZONTAL */
+    body {
+        padding-bottom: 60px;
+    }
+
     .icon-bar {
         width: 100%; /* Set a specific width */
         background-color: #555; /* Dark-grey background */
@@ -27,6 +30,10 @@ body {
 }
 
 @media(min-width: 768px) {
+    body {
+        padding-left: 60px;
+    }
+
     .icon-bar {
         width: 60px; /* Set a specific width */
         background-color: #555; /* Dark-grey background */
@@ -41,7 +48,9 @@ body {
     .icon-bar a {
         display: block; /* Make the links appear below each other instead of side-by-side */
         text-align: center; /* Center-align text */
-        padding: 8px 0; /* Add some padding */
+        padding: 0 0; /* Add some padding */
+        width: 60px;
+        height: 60px;
         transition: all 0.3s ease; /* Add transition for hover effects */
         color: white; /* White text color */
         font-size: 34px; /* Increased font-size */
@@ -58,8 +67,9 @@ body {
 }
 
 .match-card {
-    margin: 2em;
-    width: 275px;
+    width: 275px !important;
+    flex: 0 1 auto !important;
+    margin: 0 auto 10px !important;
 }
 
 .match-card a {
@@ -98,4 +108,8 @@ body {
 .match-card .link {
     padding-top: 10px;
     color: #0000EE;
+}
+
+.bracket-week .match-card {
+    margin-bottom: 10px;
 }
