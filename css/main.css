@@ -22,7 +22,10 @@ body {
     .icon-bar a { /* TODO: FINISH */
         display: inline-block; /* Make the links appear below each other instead of side-by-side */
         text-align: center; /* Center-align text */
-        padding: 0 9px; /* Add some padding */
+        padding: 0 0; /* Add some padding */
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
         transition: all 0.3s ease; /* Add transition for hover effects */
         color: white; /* White text color */
         font-size: 34px; /* Increased font-size */
@@ -51,6 +54,7 @@ body {
         padding: 0 0; /* Add some padding */
         width: 60px;
         height: 60px;
+        line-height: 60px;
         transition: all 0.3s ease; /* Add transition for hover effects */
         color: white; /* White text color */
         font-size: 34px; /* Increased font-size */

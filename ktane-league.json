@@ -24,7 +24,9 @@
             "name": "doubleA-Ron",
             "discord": null,
             "categories": [],
-            "eliminated-categories": [],
+            "eliminated-categories": [
+                "ExperimentalEFM"
+            ],
             "modded-modules": [],
             "vetoed-modules": []
         }
@@ -100,7 +102,7 @@
                     "seed": 2032133,
                     "times": [
                         {
-                            "player": "ZekNikZ",
+                            "competitor": "ZekNikZ",
                             "time-left": 24.5,
                             "strikes": 1,
                             "modules": null,
@@ -108,7 +110,7 @@
                             "vod-link": null
                         },
                         {
-                            "player": "OdderOtter",
+                            "competitor": "OdderOtter",
                             "time-left": 10.233,
                             "strikes": 2,
                             "modules": null,
@@ -117,9 +119,34 @@
                         }
                     ],
                     "winner": "ZekNikZ"
+                },
+                {
+                    "bomb-info": "modsWeek1A",
+                    "type": "normal",
+                    "seed": 78302,
+                    "times": [
+                        {
+                            "competitor": "ZekNikZ",
+                            "time-left": 30.25,
+                            "strikes": 1,
+                            "modules": null,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "OdderOtter",
+                            "time-left": 30.34,
+                            "strikes": 2,
+                            "modules": null,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": "OdderOtter"
                 }
             ],
-            "winner": "ZekNikZ",
+            "winner": "OdderOtter",
+            "eliminations": ["OdderOtter"],
             "connection": null
         }
     ],
