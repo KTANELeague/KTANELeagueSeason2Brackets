@@ -72,8 +72,6 @@ body {
 
 .match-card {
     width: 275px !important;
-    flex: 0 1 auto !important;
-    margin: 0 auto 10px !important;
 }
 
 .match-card a {
@@ -114,6 +112,105 @@ body {
     color: #0000EE;
 }
 
+.bracket-week {
+    /*width: 275px;*/
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.bracket-week-groups {
+    /*width: 317px;*/
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 .bracket-week .match-card {
-    margin-bottom: 10px;
+    flex: 0 1 auto !important;
+    margin: 0 0 10px auto !important;
+    position: relative;
+}
+
+.bracket-week .match-card:last-child {
+    margin: 0 auto !important;
+}
+
+.bracket-week-groups .match-card {
+    flex: 0 1 auto !important;
+    margin: 0 0 10px 0 !important;
+    left: 30px;
+    position: relative;
+}
+
+.bracket-week-groups .match-card:last-child {
+    margin: 0 0 0 0 !important;
+}
+
+.bracket-group {
+    position: relative;
+}
+
+aside {
+    /*background: #ffc;*/
+    display: block !important;
+    position: relative;  
+    padding: 0 0 0 12px; 
+    overflow: hidden;
+    margin: 0 0 10px 0 !important;
+    width: 317px;
+}
+ 
+aside h6 {
+    /*background: #369;
+    color: #fff;*/
+    background: #e8e9ea;
+    padding: .7em;
+    margin: 0;
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1000%;
+    -webkit-transform: rotate(90deg) translateX(20px); 
+    -moz-transform:    rotate(90deg) translateX(20px);
+    -ms-transform:     rotate(90deg) translateX(20px);
+    -o-transform:      rotate(90deg) translateX(20px); 
+    transform:         rotate(90deg) translateX(20px); 
+    -webkit-transform-origin: 1.8em 0.5em; /*1.8em .5em*/
+    -moz-transform-origin:    1.8em 0.5em;
+    -ms-transform-origin:     1.8em 0.5em;
+    -o-transform-origin:      1.8em 0.5em;
+    transform-origin:         1.8em 0.5em;
+}
+
+td.card-deck {
+    margin: 0 !important;
+}
+
+h1 {
+    text-align: center;
+}
+
+.bracket {
+    text-align: left;
+    padding: 0 10px;
+    max-width: 2500px;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.bracket .bracket-week:last-child {
+    margin-right: 10px;
+}
+
+.bracket .group-col {
+    width: 320;
+    flex: 0 0 auto;
+}
+
+.match-group-title {
+    text-align: center;
 }

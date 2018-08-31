@@ -23,9 +23,9 @@
 
                 var matches = [
                     {
-                        "id": "EE1A-A",
+                        "id": "EE1B-A",
                         "match-group": "Week 1",
-                        "group": "A",
+                        "group": "B",
                         "category": "ExperimentalEFM",
                         "stream-url": null,
                         "date": null,
@@ -151,9 +151,78 @@
                         "connection": null
                     },
                     {
-                        "id": "EE1A-A",
+                        "id": "EE1B-B",
                         "match-group": "Week 1",
                         "group": "B",
+                        "category": "ExperimentalEFM",
+                        "stream-url": "https://twitch.tv/ZekNikZOfficial",
+                        "date": null,
+                        "status": "notstarted",
+                        "competitors": [
+                            "Alice", "Bob", "Charlie", "David", "Eve"
+                        ],
+                        "bombs": [
+                            { "winner": "Bob"},
+                            { "winner": "Alice"},
+                            { "winner": "David"},
+                            { "winner": "Alice"},
+                            { "winner": "Charlie"},
+                            { "winner": "David"}
+                        ],
+                        "winner": ["Alice", "David"],
+                        "eliminations": ["Charlie", "Eve"],
+                        "connection": null
+                    },
+                    {
+                        "id": "EE1B-B",
+                        "match-group": "Week 4",
+                        "group": null,
+                        "category": "ExperimentalEFM",
+                        "stream-url": "https://twitch.tv/ZekNikZOfficial",
+                        "date": null,
+                        "status": "notstarted",
+                        "competitors": [
+                            "Alice", "Bob", "Charlie", "David", "Eve"
+                        ],
+                        "bombs": [
+                            { "winner": "Bob"},
+                            { "winner": "Alice"},
+                            { "winner": "David"},
+                            { "winner": "Alice"},
+                            { "winner": "Charlie"},
+                            { "winner": "David"}
+                        ],
+                        "winner": ["Alice", "David"],
+                        "eliminations": ["Charlie", "Eve"],
+                        "connection": null
+                    },
+                    {
+                        "id": "EE1B-B",
+                        "match-group": null,
+                        "group": null,
+                        "category": "ExperimentalEFM",
+                        "stream-url": "https://twitch.tv/ZekNikZOfficial",
+                        "date": null,
+                        "status": "notstarted",
+                        "competitors": [
+                            "Alice", "Bob", "Charlie", "David", "Eve"
+                        ],
+                        "bombs": [
+                            { "winner": "Bob"},
+                            { "winner": "Alice"},
+                            { "winner": "David"},
+                            { "winner": "Alice"},
+                            { "winner": "Charlie"},
+                            { "winner": "David"}
+                        ],
+                        "winner": ["Alice", "David"],
+                        "eliminations": ["Charlie", "Eve"],
+                        "connection": null
+                    },
+                    {
+                        "id": "EE1B-B",
+                        "match-group": "Week 4",
+                        "group": "A",
                         "category": "ExperimentalEFM",
                         "stream-url": "https://twitch.tv/ZekNikZOfficial",
                         "date": null,
@@ -175,9 +244,86 @@
                     }
                 ];
 
+                // TODO: Make unsorted stuff work!
+
+                var bracket = {"none": {"none": []}};
                 for (var match of matches) {
-                    $("#testdeck").append(makeMatchCard(match, false));
+                    let matchGroup = match["match-group"];
+                    let group = match["group"];
+                    if (matchGroup !== undefined && matchGroup !== null) {
+                        if (!(matchGroup in bracket)) {
+                            bracket[matchGroup] = {"none": []};
+                        }
+                        if (group !== undefined && group !== null) {
+                            if (!(group in bracket[matchGroup])) {
+                                bracket[matchGroup][group] = [];
+                            }
+                        }
+                    } else {
+                        if (group !== undefined && group !== null) {
+                            if (!(group in bracket["none"])) {
+                                bracket["none"][group] = [];
+                            }
+                        }
+                    }
                 }
+
+                for (var match of matches.sort((a, b) => a.id > b.id)) {
+                    let matchGroup = match["match-group"];
+                    if (!(matchGroup !== undefined && matchGroup !== null)) {
+                        matchGroup = "none";
+                    }
+                    let group = match["group"];
+                    if (!(group !== undefined && group !== null)) {
+                        group = "none";
+                    }
+                    bracket[matchGroup][group].push(makeMatchCard(match, false));
+                }
+
+                for (let matchGroupName in bracket) {
+                    if (bracket[matchGroupName]["none"] !== undefined && bracket[matchGroupName]["none"].length === 0) {
+                        delete bracket[matchGroupName]["none"];
+                    }
+                }
+                if (Object.keys(bracket["none"]).length === 0) {
+                    delete bracket["none"];
+                }
+
+                for (var matchGroup of Object.keys(bracket).sort()) {
+                    let name = matchGroup;
+                    if (matchGroup === "none" || matchGroup === null || matchGroup === undefined) {
+                        name = "Unsorted";
+                    }
+                    let deck;
+                    if (Object.keys(bracket[matchGroup]).length > 1 || Object.keys(bracket[matchGroup]) != "none") {
+                        deck = $("<div>", {"class": "bracket-week bracket-week-groups"});
+                        deck.append($("<h3>", {"class": "match-group-title"}).text(name));
+                        for (let group of Object.keys(bracket[matchGroup]).sort()) {
+                            let groupName = group;
+                            if (group === "none" || group === null || group === undefined) {
+                                groupName = "No Group";
+                            } else {
+                                groupName = "Group " + groupName;
+                            }
+                            let cardGroup = $("<aside>", {"class": "group-col bracket-group card-deck"});
+                            cardGroup.append($("<div>", {"class": "group-title"}).append($("<h6>").text(`${groupName}`)));
+                            for (let card of bracket[matchGroup][group]) {
+                                cardGroup.append(card);
+                            }
+                            deck.append(cardGroup);
+                        }
+                    } else {
+                        deck = $("<div>", {"class": "group-col bracket-week"});
+                        deck.append($("<h3>", {"class": "match-group-title"}).text(name));
+                        for (let card of bracket[matchGroup][Object.keys(bracket[matchGroup])[0]]) {
+                            deck.append(card);
+                        }
+                    }
+                    $(".bracket").append(deck);
+                }
+                //$("#testdeck").append(makeMatchCard(match, false));
+
+                //<div id="testdeck" class="bracket-week bracket-week-groups card-deck"></div>
             });
         </script>
     </head>
@@ -225,6 +371,6 @@
         </div>
 
         <h1>Vanilla Team</h1>
-        <div id="testdeck" class="bracket-week card-deck" style="width: 275px; margin: 2em;"></div>
+        <div class="bracket"></div>
     </body>
 </html>
