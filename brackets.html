@@ -21,7 +21,7 @@
                 //var json = $.getJSON("ktane-league.json");
                 //var matches = json["matches"];
 
-                var matches = [
+                let matches = [
                     {
                         "id": "EE1B-A",
                         "match-group": "Week 1",
@@ -241,11 +241,54 @@
                         "winner": ["Alice", "David"],
                         "eliminations": ["Charlie", "Eve"],
                         "connection": null
+                    },
+                    {
+                        "id": "EE1B-B",
+                        "match-group": "Week 4",
+                        "group": "A",
+                        "category": "VanillaTeam",
+                        "stream-url": "https://twitch.tv/ZekNikZOfficial",
+                        "date": null,
+                        "status": "notstarted",
+                        "competitors": [
+                            "Alice", "Bob", "Charlie", "David", "Eve"
+                        ],
+                        "bombs": [
+                            { "winner": "Bob"},
+                            { "winner": "Alice"},
+                            { "winner": "David"},
+                            { "winner": "Alice"},
+                            { "winner": "Charlie"},
+                            { "winner": "David"}
+                        ],
+                        "winner": ["Alice", "David"],
+                        "eliminations": ["Charlie", "Eve"],
+                        "connection": null
                     }
-                ];
+                ];       
+                
+                makeBrackets(matches);
+            });
 
-                // TODO: Make unsorted stuff work!
+            function makeBrackets(matches) {
+                let matchList = {};
+                for (let match of matches) {
+                    let category = match["category"];
+                    if (category === null || category === undefined) {
+                        continue;
+                    }
+                    if (!(category in matchList)) {
+                        matchList[category] = [];
+                    }
+                    matchList[category].push(match);
+                }
+                for (let category in matchList) {
+                    $("#brackets").append($("<h1>", {"id": category}).text(category));
+                    $("#brackets").append(makeBracket(matchList[category]));
+                }
+            }
 
+            function makeBracket(matches) {
                 var bracket = {"none": {"none": []}};
                 for (var match of matches) {
                     let matchGroup = match["match-group"];
@@ -289,6 +332,7 @@
                     delete bracket["none"];
                 }
 
+                var result = $("<div>", {"class": "bracket"});
                 for (var matchGroup of Object.keys(bracket).sort()) {
                     let name = matchGroup;
                     if (matchGroup === "none" || matchGroup === null || matchGroup === undefined) {
@@ -319,12 +363,10 @@
                             deck.append(card);
                         }
                     }
-                    $(".bracket").append(deck);
+                    result.append(deck);
                 }
-                //$("#testdeck").append(makeMatchCard(match, false));
-
-                //<div id="testdeck" class="bracket-week bracket-week-groups card-deck"></div>
-            });
+                return result;
+            }
         </script>
     </head>
     <body data-spy="scroll" data-target=".icon-bar" data-offset="50">
@@ -363,14 +405,13 @@
         
 
         <div class="icon-bar">
-            <a href="#vanilla-team">VT</a>
+            <a href="#VanillaTeam">VT</a>
             <a href="#vanilla-team">MI</a>
             <a href="#vanilla-team">MT</a>
             <a href="#vanilla-team">EI</a>
-            <a href="#vanilla-team">ET</a>
+            <a href="#ExperimentalEFM">ET</a>
         </div>
 
-        <h1>Vanilla Team</h1>
-        <div class="bracket"></div>
+        <div id="brackets"></div>
     </body>
 </html>

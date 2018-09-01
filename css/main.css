@@ -113,15 +113,8 @@ body {
 }
 
 .bracket-week {
-    /*width: 275px;*/
     padding: 0 !important;
-    margin: 0 !important;
-}
-
-.bracket-week-groups {
-    /*width: 317px;*/
-    padding: 0 !important;
-    margin: 0 !important;
+    margin: 0 20px 0 0 !important;
 }
 
 .bracket-week .match-card {
