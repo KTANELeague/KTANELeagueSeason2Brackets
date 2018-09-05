@@ -52,6 +52,7 @@
             "id": "VanillaTeam",
             "name": "Vanilla Team",
             "type": "BattleRoyale" ,
+            "shorthand": "VT",
             "participant-type": "team",
             "icon": null
         },
@@ -61,6 +62,7 @@
             "type": ["RoundRobin-Groups", "Brackets"],
             "weeks-per-stage": 5,
             "participant-type": "team",
+            "shorthand": "MT",
             "icon": null
         },
         {
@@ -68,19 +70,22 @@
             "name": "Modded EFM",
             "type": ["RoundRobin", "Brackets"],
             "weeks-per-stage": 5,
-            "participant-type": "individual"
-        },
-        {
-            "id": "ExperimentalEFM",
-            "name": "Experimental EFM",
-            "type": "WeekByWeek",
+            "shorthand": "MI",
             "participant-type": "individual"
         },
         {
             "id": "ExperimentalTeam",
             "name": "Experimental Team",
             "type": "WeekByWeek",
-            "participant-type": "team"
+            "participant-type": "team",
+            "shorthand": "ET"
+        },
+        {
+            "id": "ExperimentalEFM",
+            "name": "Experimental EFM",
+            "type": "WeekByWeek",
+            "participant-type": "individual",
+            "shorthand": "EI"
         }
     ],
     "matches": [
