@@ -24,6 +24,14 @@ function makeMatchCard(match, showInfo) {
         winners = [winners];
     }
 
+    var competitorType;
+    for (let category of categories) {
+        if (category["id"] === match["category"]) {
+            competitorType = category["participant-type"];
+            break;
+        }
+    }
+
     // Get the displayed information by each name
     var displayedInfo = {};
     var showWinner = false;
@@ -69,7 +77,7 @@ function makeMatchCard(match, showInfo) {
         } else {
             row = $("<div>", {"class": "row"});
         }
-        row.append($("<a>", {"class": "col-8", "href": `players#${competitor}`}).text(competitor));
+        row.append($("<a>", {"class": "col-8", "href": `${competitorType}s#${competitor}`}).text(competitor));
         row.append($("<a>", {"class": "col-4 score", "href": `matches#${matchId}`}).text(displayedInfo[competitor]));
         cardBody.append(row);
     }
@@ -93,48 +101,19 @@ function makeMatchCard(match, showInfo) {
     return card;
     // TODO: Show Info (Match id, week, group, etc)
 }
-/*
-<div class="card bg-light match-card">
-            <div class="card-body container">
-                <div class="row winner">
-                    <a class="col-10" href="players#ZekNikZ">ZekNikZ</a>
-                    <a class="col-2 score">4</a>
-                </div>
-                <div class="row">
-                    <a class="col-10">OdderOtter</a>
-                    <a class="col-2 score">3</a>
-                </div>
-                <div class="row eliminated">
-                    <a class="col-10">Timwi</a>
-                    <a class="col-2 score">2</a>
-                </div>
-                <div class="row">
-                    <a class="col-4 link" href="matches#1234">Details</a>
-                </div>
-                <div class="row">
-                        <a class="col-4 link" href="matches#1234">Details</a>
-                        <a class="col-8 date">Not Started</a>
-                    </div>
-                <div class="row">
-                    <a class="col-4 link" href="matches#1234">Details</a>
-                    <a class="col-8 date">Not Completed</a>
-                </div>
-                <div class="row">
-                    <a class="col-4 link" href="matches#1234">Details</a>
-                    <a class="col-8 date" href="https://twitch.tv">Match in Progress</a>
-                </div>
-                <div class="row">
-                    <a class="col-4 link" href="matches#1234">Details</a>
-                    <a class="col-8 date">Final Score</a>
-                </div>
-                <div class="row">
-                    <a class="col-4 link" href="matches#1234">Details</a>
-                    <a class="col-8 date">September 16, 12:30pm</a>
-                </div>
-                <div class="row">
-                    <a class="col-4 link" href="matches#1234">Details</a>
-                    <a class="col-8 date">Time TBD</a>
-                </div>
-            </div>
-        </div>
-        */
+
+var categories;
+var matches;
+
+$(function(){
+    // Load navbar
+    $("#navbar-placeholder").load("https://raw.githubusercontent.com/KTANECommunity/KTANELeagueSeason2Brackets/master/nav.html");
+
+    var json = $.getJSON("https://raw.githubusercontent.com/KTANECommunity/KTANELeagueSeason2Brackets/master/ktane-league.json").then(
+        function (data, status, jqXHR) {
+            categories = data["categories"];
+            matches = data["matches"];
+            setupPage();
+        }
+    );
+});

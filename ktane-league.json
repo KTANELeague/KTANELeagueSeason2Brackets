@@ -71,7 +71,7 @@
             "type": ["RoundRobin", "Brackets"],
             "weeks-per-stage": 5,
             "shorthand": "MI",
-            "participant-type": "individual"
+            "participant-type": "player"
         },
         {
             "id": "ExperimentalTeam",
@@ -84,7 +84,7 @@
             "id": "ExperimentalEFM",
             "name": "Experimental EFM",
             "type": "WeekByWeek",
-            "participant-type": "individual",
+            "participant-type": "player",
             "shorthand": "EI"
         }
     ],
