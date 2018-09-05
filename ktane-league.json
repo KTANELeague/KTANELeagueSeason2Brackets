@@ -8,7 +8,7 @@
             ],
             "eliminated-categories": [],
             "modded-modules": [],
-            "vetoed-modules": []
+            "vetoed-modules": {}
         },
         {
             "name": "OdderOtter",
@@ -18,7 +18,7 @@
             ],
             "eliminated-categories": [],
             "modded-modules": [],
-            "vetoed-modules": []
+            "vetoed-modules": {}
         },
         {
             "name": "doubleA-Ron",
@@ -28,7 +28,7 @@
                 "ExperimentalEFM"
             ],
             "modded-modules": [],
-            "vetoed-modules": []
+            "vetoed-modules": {}
         }
     ],
     "teams": [
