@@ -85,13 +85,13 @@
     ],
     "matches": [
         {
-            "id": "EE1A-A",
+            "id": "EE1B-A",
             "match-group": "Week 1",
-            "group": "A",
+            "group": "B",
             "category": "ExperimentalEFM",
             "stream-url": null,
             "date": null,
-            "status": "notcomplete",
+            "status": "done",
             "competitors": [
                 "ZekNikZ", "OdderOtter"
             ],
@@ -111,7 +111,7 @@
                         },
                         {
                             "competitor": "OdderOtter",
-                            "time-left": 10.233,
+                            "time-left": 103.233,
                             "strikes": 2,
                             "modules": null,
                             "log-link": null,
@@ -143,10 +143,188 @@
                         }
                     ],
                     "winner": "OdderOtter"
+                },
+                {
+                    "bomb-info": "modsWeek1A",
+                    "type": "normal",
+                    "seed": 78302,
+                    "times": [
+                        {
+                            "competitor": "ZekNikZ",
+                            "time-left": 40.28,
+                            "strikes": 1,
+                            "modules": null,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "OdderOtter",
+                            "time-left": 29.39,
+                            "strikes": 2,
+                            "modules": null,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": "ZekNikZ"
                 }
             ],
-            "winner": "OdderOtter",
             "eliminations": ["OdderOtter"],
+            "connection": null
+        },
+        {
+            "id": "EE1A-A",
+            "match-group": "Week 1",
+            "group": "A",
+            "category": "ExperimentalEFM",
+            "stream-url": "https://twitch.tv/ZekNikZOfficial",
+            "date": null,
+            "status": "inprogress",
+            "competitors": [
+                "Timwi", "samfun123"
+            ],
+            "bombs": [
+                {
+                    "bomb-info": "modsWeek1A",
+                    "type": "normal",
+                    "seed": 2032133,
+                    "times": [
+                        {
+                            "competitor": "Timwi",
+                            "time-left": 24.5,
+                            "strikes": 1,
+                            "modules": null,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "samfun123",
+                            "time-left": 13.23,
+                            "strikes": 2,
+                            "modules": null,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": "Timwi"
+                }
+            ],
+            "winner": "Timwi",
+            "connection": null
+        },
+        {
+            "id": "EE1B-B",
+            "match-group": "Week 1",
+            "group": "B",
+            "category": "ExperimentalEFM",
+            "stream-url": "https://twitch.tv/ZekNikZOfficial",
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "Alice", "Bob", "Charlie", "David", "Eve"
+            ],
+            "bombs": [
+                { "winner": "Bob"},
+                { "winner": "Alice"},
+                { "winner": "David"},
+                { "winner": "Alice"},
+                { "winner": "Charlie"},
+                { "winner": "David"}
+            ],
+            "winner": ["Alice", "David"],
+            "eliminations": ["Charlie", "Eve"],
+            "connection": null
+        },
+        {
+            "id": "EE1B-B",
+            "match-group": "Week 4",
+            "group": null,
+            "category": "ExperimentalEFM",
+            "stream-url": "https://twitch.tv/ZekNikZOfficial",
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "Alice", "Bob", "Charlie", "David", "Eve"
+            ],
+            "bombs": [
+                { "winner": "Bob"},
+                { "winner": "Alice"},
+                { "winner": "David"},
+                { "winner": "Alice"},
+                { "winner": "Charlie"},
+                { "winner": "David"}
+            ],
+            "winner": ["Alice", "David"],
+            "eliminations": ["Charlie", "Eve"],
+            "connection": null
+        },
+        {
+            "id": "EE1B-B",
+            "match-group": null,
+            "group": null,
+            "category": "ExperimentalEFM",
+            "stream-url": "https://twitch.tv/ZekNikZOfficial",
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "Alice", "Bob", "Charlie", "David", "Eve"
+            ],
+            "bombs": [
+                { "winner": "Bob"},
+                { "winner": "Alice"},
+                { "winner": "David"},
+                { "winner": "Alice"},
+                { "winner": "Charlie"},
+                { "winner": "David"}
+            ],
+            "winner": ["Alice", "David"],
+            "eliminations": ["Charlie", "Eve"],
+            "connection": null
+        },
+        {
+            "id": "EE1B-B",
+            "match-group": "Week 4",
+            "group": "A",
+            "category": "ExperimentalEFM",
+            "stream-url": "https://twitch.tv/ZekNikZOfficial",
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "Alice", "Bob", "Charlie", "David", "Eve"
+            ],
+            "bombs": [
+                { "winner": "Bob"},
+                { "winner": "Alice"},
+                { "winner": "David"},
+                { "winner": "Alice"},
+                { "winner": "Charlie"},
+                { "winner": "David"}
+            ],
+            "winner": ["Alice", "David"],
+            "eliminations": ["Charlie", "Eve"],
+            "connection": null
+        },
+        {
+            "id": "EE1B-B",
+            "match-group": "Week 4",
+            "group": "A",
+            "category": "VanillaTeam",
+            "stream-url": "https://twitch.tv/ZekNikZOfficial",
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "Alice", "Bob", "Charlie", "David", "Eve"
+            ],
+            "bombs": [
+                { "winner": "Bob"},
+                { "winner": "Alice"},
+                { "winner": "David"},
+                { "winner": "Alice"},
+                { "winner": "Charlie"},
+                { "winner": "David"}
+            ],
+            "winner": ["Alice", "David"],
+            "eliminations": ["Charlie", "Eve"],
             "connection": null
         }
     ],
