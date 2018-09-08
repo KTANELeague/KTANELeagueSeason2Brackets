@@ -92,8 +92,8 @@
         "OdderOtter",
         "doubleA-Ron"
       ],
-      "modded-modules": [],
-      "vetoed-modules": {}
+      "modded-modules": null,
+      "vetoed-modules": null
     },
     {
       "name": "Big Weeb, Little Weeb, Cardboard Socks",
@@ -107,8 +107,8 @@
         "ZekNikZ",
         "doubleA-Ron"
       ],
-      "modded-modules": [],
-      "vetoed-modules": {}
+      "modded-modules": null,
+      "vetoed-modules": null
     },
     {
       "name": "Team Rexkix",
@@ -125,8 +125,10 @@
         "draket333",
         "Riking"
       ],
-      "modded-modules": [],
-      "vetoed-modules": {}
+      "modded-modules": [ "Boolean Venn Diagram", "Colored Switches", "Complicated Buttons", "FizzBuzz", "Hexamaze", "Know Your Way", "Laundry", "LEGO", "Font Select", "Logic", "The London Underground", "Maritime Flags", "Neutralization", "S.E.T.", "Shape Shift", "Simon Sends", "Symbol Cycle", "Symbolic Password", "Turtle Robot", "USA Maze" ],
+      "vetoed-modules": {
+        "OdderOtter": "Semaphore"
+      }
     }
   ],
   "categories": [
