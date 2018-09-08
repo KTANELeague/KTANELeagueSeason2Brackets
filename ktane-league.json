@@ -24,8 +24,8 @@
         "ExperimentalEFM"
       ],
       "eliminated-categories": [],
-      "modded-modules": [],
-      "vetoed-modules": {}
+      "modded-modules": null,
+      "vetoed-modules": null
     },
     {
       "name": "doubleA-Ron",
@@ -35,8 +35,8 @@
       "eliminated-categories": [
         "ExperimentalEFM"
       ],
-      "modded-modules": [],
-      "vetoed-modules": {}
+      "modded-modules": null,
+      "vetoed-modules": null
     },
     {
       "name": "Alice",
@@ -48,8 +48,8 @@
       "eliminated-categories": [
         "ExperimentalEFM"
       ],
-      "modded-modules": [],
-      "vetoed-modules": {}
+      "modded-modules": null,
+      "vetoed-modules": null
     }
   ],
   "teams": [
