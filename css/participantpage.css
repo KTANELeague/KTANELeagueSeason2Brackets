@@ -5,6 +5,20 @@ h1.player-name {
 }
 
 .player-links .discord {
-    background-color: #2C2F33;
+    background-color: #7289DA;
     color: white !important;
+}
+
+.player-links .team {
+    background-color: #7289DA;
+    color: white !important;
+}
+
+.player-links .discord {
+    background-color: #7289DA;
+    color: white !important;
+}
+
+.player-links img {
+    height: 24px;
 }

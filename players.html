@@ -26,7 +26,6 @@
                 if (/^#([A-Za-z\-0-9]+)$/.exec(window.location.hash)) {
                     var playerId = RegExp.$1;
                     var player = players.filter(p => p["name"] === playerId)[0];
-                    console.log(player);
                     if (player) { 
                         //$("#player-info").empty();
                         setupPlayerInfo(player);
@@ -45,8 +44,16 @@
                 $(".player-links").empty();
                 if (player["discord"]) {
                     var discordLink = $("<a>", {href: `#${player["name"]}`, class: "btn btn-default discord"});
-                    discordLink.append($("<span>", {class: "glyphicon glyphicon-fire"}));
-                    discordLink.append(`@${player["discord"]}`);
+                    //discordLink.append($("<span>", { class: "fa fa-fire" }));
+                    discordLink.append($("<img>", {src: "img/discord-icon.svg"}));
+                    discordLink.append(` @${player["discord"]}`);
+                    $(".player-links").append(discordLink);
+                }
+                if (player["team"]) {
+                    var discordLink = $("<a>", { href: `#${player["name"]}`, class: "btn btn-default team" });
+                    //discordLink.append($("<span>", { class: "fa fa-fire" }));
+                    discordLink.append($("<img>", { src: "img/team-icon.svg" }));
+                    discordLink.append(` @${player["discord"]}`);
                     $(".player-links").append(discordLink);
                 }
             }
@@ -76,7 +83,7 @@
         <div id="sidebar" class="icon-bar"></div>
 
         <div id="player-info" class="page">
-            <h1 class="player-name">Big Weeb, Little Weeb, Cardboard Socks</h1>
+            <h1 class="player-name">Player still loading...</h1>
             <div class="text-center">
                 <div class="player-links button-group"></div>
             </div>
