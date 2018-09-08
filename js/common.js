@@ -107,6 +107,13 @@ function makeMatchCard(match, showInfo) {
     // TODO: Show Info (Match id, week, group, etc)
 }
 
+function encodeModuleName(name) {
+    var temp = name.replace("'", ".ap.");
+    var encodedName = encodeURI(temp);
+    var result = encodedName.replace(".ap.", "%E2%80%99");
+    return result;
+}
+
 var categories;
 var matches;
 var players;

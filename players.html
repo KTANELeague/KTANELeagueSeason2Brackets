@@ -80,16 +80,16 @@
                 if (player["modded-modules"]) {
                     $(".mod-list").show();
                     for (var module of player["modded-modules"]) {
-                        var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${encodeURI(module)}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-light" });
-                        moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${encodeURI(module)}.png`, class: "module-image" }));
+                        var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${encodeModuleName(module)}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-light" });
+                        moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${encodeModuleName(module)}.png`, class: "module-image" }));
                         moduleListing.append(module);
                         $(".mod-list .player-modules").append(moduleListing);
                     }
                     var vetos = player["vetoed-modules"];
                     for (var opponent in vetos) {
                         var module = vetos[opponent];
-                        var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${encodeURI(module)}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-dark" });
-                        moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${encodeURI(module)}.png`, class: "module-image" }));
+                        var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${encodeModuleName(module)}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-dark" });
+                        moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${encodeModuleName(module)}.png`, class: "module-image" }));
                         moduleListing.append(module + " ");
                         moduleListing.append($("<a>", { href: `players.html#${opponent}` }).text(`(against ${opponent})`));
                         $(".mod-list .player-module-vetos").append(moduleListing);
@@ -102,7 +102,6 @@
             function changeCategorySelection(event) {
                 var category = event.data["category"];
                 var player = event.data["player"];
-                var ctg = categories.filter(c => c.id === category)[0];
 
                 $(".category-links button").removeClass("selected");
                 $(`.category-links button[data-category~=${category}]`).addClass("selected");
