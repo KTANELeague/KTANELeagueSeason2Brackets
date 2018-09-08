@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Players</title>
+        <title>Teams</title>
 
         <!-- Bootstrap and jQuery -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -22,76 +22,76 @@
             function setupPage(animationDuration) {
                 animationDuration = animationDuration || 0;
                 $("#player-info").hide();
-                $("#players-page").hide();
+                $("#player-page").hide();
                 $("#sidebar").empty();
                 if (/^#([A-Za-z\-0-9 ,]+)$/.exec(decodeURI(window.location.hash))) {
-                    var playerId = RegExp.$1;
-                    var player = players.filter(p => p["name"] === playerId)[0];
-                    if (player) { 
-                        //$("#player-info").empty();
-                        setupPlayerInfo(player);
+                    var teamId = RegExp.$1;
+                    var team = teams.filter(t => t["name"] === teamId)[0];
+                    if (team) { 
+                        //$("#team-info").empty();
+                        setupTeamInfo(team);
                         $("#player-info").show(animationDuration);
                         return;
                     }
                 }
-                //$("#players-page").empty();
-                setupPlayersPage();
-                $("#players-page").show(animationDuration);
+                //$("#teams-page").empty();
+                setupTeamsPage();
+                $("#player-page").show(animationDuration);
             }
 
-            function setupPlayerInfo(player) {
+            function setupTeamInfo(team) {
                 $("#sidebar").append($("<a>", { href: "#", class: "fa fa-angle-left" }));
                 
-                $(".player-name").text(player["name"]);
+                $(".player-name").text(team["name"]);
 
                 $(".player-links").empty();
-                if (player["discord"]) {
-                    var discordLink = $("<a>", {href: `#${player["name"]}`, class: "btn btn-light discord"});
+                if (team["discord"]) {
+                    var discordLink = $("<a>", { href: `#${team["name"]}`, class: "btn btn-light discord"});
                     //discordLink.append($("<span>", { class: "fa fa-fire" }));
                     discordLink.append($("<img>", {src: "img/discord-icon.svg"}));
-                    discordLink.append(` @${player["discord"]}`);
+                    discordLink.append(` @${team["name"]}`);
                     $(".player-links").append(discordLink);
                 }
-                if (player["teams"]) {
-                    for (var team of player["teams"]) {
-                        var teamLink = $("<a>", { href: `teams.html#${team}`, class: "btn btn-light team" });
+                if (team["members"]) {
+                    for (var member of team["members"]) {
+                        var memberLink = $("<a>", { href: `players.html#${member}`, class: "btn btn-light team" });
                         //discordLink.append($("<span>", { class: "fa fa-fire" }));
-                        teamLink.append($("<img>", { src: "img/team-icon.svg" }));
-                        teamLink.append(` ${team}`);
-                        $(".player-links").append(teamLink);
+                        memberLink.append($("<img>", { src: "img/player-icon.svg" }));
+                        memberLink.append(` ${member}`);
+                        $(".player-links").append(memberLink);
                     }
                 }
 
                 $(".category-links").empty();
-                for (var category of player["categories"]) {
+                for (var category of team["categories"]) {
                     var ctg = categories.filter(c => c.id === category)[0];
                     $("#sidebar").append($("<button>").text(ctg["shorthand"]).click({ "category": category }, changeCategorySelection));
-                    $(".category-links").append($("<button>", { class: "btn btn-light", "data-category": category }).text(ctg["name"]).click({ "player": player, "category": category }, changeCategorySelection));
+                    $(".category-links").append($("<button>", { class: "btn btn-light", "data-category": category }).text(ctg["name"]).click({ "team": team, "category": category }, changeCategorySelection));
                 }
-                for (var category of player["eliminated-categories"]) {
+                for (var category of team["eliminated-categories"]) {
                     var ctg = categories.filter(c => c.id === category)[0];
                     $("#sidebar").append($("<button>", { class: "eliminated" }).text(ctg["shorthand"]).click({ "category": category }, changeCategorySelection));
-                    $(".category-links").append($("<button>", { class: "btn btn-light eliminated", "data-category": category }).text(ctg["name"]).click({ "player": player, "category": category }, changeCategorySelection));
+                    $(".category-links").append($("<button>", { class: "btn btn-light eliminated", "data-category": category }).text(ctg["name"]).click({ "team": team, "category": category }, changeCategorySelection));
                 }
-                changeCategorySelection({ data: { "player": player, "category": $(".category-links :first-child").attr("data-category") } });
+                changeCategorySelection({ data: { "team": team, "category": $(".category-links :first-child").attr("data-category") } });
 
                 $(".player-modules").empty();
                 $(".player-module-vetos").empty();
-                if (player["modded-modules"]) {
+                if (team["modded-modules"]) {
                     $(".mod-list").show();
-                    for (var module of player["modded-modules"]) {
+                    for (var module of team["modded-modules"]) {
                         var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${encodeModuleName(module)}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-light" });
                         moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${encodeModuleName(module)}.png`, class: "module-image" }));
                         moduleListing.append(module);
                         $(".mod-list .player-modules").append(moduleListing);
                     }
-                    var vetos = player["vetoed-modules"];
+                    var vetos = team["vetoed-modules"];
                     for (var opponent in vetos) {
                         var module = vetos[opponent];
                         var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${encodeModuleName(module)}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-dark" });
                         moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${encodeModuleName(module)}.png`, class: "module-image" }));
                         moduleListing.append(module + " ");
-                        moduleListing.append($("<a>", { href: `players.html#${opponent}` }).text(`(against ${opponent})`));
+                        moduleListing.append($("<a>", { href: `teams.html#${opponent}` }).text(`(against ${opponent})`));
                         $(".mod-list .player-module-vetos").append(moduleListing);
                     }
                 } else {
@@ -101,13 +101,13 @@
 
             function changeCategorySelection(event) {
                 var category = event.data["category"];
-                var player = event.data["player"];
+                var team = event.data["team"];
 
                 $(".category-links button").removeClass("selected");
                 $(`.category-links button[data-category~=${category}]`).addClass("selected");
                 $(".player-matches").empty();
 
-                var matchList = matches.filter(m => m["competitors"].includes(player["name"]) && m["category"] === category);
+                var matchList = matches.filter(t => t["competitors"].includes(team["name"]) && t["category"] === category);
                 //matchList.sort((a, b) => a["group"] < b["group"] ? -1 : 1);
                 matchList.sort((a, b) => a["match-group"] < b["match-group"] ? -1 : 1);
                 for (var match of matchList) {
@@ -116,7 +116,7 @@
             }
 
             var pageSetup = false;
-            function setupPlayersPage() {
+            function setupTeamsPage() {
                 if (pageSetup) return;
 
 
@@ -140,7 +140,7 @@
         <div id="sidebar" class="icon-bar"></div>
 
         <div id="player-info" class="page">
-            <h1 class="player-name">Player still loading...</h1>
+            <h1 class="player-name">Team still loading...</h1>
             <div class="text-center">
                 <div class="player-links btn-group" role="group"></div>
             </div>
@@ -162,16 +162,16 @@
                 </div>
                 <div class="row">
                     <div class="col-6">
-                        <div class="player-modules row"></div>
+                        <div class="team-modules row"></div>
                     </div>
                     <div class="col-6">
-                        <div class="player-module-vetos row"></div>
+                        <div class="team-module-vetos row"></div>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="players-page" class="page">
-            <h1>Players</h1>
+        <div id="player-page" class="page">
+            <h1>Teams</h1>
         </div>
         <div class="bottom-spacer"></div>
     </body>

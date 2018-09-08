@@ -109,6 +109,24 @@
       ],
       "modded-modules": [],
       "vetoed-modules": {}
+    },
+    {
+      "name": "Team Rexkix",
+      "discord": "451318515794706432",
+      "icon": null,
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "members": [
+        "Rexkix",
+        "BigLittleOrMe",
+        "epicness1728",
+        "draket333",
+        "Riking"
+      ],
+      "modded-modules": [],
+      "vetoed-modules": {}
     }
   ],
   "categories": [

@@ -117,6 +117,7 @@ function encodeModuleName(name) {
 var categories;
 var matches;
 var players;
+var teams;
 
 $(function(){
     // Load navbar
@@ -127,6 +128,7 @@ $(function(){
             categories = data["categories"];
             matches = data["matches"];
             players = data["players"];
+            teams = data["teams"];
             setupPage();
         }
     );
