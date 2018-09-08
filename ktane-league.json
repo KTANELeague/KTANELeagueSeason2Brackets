@@ -10,7 +10,7 @@
       "eliminated-categories": [
         "ModdedEFM"
       ],
-      "modded-modules": [ "Boolean Venn Diagram", "Colored", "Switches", "Complicated", "Buttons", "FizzBuzz", "Hexamaze", "Know", "Your", "Way", "Laundry", "LEGO", "Font", "Select", "Logic", "The", "London", "Underground", "Maritime", "Flags", "Neutralization", "S.E.T", "Shpae", "Shift", "Simon", "Sends", "Symbol", "Cycle", "Symbolic", "Password", "Turtle", "Robot", "USA", "Maze" ],
+      "modded-modules": [ "Boolean Venn Diagram", "Colored Switches", "Complicated Buttons", "FizzBuzz", "Hexamaze", "Know Your Way", "Laundry", "LEGO", "Font Select", "Logic", "The London Underground", "Maritime", "Flags", "Neutralization", "S.E.T", "Shape Shift", "Simon Sends", "Symbol Cycle", "Symbolic Password", "Turtle Robot", "USA Maze" ],
       "vetoed-modules": {
         "OdderOtter": "Semaphore"
       }
