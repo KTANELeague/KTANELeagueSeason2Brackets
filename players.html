@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Players</title>
+
+        <!-- Bootstrap and jQuery -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="css/main.css"/>
+        <link rel="stylesheet" href="css/participantpage.css"/>
+        <script src="js/common.js"></script>
+
+        <script>
+            function hashChange() {
+                setupPage(200);
+            }
+
+            function setupPage(animationDuration) {
+                animationDuration = animationDuration || 0;
+                $("#player-info").hide(animationDuration);
+                $("#players-page").hide(animationDuration);
+                if (/^#([A-Za-z\-0-9]+)$/.exec(window.location.hash)) {
+                    var playerId = RegExp.$1;
+                    var player = players.filter(p => p["name"] === playerId)[0];
+                    console.log(player);
+                    if (player) { 
+                        //$("#player-info").empty();
+                        setupPlayerInfo(player);
+                        $("#player-info").show(animationDuration);
+                        return;
+                    }
+                }
+                //$("#players-page").empty();
+                setupPlayersPage();
+                $("#players-page").show(animationDuration);
+            }
+
+            function setupPlayerInfo(player) {
+                $(".player-name").text(player["name"]);
+
+                $(".player-links").empty();
+                if (player["discord"]) {
+                    var discordLink = $("<a>", {href: `#${player["name"]}`, class: "btn btn-default discord"});
+                    discordLink.append($("<span>", {class: "glyphicon glyphicon-fire"}));
+                    discordLink.append(`@${player["discord"]}`);
+                    $(".player-links").append(discordLink);
+                }
+            }
+
+            var pageSetup = false;
+            function setupPlayersPage() {
+                if (pageSetup) return;
+
+
+
+                pageSetup = true;
+            }
+
+            window.onhashchange = hashChange;
+        </script>
+        <style>
+            .page {
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target=".icon-bar" data-offset="50">
+        <!-- Import Navbar -->
+        <div id="navbar-placeholder" class="container"></div>
+
+        <div id="sidebar" class="icon-bar"></div>
+
+        <div id="player-info" class="page">
+            <h1 class="player-name">Big Weeb, Little Weeb, Cardboard Socks</h1>
+            <div class="text-center">
+                <div class="player-links button-group"></div>
+            </div>
+        </div>
+        <div id="players-page" class="page">
+            <h1>Buzz</h1>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+h1.player-name {
+    font-size: 400%;
+    margin: 20px;
+    margin-top: 76px;
+}
+
+.player-links .discord {
+    background-color: #2C2F33;
+    color: white !important;
+}

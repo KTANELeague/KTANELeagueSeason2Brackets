@@ -104,6 +104,7 @@ function makeMatchCard(match, showInfo) {
 
 var categories;
 var matches;
+var players;
 
 $(function(){
     // Load navbar
@@ -113,6 +114,7 @@ $(function(){
         function (data, status, jqXHR) {
             categories = data["categories"];
             matches = data["matches"];
+            players = data["players"];
             setupPage();
         }
     );
