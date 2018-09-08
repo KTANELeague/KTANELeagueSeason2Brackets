@@ -16,7 +16,7 @@
     {
       "name": "OdderOtter",
       "discord": "OdderOtter#2802",
-      "team":  "Team OdderOtter",
+      "team": "Team OdderOtter",
       "categories": [
         "ModdedEFM",
         "ExperimentalEFM"
@@ -50,6 +50,21 @@
       "eliminated-categories": [],
       "members": [
         "OdderOtter",
+        "doubleA-Ron"
+      ],
+      "modded-modules": [],
+      "vetoed-modules": {}
+    },
+    {
+      "name": "Big Weeb, Little Weeb, Cardboard Socks",
+      "discord": "451318515794706432",
+      "icon": null,
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "members": [
+        "ZekNikZ",
         "doubleA-Ron"
       ],
       "modded-modules": [],
