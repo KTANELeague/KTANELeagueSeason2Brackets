@@ -74,6 +74,29 @@
                     $(".category-links").append($("<button>", { class: "btn btn-light eliminated", "data-category": category }).text(ctg["name"]).click({ "player": player, "category": category }, changeCategorySelection));
                 }
                 changeCategorySelection({ data: { "player": player, "category": $(".category-links :first-child").attr("data-category") } });
+
+                $(".player-modules").empty();
+                $(".player-module-vetos").empty();
+                if (player["modded-modules"]) {
+                    $(".mod-list").show();
+                    for (var module of player["modded-modules"]) {
+                        var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${encodeURI(module)}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-light" });
+                        moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${encodeURI(module)}.png`, class: "module-image" }));
+                        moduleListing.append(module);
+                        $(".mod-list .player-modules").append(moduleListing);
+                    }
+                    var vetos = player["vetoed-modules"];
+                    for (var opponent in vetos) {
+                        var module = vetos[opponent];
+                        var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${encodeURI(module)}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-dark" });
+                        moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${encodeURI(module)}.png`, class: "module-image" }));
+                        moduleListing.append(module + " ");
+                        moduleListing.append($("<a>", { href: `players.html#${opponent}` }).text(`(against ${opponent})`));
+                        $(".mod-list .player-module-vetos").append(moduleListing);
+                    }
+                } else {
+                    $(".mod-list").hide();
+                }
             }
 
             function changeCategorySelection(event) {
@@ -84,35 +107,12 @@
                 $(".category-links button").removeClass("selected");
                 $(`.category-links button[data-category~=${category}]`).addClass("selected");
                 $(".player-matches").empty();
-                $(".player-modules").empty();
-                $(".player-module-vetos").empty();
 
                 var matchList = matches.filter(m => m["competitors"].includes(player["name"]) && m["category"] === category);
                 //matchList.sort((a, b) => a["group"] < b["group"] ? -1 : 1);
                 matchList.sort((a, b) => a["match-group"] < b["match-group"] ? -1 : 1);
                 for (var match of matchList) {
                     $(".player-matches").append(makeMatchCard(match, true));
-                }
-
-                if (player["modded-modules"]) {
-                    $(".mod-list").show();
-                    for (var module of player["modded-modules"]) {
-                        var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${module}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-light" });
-                        moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${module}.png`, class: "module-image" }));
-                        moduleListing.append(module);
-                        $(".mod-list .player-modules").append(moduleListing);
-                    }
-                    var vetos = player["vetoed-modules"];
-                    for (var opponent in vetos) {
-                        var module = vetos[opponent];
-                        var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${module}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-dark" });
-                        moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${module}.png`, class: "module-image" }));
-                        moduleListing.append(module + " ");
-                        moduleListing.append($("<a>", { href: `players.html#${opponent}` }).text(`(against ${opponent})`));
-                        $(".mod-list .player-module-vetos").append(moduleListing);
-                    }
-                } else {
-                    $(".mod-list").hide();
                 }
             }
 
