@@ -116,6 +116,8 @@ body {
 .match-card .match-info>a {
     text-align: center;
     color: gray !important;
+    margin-top: -10px;
+    margin-bottom: 10px;
 }
 
 .match-card .winner {

@@ -41,8 +41,7 @@
 
             function setupPlayerInfo(player) {
                 $("#sidebar").append($("<a>", { href: "#", class: "fa fa-angle-left" }));
-
-                console.log(player);
+                
                 $(".player-name").text(player["name"]);
 
                 $(".player-links").empty();
@@ -53,12 +52,14 @@
                     discordLink.append(` @${player["discord"]}`);
                     $(".player-links").append(discordLink);
                 }
-                if (player["team"]) {
-                    var teamLink = $("<a>", { href: `teams.html#${player["team"]}`, class: "btn btn-light team" });
-                    //discordLink.append($("<span>", { class: "fa fa-fire" }));
-                    teamLink.append($("<img>", { src: "img/team-icon.svg" }));
-                    teamLink.append(` ${player["team"]}`);
-                    $(".player-links").append(teamLink);
+                if (player["teams"]) {
+                    for (var team of player["teams"]) {
+                        var teamLink = $("<a>", { href: `teams.html#${team}`, class: "btn btn-light team" });
+                        //discordLink.append($("<span>", { class: "fa fa-fire" }));
+                        teamLink.append($("<img>", { src: "img/team-icon.svg" }));
+                        teamLink.append(` ${team}`);
+                        $(".player-links").append(teamLink);
+                    }
                 }
 
                 $(".category-links").empty();
@@ -83,6 +84,8 @@
                 $(".category-links button").removeClass("selected");
                 $(`.category-links button[data-category~=${category}]`).addClass("selected");
                 $(".player-matches").empty();
+                $(".player-modules").empty();
+                $(".player-module-vetos").empty();
 
                 var matchList = matches.filter(m => m["competitors"].includes(player["name"]) && m["category"] === category);
                 //matchList.sort((a, b) => a["group"] < b["group"] ? -1 : 1);
@@ -94,10 +97,19 @@
                 if (player["modded-modules"]) {
                     $(".mod-list").show();
                     for (var module of player["modded-modules"]) {
-                        var moduleListing = $("<div>", { class: "module-listing col-6 bg-light" });
-                        moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${module}.png`, class: "module-image" }))
+                        var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${module}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-light" });
+                        moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${module}.png`, class: "module-image" }));
                         moduleListing.append(module);
                         $(".mod-list .player-modules").append(moduleListing);
+                    }
+                    var vetos = player["vetoed-modules"];
+                    for (var opponent in vetos) {
+                        var module = vetos[opponent];
+                        var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${module}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-dark" });
+                        moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${module}.png`, class: "module-image" }));
+                        moduleListing.append(module + " ");
+                        moduleListing.append($("<a>", { href: `players.html#${opponent}` }).text(`(against ${opponent})`));
+                        $(".mod-list .player-module-vetos").append(moduleListing);
                     }
                 } else {
                     $(".mod-list").hide();
@@ -144,10 +156,16 @@
                 <div class="row">
                     <div class="col-6">
                         <h1>Modded Modules</h1>
-                        <div class="player-modules row"></div>
                     </div>
                     <div class="col-6">
                         <h1>Modded Module Vetos</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="player-modules row"></div>
+                    </div>
+                    <div class="col-6">
                         <div class="player-module-vetos row"></div>
                     </div>
                 </div>
@@ -156,5 +174,6 @@
         <div id="players-page" class="page">
             <h1>Buzz</h1>
         </div>
+        <div class="bottom-spacer"></div>
     </body>
 </html>

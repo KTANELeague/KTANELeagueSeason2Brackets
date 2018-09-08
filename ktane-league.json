@@ -3,7 +3,7 @@
     {
       "name": "ZekNikZ",
       "discord": "ZekNikZ#0878",
-      "team": "Big Weeb, Little Weeb, Cardboard Socks",
+      "teams": [ "Big Weeb, Little Weeb, Cardboard Socks" ],
       "categories": [
         "ExperimentalEFM"
       ],
@@ -16,9 +16,34 @@
       }
     },
     {
+      "name": "elias5891",
+      "discord": "elias5891#4727",
+      "teams": [ "DremTem", "The Dream Team" ],
+      "categories": [
+        "VanillaTeam",
+        "ModdedEFM",
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": [ "Determinants", "Adjacent Letters", "Algebra", "Battleship", "Color Morse", "Curriculum", "Double Oh", "Forget Everything", "Gridlock", "Laundry", "Light Cycle", "Logic Gates", "Logical Buttons", "Morsematics", "Point of Order", "Rubik's Clock", "Splitting the Loot", "Superlogic", "Tax Returns", "X01" ],
+      "vetoed-modules": {
+        "draket333": "Marble Tumble",
+        "numdegased": "The Cube",
+        "Axwell15": "Subways",
+        "River": "Mineseeker",
+        "Ralp": "3D Tunnels",
+        "billybao": "Simon Shrieks",
+        "Lebossle": "X-Ray",
+        "OdderOtter": "Listening",
+        "ZekNikZ": "LEGO",
+        "livPlaysYT": "Jewel Vault",
+        "Grunkle": "Black Hole"
+      }
+    },
+    {
       "name": "OdderOtter",
       "discord": "OdderOtter#2802",
-      "team": "Team OdderOtter",
+      "teams": [ "Team OdderOtter" ],
       "categories": [
         "ModdedEFM",
         "ExperimentalEFM"
@@ -30,7 +55,7 @@
     {
       "name": "doubleA-Ron",
       "discord": null,
-      "team": "Team OdderOtter",
+      "teams": [ "Team OdderOtter", "Team ZekNikZ" ],
       "categories": [],
       "eliminated-categories": [
         "ExperimentalEFM"
@@ -41,7 +66,7 @@
     {
       "name": "Alice",
       "discord": null,
-      "team": "Team ZekNikZ",
+      "teams": [ "Team ZekNikZ" ],
       "categories": [
         "VanillaTeam"
       ],

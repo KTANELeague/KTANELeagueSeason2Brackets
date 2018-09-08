@@ -57,18 +57,45 @@ h1 {
     align-content: center;
 }
 
-.player-matches .match-card {
-    margin: 2px;
+.mod-list {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 25px;
+    padding-right: 10px;
 }
 
-.player-modules .module-image {
+@media(max-width: 767px) {
+    .mod-list {
+        margin-bottom: 65px;
+    }
+}
+
+.mod-list .module-image {
+    float: left;
     margin-right: 4px;
+    margin: auto 4px auto 0;
 }
 
-.player-modules .module-listing {
-    flex-basis: 50%;
+.mod-list .module-listing {
     border: 1px solid gray;
     border-radius: 3px;
     margin: 1px auto;
     padding: 2px;
+}
+
+.mod-list .module-listing:hover {
+    text-decoration: none;
+}
+
+.player-modules .module-listing {
+    color: black;
+}
+
+.player-module-vetos .module-listing {
+    color: white;
+}
+
+.module-listing a {
+    color: lightgray;
+    font-style: italic;
 }
