@@ -67,7 +67,12 @@ function makeMatchCard(match, showInfo) {
 
     // Build the card
     var card = $("<div>", {"class": "card bg-light match-card"});
-    var cardBody = $("<div>", {"class": "card-body container"});
+    var cardBody = $("<div>", { "class": "card-body container" });
+    if (showInfo) {
+        let row = $("<div>", { "class": "row match-info" });
+        row.append($("<a>", { "class": "col-12", "href": `matches.html#${matchId}` }).text(`${match["match-group"] || "Unsorted"} - ${match["group"] ? "Group " + match["group"] : "No Group"}`));
+        cardBody.append(row);
+    }
     for (var competitor of competitors) {
         let row;
         if (winners.includes(competitor)) {
@@ -77,12 +82,12 @@ function makeMatchCard(match, showInfo) {
         } else {
             row = $("<div>", {"class": "row"});
         }
-        row.append($("<a>", {"class": "col-8", "href": `${competitorType}s#${competitor}`}).text(competitor));
-        row.append($("<a>", {"class": "col-4 score", "href": `matches#${matchId}`}).text(displayedInfo[competitor]));
+        row.append($("<a>", {"class": "col-8", "href": `${competitorType}s.html#${competitor}`}).text(competitor));
+        row.append($("<a>", {"class": "col-4 score", "href": `matches.html#${matchId}`}).text(displayedInfo[competitor]));
         cardBody.append(row);
     }
     var row = $("<div>", {"class": "row"});
-    row.append($("<a>", {"class": "col-4 link", "href": `matches#${matchId}`}).text("Details"));
+    row.append($("<a>", {"class": "col-4 link", "href": `matches.html#${matchId}`}).text("Details"));
     var link = $("<a>", {"class": "col-8 date"});
     if (status in matchStatuses) {
         link.text(matchStatuses[status]);

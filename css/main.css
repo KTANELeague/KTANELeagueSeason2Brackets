@@ -31,6 +31,20 @@ body {
         color: white; /* White text color */
         font-size: 34px; /* Increased font-size */
     }
+
+    .icon-bar button { /* TODO: FINISH */
+        display: inline-block; /* Make the links appear below each other instead of side-by-side */
+        text-align: center; /* Center-align text */
+        padding: 0 0; /* Add some padding */
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        transition: all 0.3s ease; /* Add transition for hover effects */
+        color: white; /* White text color */
+        font-size: 34px; /* Increased font-size */
+        background: none;
+        border: none;
+    }
 }
 
 @media(min-width: 768px) {
@@ -60,11 +74,31 @@ body {
         color: white; /* White text color */
         font-size: 34px; /* Increased font-size */
     }
+
+    .icon-bar button {
+        display: block; /* Make the links appear below each other instead of side-by-side */
+        text-align: center; /* Center-align text */
+        padding: 0 0; /* Add some padding */
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        transition: all 0.3s ease; /* Add transition for hover effects */
+        color: white; /* White text color */
+        font-size: 34px; /* Increased font-size */
+        background: none;
+        border: none;
+    }
 }
 
 .icon-bar a:hover {
     background-color: #333; /* Add a hover color */
     text-decoration: none;
+}
+
+.icon-bar button:hover {
+    background-color: #333; /* Add a hover color */
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .icon-bar .active {
@@ -77,6 +111,11 @@ body {
 
 .match-card a {
     color: black;
+}
+
+.match-card .match-info>a {
+    text-align: center;
+    color: gray !important;
 }
 
 .match-card .winner {

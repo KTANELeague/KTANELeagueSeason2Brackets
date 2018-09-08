@@ -21,8 +21,9 @@
 
             function setupPage(animationDuration) {
                 animationDuration = animationDuration || 0;
-                $("#player-info").hide(animationDuration);
-                $("#players-page").hide(animationDuration);
+                $("#player-info").hide();
+                $("#players-page").hide();
+                $("#sidebar").empty();
                 if (/^#([A-Za-z\-0-9]+)$/.exec(window.location.hash)) {
                     var playerId = RegExp.$1;
                     var player = players.filter(p => p["name"] === playerId)[0];
@@ -39,22 +40,67 @@
             }
 
             function setupPlayerInfo(player) {
+                $("#sidebar").append($("<a>", { href: "#", class: "fa fa-angle-left" }));
+
+                console.log(player);
                 $(".player-name").text(player["name"]);
 
                 $(".player-links").empty();
                 if (player["discord"]) {
-                    var discordLink = $("<a>", {href: `#${player["name"]}`, class: "btn btn-default discord"});
+                    var discordLink = $("<a>", {href: `#${player["name"]}`, class: "btn btn-light discord"});
                     //discordLink.append($("<span>", { class: "fa fa-fire" }));
                     discordLink.append($("<img>", {src: "img/discord-icon.svg"}));
                     discordLink.append(` @${player["discord"]}`);
                     $(".player-links").append(discordLink);
                 }
                 if (player["team"]) {
-                    var discordLink = $("<a>", { href: `#${player["name"]}`, class: "btn btn-default team" });
+                    var teamLink = $("<a>", { href: `teams.html#${player["team"]}`, class: "btn btn-light team" });
                     //discordLink.append($("<span>", { class: "fa fa-fire" }));
-                    discordLink.append($("<img>", { src: "img/team-icon.svg" }));
-                    discordLink.append(` @${player["discord"]}`);
-                    $(".player-links").append(discordLink);
+                    teamLink.append($("<img>", { src: "img/team-icon.svg" }));
+                    teamLink.append(` ${player["team"]}`);
+                    $(".player-links").append(teamLink);
+                }
+
+                $(".category-links").empty();
+                for (var category of player["categories"]) {
+                    var ctg = categories.filter(c => c.id === category)[0];
+                    $("#sidebar").append($("<button>").text(ctg["shorthand"]).click({ "category": category }, changeCategorySelection));
+                    $(".category-links").append($("<button>", { class: "btn btn-light", "data-category": category }).text(ctg["name"]).click({ "player": player, "category": category }, changeCategorySelection));
+                }
+                for (var category of player["eliminated-categories"]) {
+                    var ctg = categories.filter(c => c.id === category)[0];
+                    $("#sidebar").append($("<button>", { class: "eliminated" }).text(ctg["shorthand"]).click({ "category": category }, changeCategorySelection));
+                    $(".category-links").append($("<button>", { class: "btn btn-light eliminated", "data-category": category }).text(ctg["name"]).click({ "player": player, "category": category }, changeCategorySelection));
+                }
+                changeCategorySelection({ data: { "player": player, "category": $(".category-links :first-child").attr("data-category") } });
+            }
+
+            function changeCategorySelection(event) {
+                var category = event.data["category"];
+                var player = event.data["player"];
+                var ctg = categories.filter(c => c.id === category)[0];
+
+                $(".category-links button").removeClass("selected");
+                $(`.category-links button[data-category~=${category}]`).addClass("selected");
+                $(".player-matches").empty();
+
+                var matchList = matches.filter(m => m["competitors"].includes(player["name"]) && m["category"] === category);
+                //matchList.sort((a, b) => a["group"] < b["group"] ? -1 : 1);
+                matchList.sort((a, b) => a["match-group"] < b["match-group"] ? -1 : 1);
+                for (var match of matchList) {
+                    $(".player-matches").append(makeMatchCard(match, true));
+                }
+
+                if (player["modded-modules"]) {
+                    $(".mod-list").show();
+                    for (var module of player["modded-modules"]) {
+                        var moduleListing = $("<div>", { class: "module-listing col-6 bg-light" });
+                        moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${module}.png`, class: "module-image" }))
+                        moduleListing.append(module);
+                        $(".mod-list .player-modules").append(moduleListing);
+                    }
+                } else {
+                    $(".mod-list").hide();
                 }
             }
 
@@ -85,7 +131,26 @@
         <div id="player-info" class="page">
             <h1 class="player-name">Player still loading...</h1>
             <div class="text-center">
-                <div class="player-links button-group"></div>
+                <div class="player-links btn-group" role="group"></div>
+            </div>
+
+            <h1>Matches</h1>
+            <div class="text-center">
+                <div class="category-links btn-group" role="group"></div>
+            </div>
+            <div class="player-matches"></div>
+
+            <div class="container mod-list">
+                <div class="row">
+                    <div class="col-6">
+                        <h1>Modded Modules</h1>
+                        <div class="player-modules row"></div>
+                    </div>
+                    <div class="col-6">
+                        <h1>Modded Module Vetos</h1>
+                        <div class="player-module-vetos row"></div>
+                    </div>
+                </div>
             </div>
         </div>
         <div id="players-page" class="page">

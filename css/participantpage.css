@@ -10,15 +10,65 @@ h1.player-name {
 }
 
 .player-links .team {
-    background-color: #7289DA;
-    color: white !important;
+    background-color: #D0D0D0;
+    color: black;
 }
 
 .player-links .discord {
     background-color: #7289DA;
-    color: white !important;
+    color: white;
 }
 
 .player-links img {
     height: 24px;
+}
+
+.icon-bar button.eliminated {
+    color: lightcoral;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.category-links button {
+    font-size: 20px;
+    background-color: #e4e4e4;
+}
+
+.category-links button.eliminated {
+    background-color: lightcoral;
+}
+
+.category-links button.selected{
+    font-size: 20px;
+    background-color: lightgray;
+}
+
+.category-links button.eliminated.selected {
+    background-color: indianred;
+}
+
+.player-matches {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.player-matches .match-card {
+    margin: 2px;
+}
+
+.player-modules .module-image {
+    margin-right: 4px;
+}
+
+.player-modules .module-listing {
+    flex-basis: 50%;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin: 1px auto;
+    padding: 2px;
 }
