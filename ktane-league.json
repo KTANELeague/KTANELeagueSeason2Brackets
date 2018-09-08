@@ -7,7 +7,9 @@
       "categories": [
         "ExperimentalEFM"
       ],
-      "eliminated-categories": [],
+      "eliminated-categories": [
+        "ModdedEFM"
+      ],
       "modded-modules": [ "Boolean Venn Diagram", "Colored", "Switches", "Complicated", "Buttons", "FizzBuzz", "Hexamaze", "Know", "Your", "Way", "Laundry", "LEGO", "Font", "Select", "Logic", "The", "London", "Underground", "Maritime", "Flags", "Neutralization", "S.E.T", "Shpae", "Shift", "Simon", "Sends", "Symbol", "Cycle", "Symbolic", "Password", "Turtle", "Robot", "USA", "Maze" ],
       "vetoed-modules": {
         "OdderOtter": "Semaphore"
@@ -30,6 +32,19 @@
       "discord": null,
       "team": "Team OdderOtter",
       "categories": [],
+      "eliminated-categories": [
+        "ExperimentalEFM"
+      ],
+      "modded-modules": [],
+      "vetoed-modules": {}
+    },
+    {
+      "name": "Alice",
+      "discord": null,
+      "team": "Team ZekNikZ",
+      "categories": [
+        "VanillaTeam"
+      ],
       "eliminated-categories": [
         "ExperimentalEFM"
       ],
