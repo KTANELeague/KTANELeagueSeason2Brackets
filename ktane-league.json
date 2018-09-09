@@ -57,7 +57,8 @@
         "VanillaTeam",
         "ModdedTeam",
         "ModdedEFM",
-        "ExperimentalEFM"
+        "ExperimentalEFM",
+        "ExperimentalTeam"
       ],
       "eliminated-categories": [],
       "modded-modules": [ "Math", "Rapid Buttons", "3D Tunnels", "Algebra", "Battleship", "Caesar Cipher", "Chess", "Emoji Math", "Forget Me Not", "Gridlock", "The Jukebox", "The London Underground", "Mastermind Cruel", "Nonogram", "Rhythms", "Skyrim", "Superlogic", "Tax Returns", "The Cube", "The Wire" ],
@@ -145,7 +146,8 @@
       "teams": [ "DragonBourne" ],
       "categories": [
         "ModdedTeam",
-        "ModdedEFM"
+        "ModdedEFM",
+        "ExperimentalTeam"
       ],
       "eliminated-categories": [],
       "modded-modules": [ "Black Hole", "Boolean Venn Diagram", "Equations", "Font Select", "Know Your Way", "LED Encryption", "Logic Gates", "Mystic Square", "Nonogram", "Pattern Cube", "Rubik's Clock", "Simon Sends", "Splitting the Loot", "Superlogic", "Tangrams", "Turtle Robot", "X-Ray", "X01" ],
@@ -165,7 +167,8 @@
       "categories": [
         "VanillaTeam",
         "ModdedTeam",
-        "ModdedEFM"
+        "ModdedEFM",
+        "ExperimentalTeam"
       ],
       "eliminated-categories": [],
       "modded-modules": [ "Astrology", "Color Flash", "Connection Check", "Crazy Talk", "Cryptography", "Emoji Math", "Foreign Exchange Rates", "Letter Keys", "Listening", "Logic", "Orientation Cube", "Piano Keys", "Round Keypad", "Semaphore", "Simon States", "Switches", "Two Bits", "Word Scramble" ],
@@ -235,7 +238,8 @@
       "teams": [ "The Odd Squad" ],
       "categories": [
         "VanillaTeam",
-        "ModdedTeam"
+        "ModdedTeam",
+        "ExperimentalTeam"
       ],
       "eliminated-categories": [],
       "modded-modules": null,
@@ -247,7 +251,8 @@
       "teams": [ "DragonBourne" ],
       "categories": [
         "VanillaTeam",
-        "ModdedTeam"
+        "ModdedTeam",
+        "ExperimentalTeam"
       ],
       "eliminated-categories": [],
       "modded-modules": null,
@@ -259,7 +264,8 @@
       "teams": [ "DragonBourne" ],
       "categories": [
         "VanillaTeam",
-        "ModdedTeam"
+        "ModdedTeam",
+        "ExperimentalTeam"
       ],
       "eliminated-categories": [],
       "modded-modules": null,
@@ -337,19 +343,21 @@
       "teams": [ "Team Ralp" ],
       "categories": [
         "VanillaTeam",
-        "ModdedTeam"
+        "ModdedTeam",
+        "ExperimentalTeam"
       ],
       "eliminated-categories": [],
       "modded-modules": null,
       "vetoed-modules": null
     },
     {
-      "name": "cubemasterXD",
+      "name": "CubemasterXD",
       "discord": null,
       "teams": [ "Team Ralp" ],
       "categories": [
         "VanillaTeam",
-        "ModdedTeam"
+        "ModdedTeam",
+        "ExperimentalTeam"
       ],
       "eliminated-categories": [],
       "modded-modules": null,
