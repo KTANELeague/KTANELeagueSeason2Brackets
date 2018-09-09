@@ -1032,6 +1032,166 @@
       "bombs": [],
       "eliminations": null,
       "connection": null
+    },
+    {
+      "id": "MT2X-A",
+      "match-group": "Week 2",
+      "group": null,
+      "category": "ModdedTeam",
+      "stream-url": null,
+      "date": null,
+      "status": "notstarted",
+      "competitors": [
+        "DragonBourne",
+        "Main Street"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MT2X-B",
+      "match-group": "Week 2",
+      "group": null,
+      "category": "ModdedTeam",
+      "stream-url": null,
+      "date": null,
+      "status": "notstarted",
+      "competitors": [
+        "The Odd Squad",
+        "FUN"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MT2X-C",
+      "match-group": "Week 2",
+      "group": null,
+      "category": "ModdedTeam",
+      "stream-url": null,
+      "date": null,
+      "status": "notstarted",
+      "competitors": [
+        "Team ZekNikZ",
+        "Team Ralp"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MT2X-D",
+      "match-group": "Week 2",
+      "group": null,
+      "category": "ModdedTeam",
+      "stream-url": null,
+      "date": null,
+      "status": "notstarted",
+      "competitors": [
+        "The Dream Team",
+        "Four Two"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MI2X-A",
+      "match-group": "Week 2",
+      "group": null,
+      "category": "ModdedEFM",
+      "stream-url": null,
+      "date": null,
+      "status": "notstarted",
+      "competitors": [
+        "ZekNikZ",
+        "numdegased"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MI2X-B",
+      "match-group": "Week 2",
+      "group": null,
+      "category": "ModdedEFM",
+      "stream-url": null,
+      "date": null,
+      "status": "notstarted",
+      "competitors": [
+        "Grunkle",
+        "draket333"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MI2X-C",
+      "match-group": "Week 2",
+      "group": null,
+      "category": "ModdedEFM",
+      "stream-url": null,
+      "date": null,
+      "status": "notstarted",
+      "competitors": [
+        "Ralp",
+        "Livio"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MI2X-D",
+      "match-group": "Week 2",
+      "group": null,
+      "category": "ModdedEFM",
+      "stream-url": null,
+      "date": null,
+      "status": "notstarted",
+      "competitors": [
+        "River",
+        "billybao"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MI2X-E",
+      "match-group": "Week 2",
+      "group": null,
+      "category": "ModdedEFM",
+      "stream-url": null,
+      "date": null,
+      "status": "notstarted",
+      "competitors": [
+        "Lebossle",
+        "elias5891"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MI2X-F",
+      "match-group": "Week 2",
+      "group": null,
+      "category": "ModdedEFM",
+      "stream-url": null,
+      "date": null,
+      "status": "notstarted",
+      "competitors": [
+        "Axwell15",
+        "OdderOtter"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
     }
   ],
   "bombs": [
