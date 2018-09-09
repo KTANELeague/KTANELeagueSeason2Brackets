@@ -34,11 +34,11 @@
         "ModdedTeam"
       ],
       "eliminated-categories": [],
-      "modded-modules": [ "Battleship", "Big Circle", "Binary Tree", "Chord Qualities", "Combination Lock", "Cruel Piano Keys", "Equations", "Greek Calculus", "Know Your Way", "Lasers", "Lightspeed", "Marble Tumble", "Maze Scrambler", "Mineseeker", "Modules Against Humanity", "Number Cipher", "Rhythms", "Simon's Star", "Tangrams", "USA Maze" ],
+      "modded-modules": [ "Battleship", "Big Circle", "Binary Tree", "Chord Qualities", "Combination Lock", "Cruel Piano Keys", "Equations", "Greek Calculus", "Know Your Way", "Lasers", "Lightspeed", "Marble Tumble", "Maze Scrambler", "Mineseeker", "Modules Against Humanity", "The Number Cipher", "Rhythms", "Simon's Star", "Tangrams", "USA Maze" ],
       "vetoed-modules": {
         "numdegased": "3D Tunnels",
         "elias5891": "Rubik's Clock",
-        "Axwell15": "Bitwise Operators",
+        "Axwell15": "Bitwise Operations",
         "River": "Braille",
         "Ralp": "3D Tunnels",
         "billybao": "Simon Shrieks",
@@ -60,11 +60,11 @@
         "ExperimentalEFM"
       ],
       "eliminated-categories": [],
-      "modded-modules": [ "Math", "Rapid Buttons", "3D Tunnels", "Algebra", "Battleship", "Caesar Cipher", "Chess", "Emoji Math", "Forget Me Not", "Gridlock", "Jukebox", "London Underground", "Mastermind Cruel", "Nonograms", "Rhythms", "Skyrim", "Superlogic", "Tax Returns", "The Cube", "The Wire" ],
+      "modded-modules": [ "Math", "Rapid Buttons", "3D Tunnels", "Algebra", "Battleship", "Caesar Cipher", "Chess", "Emoji Math", "Forget Me Not", "Gridlock", "The Jukebox", "The London Underground", "Mastermind Cruel", "Nonogram", "Rhythms", "Skyrim", "Superlogic", "Tax Returns", "The Cube", "The Wire" ],
       "vetoed-modules": {
         "draket333": "Lightspeed",
         "elias5891": "Rubik's Clock",
-        "Axwell15": "Subway",
+        "Axwell15": "Subways",
         "River": "Morsematics",
         "Ralp": "Pattern Cube"
       }
@@ -98,7 +98,7 @@
         "ModdedEFM"
       ],
       "eliminated-categories": [],
-      "modded-modules": [ "Broken Buttons", "Button Sequences", "Cheap Checkout", "Colored Squares", "Creation", "Follow the Leader", "iPhone", "Lasers", "Mineseeker", "Morsematics", "Mouse in the Maze", "Mystic Square", "Neutralization", "Nonograms", "Poker", "Sonic", "The Bulb", "USA Maze" ],
+      "modded-modules": [ "Broken Buttons", "Button Sequences", "Cheap Checkout", "Colored Squares", "Creation", "Follow the Leader", "The iPhone", "Lasers", "Mineseeker", "Morsematics", "Mouse in the Maze", "Mystic Square", "Neutralization", "Nonogram", "Poker", "Sonic the Hedgehog", "The Bulb", "USA Maze" ],
       "vetoed-modules": {
         "draket333": "Modules Against Humanity"
       }
@@ -114,7 +114,7 @@
         "ExperimentalTeam"
       ],
       "eliminated-categories": [],
-      "modded-modules": [ "Colored Switches", "Creation", "Curriculum", "Double-Oh", "Forget Everything", "Forget Me Not", "Gridlock", "Hexamaze", "Mouse in the Maze", "Orientation Cube", "Pattern Cube", "Plumbing", "Polyhedral Maze", "Skyrim", "Souvenir", "The Cube", "Tic Tac Toe", "Two Bits" ],
+      "modded-modules": [ "Colored Switches", "Creation", "Curriculum", "Double-Oh", "Forget Everything", "Forget Me Not", "Gridlock", "Hexamaze", "Mouse in the Maze", "Orientation Cube", "Pattern Cube", "Plumbing", "Polyhedral Maze", "Skyrim", "Souvenir", "The Cube", "Tic-Tac-Toe", "Two Bits" ],
       "vetoed-modules": {}
     },
     {
@@ -168,20 +168,20 @@
         "ModdedTeam"
       ],
       "eliminated-categories": [],
-      "modded-modules": [ "Astrology", "Color Flash", "Connection Check", "Crazy Talk", "Crytography", "Emoji Math", "Foreign Exchange Rates", "Lettered Keys", "Listening", "Logic", "Orientation Cube", "Piano Keys", "Round Keypad", "Semaphore", "Simon States", "Switches", "Two Bits", "Word Scramble" ],
+      "modded-modules": [ "Astrology", "Color Flash", "Connection Check", "Crazy Talk", "Cryptography", "Emoji Math", "Foreign Exchange Rates", "Letter Keys", "Listening", "Logic", "Orientation Cube", "Piano Keys", "Round Keypad", "Semaphore", "Simon States", "Switches", "Two Bits", "Word Scramble" ],
       "vetoed-modules": {}
     },
     {
       "name": "ZekNikZ",
       "discord": "ZekNikZ#0878",
-      "teams": "Team ZekNikZ",
+      "teams": [ "Team ZekNikZ" ],
       "categories": [
         "ModdedEFM",
         "ModdedTeam",
         "ExperimentalEFM"
       ],
       "eliminated-categories": [],
-      "modded-modules": [ "Complicated Buttons", "FizzBuzz", "Hexamaze", "Know Your Way", "Laundry", "LEGO", "Font Select", "Logic", "The London Underground", "Maritime Flags", "Neutralization", "S.E.T", "Shpae Shift", "Simon Sends", "Symbol Cycle", "Symbolic Password", "Turtle Robot", "USA Maze" ],
+      "modded-modules": [ "Complicated Buttons", "FizzBuzz", "Hexamaze", "Know Your Way", "Laundry", "LEGO", "Font Select", "Logic", "The London Underground", "Maritime Flags", "Neutralization", "S.E.T.", "Shape Shift", "Simon Sends", "Symbol Cycle", "Symbolic Password", "Turtle Robot", "USA Maze" ],
       "vetoed-modules": {}
     },
     {
@@ -192,7 +192,7 @@
         "ModdedEFM"
       ],
       "eliminated-categories": [],
-      "modded-modules": [ "Festive Piano Keys", "Human Resources", "Identity Parade", "iPhone", "Jewel Vault", "Jukebox", "Light Cycle", "Logical Buttons", "London Underground", "Maintenance", "Mastermind Cruel", "Mortal Kombat", "Murder", "Numberpad", "Piano Keys", "Rubik's Clock", "Seashells", "USA Maze" ],
+      "modded-modules": [ "Festive Piano Keys", "Human Resources", "Identity Parade", "The iPhone", "The Jewel Vault", "The Jukebox", "Light Cycle", "Logical Buttons", "The London Underground", "Maintenance", "Mastermind Cruel", "Mortal Kombat", "Murder", "Number Pad", "Piano Keys", "Rubik's Clock", "Sea Shells", "USA Maze" ],
       "vetoed-modules": {
         "draket333": "Mineseeker",
         "numdegased": "3D Tunnels",
@@ -214,7 +214,7 @@
         "ModdedEFM"
       ],
       "eliminated-categories": [],
-      "modded-modules": [ "Character Shift", "Color Decoding", "Colored Switches", "Equations", "Gridlock", "Human Resources", "iPhone", "Jewel Vault", "Know Your Way", "Logical Buttons", "Manometers", "Minesweeper", "Murder", "Numberpad", "Pattern Cube", "Plumbing", "Simon Shrieks", "X01" ],
+      "modded-modules": [ "Character Shift", "Color Decoding", "Colored Switches", "Equations", "Gridlock", "Human Resources", "The iPhone", "The Jewel Vault", "Know Your Way", "Logical Buttons", "Manometers", "Minesweeper", "Murder", "Number Pad", "Pattern Cube", "Plumbing", "Simon Shrieks", "X01" ],
       "vetoed-modules": {
         "draket333": "Marble Tumble",
         "numdegased": "Mastermind Cruel",
@@ -326,18 +326,6 @@
       "teams": [ "Team Atlantic" ],
       "categories": [
         "VanillaTeam"
-      ],
-      "eliminated-categories": [],
-      "modded-modules": null,
-      "vetoed-modules": null
-    },
-    {
-      "name": "54956",
-      "discord": "54956#4234",
-      "teams": [ "Team Ralp" ],
-      "categories": [
-        "VanillaTeam",
-        "ModdedTeam"
       ],
       "eliminated-categories": [],
       "modded-modules": null,
@@ -618,7 +606,7 @@
         "epicness1728",
         "draket333"
       ],
-      "modded-modules": [ "Lights Out", "3D Tunnels", "Color Decoding", "Dragon Energy", "Forget Everything", "Forget Me Not", "Game of Life Simple", "Gridlock", "Jewel Vault", "Know Your Way", "LEGO", "Lightspeed", "Playfair Cipher", "Rubik's Cube", "SET", "Silly Slots", "Simon's Star", "Tax Returns", "The Cube", "The Wire" ],
+      "modded-modules": [ "Lights Out", "3D Tunnels", "Color Decoding", "Dragon Energy", "Forget Everything", "Forget Me Not", "Game of Life Simple", "Gridlock", "The Jewel Vault", "Know Your Way", "LEGO", "Lightspeed", "Playfair Cipher", "Rubik's Cube", "S.E.T.", "Silly Slots", "Simon's Star", "Tax Returns", "The Cube", "The Wire" ],
       "vetoed-modules": {}
     },
     {
@@ -634,7 +622,7 @@
         "OdderOtter",
         "doubleA-Ron"
       ],
-      "modded-modules": [ "Adventure Game", "Anagrams", "Astrology", "Color Flash", "Connection Check", "Crazy Talk", "Crytography", "Emoji Math", "Foreign Exchange Rates", "Lettered Keys", "Listening", "Logic", "Orientation Cube", "Piano Keys", "Round Keypad", "Semaphore", "Simon States", "Switches", "Two Bits", "Word Scramble" ],
+      "modded-modules": [ "Adventure Game", "Anagrams", "Astrology", "Color Flash", "Connection Check", "Crazy Talk", "Cryptography", "Emoji Math", "Foreign Exchange Rates", "Letter Keys", "Listening", "Logic", "Orientation Cube", "Piano Keys", "Round Keypad", "Semaphore", "Simon States", "Switches", "Two Bits", "Word Scramble" ],
       "vetoed-modules": {}
     },
     {
@@ -651,7 +639,7 @@
         "elias5891",
         "Zaakeil"
       ],
-      "modded-modules": [ "3D Maze", "Adjacent Letters", "Battleship", "Bitwise Operations", "Blind Alley", "Chord Qualities", "Color Math", "Cruel Piano Keys", "Double Oh", "FizzBuzz", "Forget Me Not", "Gamepad", "Gridlock", "Murder", "Only Connect", "Plumbing", "Polyhedral Maze", "Resistors", "Silly Slots", "X-Ray" ],
+      "modded-modules": [ "3D Maze", "Adjacent Letters", "Battleship", "Bitwise Operations", "Blind Alley", "Chord Qualities", "Color Math", "Cruel Piano Keys", "Double-Oh", "FizzBuzz", "Forget Me Not", "The Gamepad", "Gridlock", "Murder", "Only Connect", "Plumbing", "Polyhedral Maze", "Resistors", "Silly Slots", "X-Ray" ],
       "vetoed-modules": {}
     },
     {
@@ -670,7 +658,7 @@
         "Lebossle",
         "Draykien Cyndrak"
       ],
-      "modded-modules": [ "Rapid Buttons", "Algebra", "Binary LEDs", "Chess", "Colored Switches", "Double-Oh", "Faulty Backgrounds", "Forget Me Not", "Gridlock", "Hexamaze", "LED Encryption", "London Underground", "Neutralization", "Nonograms", "Number Pad", "Orientation Cube", "Shape Shift", "Tax Returns", "The Cube", "The Swan" ],
+      "modded-modules": [ "Rapid Buttons", "Algebra", "Binary LEDs", "Chess", "Colored Switches", "Double-Oh", "Faulty Backgrounds", "Forget Me Not", "Gridlock", "Hexamaze", "LED Encryption", "The London Underground", "Neutralization", "Nonogram", "Number Pad", "Orientation Cube", "Shape Shift", "Tax Returns", "The Cube", "The Swan" ],
       "vetoed-modules": {}
     },
     {
@@ -687,7 +675,7 @@
         "Axwell15",
         "King"
       ],
-      "modded-modules": [ "Rapid Buttons", "3D Maze", "Adventure Game", "Algebra", "Blind Alley", "Color Generator", "Colored Switches", "Forget Me Not", "iPhone", "Jewel Vault", "Lightspeed", "Logic Gates", "London Underground", "Mastermind Cruel", "Monsplode Trading Cards", "Morsematics", "Murder", "Perplexing Wires", "Plumbing", "Stopwatch" ],
+      "modded-modules": [ "Rapid Buttons", "3D Maze", "Adventure Game", "Algebra", "Blind Alley", "Color Generator", "Colored Switches", "Forget Me Not", "The iPhone", "The Jewel Vault", "Lightspeed", "Logic Gates", "The London Underground", "Mastermind Cruel", "Monsplode Trading Cards", "Morsematics", "Murder", "Perplexing Wires", "Plumbing", "The Stopwatch" ],
       "vetoed-modules": {}
     },
     {
@@ -705,7 +693,7 @@
         "54956",
         "CubemasterXD"
       ],
-      "modded-modules": [ "3D Tunnels", "Determinants", "Double-Oh", "Forget Me Not", "Game of Life Simple", "Hexamaze", "Logic Gates", "Microcontroller", "Minesweeper", "Morsematics", "Perplexing Wires", "Plubming", "Polyhedral Maze", "Rubik's Clock", "Skyrim", "Souvenir", "Tangrams", "Swan", "Two Bits", "Waste Management" ],
+      "modded-modules": [ "3D Tunnels", "Determinants", "Double-Oh", "Forget Me Not", "Game of Life Simple", "Hexamaze", "Logic Gates", "Microcontroller", "Minesweeper", "Morsematics", "Perplexing Wires", "Plumbing", "Polyhedral Maze", "Rubik's Clock", "Skyrim", "Souvenir", "Tangrams", "The Swan", "Two Bits", "Waste Management" ],
       "vetoed-modules": {}
     },
     {
@@ -744,8 +732,103 @@
         "Moon",
         "LotsaNinjas"
       ],
-      "modded-modules": [ "3D Maze", "Button Sequences", "Colored Switches", "Fast Math", "Know Your Way", "Lasers", "Mouse in the Maze", "Pattern Cube", "Plumbing", "Polyhedral Maze", "Sea Shells", "Simon States", "The London Underground", "The Swan", "Third Base", "TicTacToe", "Two Bits", "Uncolored Squares", "USA Maze", "Yahtzee" ],
+      "modded-modules": [ "3D Maze", "Button Sequences", "Colored Switches", "Fast Math", "Know Your Way", "Lasers", "Mouse in the Maze", "Pattern Cube", "Plumbing", "Polyhedral Maze", "Sea Shells", "Simon States", "The London Underground", "The Swan", "Third Base", "Tic-Tac-Toe", "Two Bits", "Uncolored Squares", "USA Maze", "Yahtzee" ],
       "vetoed-modules": {}
+    },
+    {
+      "name": "Ariana Grande Fan Club",
+      "discord": "483663689841377280",
+      "icon": null,
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "members": [
+        "Aysidia",
+        "keehaag",
+        "Christy989"
+      ],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "Team Atlantic",
+      "discord": "483663689841377280",
+      "icon": null,
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "members": [
+        "shaunsnj",
+        "mirene",
+        "Huarru"
+      ],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "Team Probably Insane",
+      "discord": "483663689841377280",
+      "icon": null,
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "members": [
+        "CoolkibKakadu",
+        "Asrin",
+        "zacheldred"
+      ],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "Big Weeb, Little Weeb, Cardboard Socks",
+      "discord": "483663689841377280",
+      "icon": null,
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "members": [
+        "rida.r1787",
+        "The Huntress main",
+        "OjamaBoy"
+      ],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "Team suihkuheebo",
+      "discord": "483663689841377280",
+      "icon": null,
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "members": [
+        "suihkuheebo",
+        "vagu"
+      ],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "DremTem",
+      "discord": "483663689841377280",
+      "icon": null,
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "members": [
+        "elias5891",
+        "catnip",
+        "Zaakeil"
+      ],
+      "modded-modules": null,
+      "vetoed-modules": null
     }
   ],
   "categories": [
@@ -831,7 +914,7 @@
       "date": null,
       "status": "notcomplete",
       "competitors": [
-        "Main Stree",
+        "Main Street",
         "FUN"
       ],
       "bombs": [],
