@@ -82,7 +82,7 @@ function makeMatchCard(match, showInfo) {
         } else {
             row = $("<div>", {"class": "row"});
         }
-        row.append($("<a>", {"class": "col-8", "href": `${competitorType}s.html#${competitor}`}).text(competitor));
+        row.append($("<a>", { "class": "col-8", "href": `${competitorType}s.html#${competitor}` }).text(competitor.length > 22 ? competitor.substring(0, 21) + "..." : competitor));
         row.append($("<a>", {"class": "col-4 score", "href": `matches.html#${matchId}`}).text(displayedInfo[competitor]));
         cardBody.append(row);
     }

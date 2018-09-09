@@ -103,7 +103,7 @@
                             if (group === "none" || group === null || group === undefined) {
                                 groupName = "No Group";
                             } else {
-                                groupName = "Group " + groupName;
+                                groupName = groupName;
                             }
                             let cardGroup = $("<aside>", {"class": "group-col bracket-group card-deck"});
                             cardGroup.append($("<div>", {"class": "group-title"}).append($("<h6>").text(`${groupName}`)));
