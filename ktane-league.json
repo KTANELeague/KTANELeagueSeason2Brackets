@@ -6,8 +6,8 @@
       "teams": [ "DremTem", "The Dream Team" ],
       "categories": [
         "VanillaTeam",
-        "ModdedEFM",
-        "ModdedTeam"
+        "ModdedTeam",
+        "ModdedEFM"
       ],
       "eliminated-categories": [],
       "modded-modules": [ "Determinants", "Adjacent Letters", "Algebra", "Battleship", "Color Morse", "Curriculum", "Double-Oh", "Forget Everything", "Gridlock", "Laundry", "Light Cycle", "Logic Gates", "Logical Buttons", "Morsematics", "Point of Order", "Rubik's Clock", "Splitting the Loot", "Superlogic", "Tax Returns", "X01" ],
@@ -30,8 +30,8 @@
       "discord": "draket333#8335",
       "teams": [ "Four Two" ],
       "categories": [
-        "ModdedEFM",
-        "ModdedTeam"
+        "ModdedTeam",
+        "ModdedEFM"
       ],
       "eliminated-categories": [],
       "modded-modules": [ "Battleship", "Big Circle", "Binary Tree", "Chord Qualities", "Combination Lock", "Cruel Piano Keys", "Equations", "Greek Calculus", "Know Your Way", "Lasers", "Lightspeed", "Marble Tumble", "Maze Scrambler", "Mineseeker", "Modules Against Humanity", "The Number Cipher", "Rhythms", "Simon's Star", "Tangrams", "USA Maze" ],
@@ -55,8 +55,8 @@
       "teams": [ "DragonBourne" ],
       "categories": [
         "VanillaTeam",
-        "ModdedEFM",
         "ModdedTeam",
+        "ModdedEFM",
         "ExperimentalEFM"
       ],
       "eliminated-categories": [],
@@ -109,8 +109,8 @@
       "teams": [ "Team Ralp" ],
       "categories": [
         "VanillaTeam",
-        "ModdedEFM",
         "ModdedTeam",
+        "ModdedEFM",
         "ExperimentalTeam"
       ],
       "eliminated-categories": [],
@@ -144,8 +144,8 @@
       "discord": "billybao#6960",
       "teams": [ "DragonBourne" ],
       "categories": [
-        "ModdedEFM",
-        "ModdedTeam"
+        "ModdedTeam",
+        "ModdedEFM"
       ],
       "eliminated-categories": [],
       "modded-modules": [ "Black Hole", "Boolean Venn Diagram", "Equations", "Font Select", "Know Your Way", "LED Encryption", "Logic Gates", "Mystic Square", "Nonogram", "Pattern Cube", "Rubik's Clock", "Simon Sends", "Splitting the Loot", "Superlogic", "Tangrams", "Turtle Robot", "X-Ray", "X01" ],
@@ -164,8 +164,8 @@
       "teams": [ "The Odd Squad" ],
       "categories": [
         "VanillaTeam",
-        "ModdedEFM",
-        "ModdedTeam"
+        "ModdedTeam",
+        "ModdedEFM"
       ],
       "eliminated-categories": [],
       "modded-modules": [ "Astrology", "Color Flash", "Connection Check", "Crazy Talk", "Cryptography", "Emoji Math", "Foreign Exchange Rates", "Letter Keys", "Listening", "Logic", "Orientation Cube", "Piano Keys", "Round Keypad", "Semaphore", "Simon States", "Switches", "Two Bits", "Word Scramble" ],
@@ -176,8 +176,8 @@
       "discord": "ZekNikZ#0878",
       "teams": [ "Team ZekNikZ" ],
       "categories": [
-        "ModdedEFM",
         "ModdedTeam",
+        "ModdedEFM",
         "ExperimentalEFM"
       ],
       "eliminated-categories": [],

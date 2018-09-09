@@ -70,6 +70,12 @@ h1 {
     }
 }
 
+@media(min-width: 768px) {
+    .mod-list {
+        margin-bottom: 20px;
+    }
+}
+
 .mod-list .module-image {
     float: left;
     margin-right: 4px;
