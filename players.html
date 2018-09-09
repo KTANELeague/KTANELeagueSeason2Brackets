@@ -65,12 +65,12 @@
                 $(".category-links").empty();
                 for (var category of player["categories"]) {
                     var ctg = categories.filter(c => c.id === category)[0];
-                    $("#sidebar").append($("<button>").text(ctg["shorthand"]).click({ "category": category }, changeCategorySelection));
+                    $("#sidebar").append($("<button>").text(ctg["shorthand"]).click({ "player": player, "category": category }, changeCategorySelection));
                     $(".category-links").append($("<button>", { class: "btn btn-light", "data-category": category }).text(ctg["name"]).click({ "player": player, "category": category }, changeCategorySelection));
                 }
                 for (var category of player["eliminated-categories"]) {
                     var ctg = categories.filter(c => c.id === category)[0];
-                    $("#sidebar").append($("<button>", { class: "eliminated" }).text(ctg["shorthand"]).click({ "category": category }, changeCategorySelection));
+                    $("#sidebar").append($("<button>", { class: "eliminated" }).text(ctg["shorthand"]).click({ "player": player, "category": category }, changeCategorySelection));
                     $(".category-links").append($("<button>", { class: "btn btn-light eliminated", "data-category": category }).text(ctg["name"]).click({ "player": player, "category": category }, changeCategorySelection));
                 }
                 changeCategorySelection({ data: { "player": player, "category": $(".category-links :first-child").attr("data-category") } });

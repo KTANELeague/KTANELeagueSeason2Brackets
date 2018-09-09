@@ -1,20 +1,5 @@
-{
+﻿{
   "players": [
-    {
-      "name": "ZekNikZ",
-      "discord": "ZekNikZ#0878",
-      "teams": [ "Big Weeb, Little Weeb, Cardboard Socks" ],
-      "categories": [
-        "ExperimentalEFM"
-      ],
-      "eliminated-categories": [
-        "ModdedEFM"
-      ],
-      "modded-modules": [ "Boolean Venn Diagram", "Colored Switches", "Complicated Buttons", "FizzBuzz", "Hexamaze", "Know Your Way", "Laundry", "LEGO", "Font Select", "Logic", "The London Underground", "Maritime Flags", "Neutralization", "S.E.T.", "Shape Shift", "Simon Sends", "Symbol Cycle", "Symbolic Password", "Turtle Robot", "USA Maze" ],
-      "vetoed-modules": {
-        "OdderOtter": "Semaphore"
-      }
-    },
     {
       "name": "elias5891",
       "discord": "elias5891#4727",
@@ -36,16 +21,459 @@
         "Lebossle": "X-Ray",
         "OdderOtter": "Listening",
         "ZekNikZ": "LEGO",
-        "livPlaysYT": "The Jewel Vault",
+        "Livio": "The Jewel Vault",
         "Grunkle": "Black Hole"
+      }
+    },
+    {
+      "name": "draket333",
+      "discord": "draket333#8335",
+      "teams": [ "Four Two" ],
+      "categories": [
+        "ModdedEFM",
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": [ "Battleship", "Big Circle", "Binary Tree", "Chord Qualities", "Combination Lock", "Cruel Piano Keys", "Equations", "Greek Calculus", "Know Your Way", "Lasers", "Lightspeed", "Marble Tumble", "Maze Scrambler", "Mineseeker", "Modules Against Humanity", "Number Cipher", "Rhythms", "Simon's Star", "Tangrams", "USA Maze" ],
+      "vetoed-modules": {
+        "numdegased": "3D Tunnels",
+        "elias5891": "Rubik's Clock",
+        "Axwell15": "Bitwise Operators",
+        "River": "Braille",
+        "Ralp": "3D Tunnels",
+        "billybao": "Simon Shrieks",
+        "Lebossle": "3D Tunnels",
+        "OdderOtter": "Cryptography",
+        "ZekNikZ": "LEGO",
+        "Livio": "Rubik's Clock",
+        "Grunkle": "Pattern Cube"
+      }
+    },
+    {
+      "name": "numdegased",
+      "discord": "numdegased#4527",
+      "teams": [ "DragonBourne" ],
+      "categories": [
+        "VanillaTeam",
+        "ModdedEFM",
+        "ModdedTeam",
+        "ExperimentalEFM"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": [ "Math", "Rapid Buttons", "3D Tunnels", "Algebra", "Battleship", "Caesar Cipher", "Chess", "Emoji Math", "Forget Me Not", "Gridlock", "Jukebox", "London Underground", "Mastermind Cruel", "Nonograms", "Rhythms", "Skyrim", "Superlogic", "Tax Returns", "The Cube", "The Wire" ],
+      "vetoed-modules": {
+        "draket333": "Lightspeed",
+        "elias5891": "Rubik's Clock",
+        "Axwell15": "Subway",
+        "River": "Morsematics",
+        "Ralp": "Pattern Cube"
+      }
+    },
+    {
+      "name": "Axwell15",
+      "discord": "Axwell15#3452",
+      "teams": [ "Main Street" ],
+      "categories": [
+        "ModdedEFM",
+        "ModdedTeam",
+        "ExperimentalEFM"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": [ "Blind Alley", "Cooking", "Flags", "Forget Me Not", "Listening", "Mastermind Simple", "Poetry", "Radiator", "Shape Shift", "Simon States", "Subways", "The Bulb", "The Code", "The Jukebox", "The Number", "The Switch", "Two Bits", "USA Maze" ],
+      "vetoed-modules": {
+        "draket333": "Marble Tumble",
+        "numdegased": "Marble Tumble",
+        "elias5891": "Superlogic",
+        "River": "Mystic Square",
+        "Ralp": "Polyhedral Maze",
+        "billybao": "Greek Calculus",
+        "Lebossle": "X-Ray"
+      }
+    },
+    {
+      "name": "River",
+      "discord": "Gone#0967",
+      "teams": null,
+      "categories": [
+        "ModdedEFM"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": [ "Broken Buttons", "Button Sequences", "Cheap Checkout", "Colored Squares", "Creation", "Follow the Leader", "iPhone", "Lasers", "Mineseeker", "Morsematics", "Mouse in the Maze", "Mystic Square", "Neutralization", "Nonograms", "Poker", "Sonic", "The Bulb", "USA Maze" ],
+      "vetoed-modules": {
+        "draket333": "Modules Against Humanity"
+      }
+    },
+    {
+      "name": "Ralp",
+      "discord": "Ralp#5400",
+      "teams": [ "Team Ralp" ],
+      "categories": [
+        "VanillaTeam",
+        "ModdedEFM",
+        "ModdedTeam",
+        "ExperimentalTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": [ "Colored Switches", "Creation", "Curriculum", "Double-Oh", "Forget Everything", "Forget Me Not", "Gridlock", "Hexamaze", "Mouse in the Maze", "Orientation Cube", "Pattern Cube", "Plumbing", "Polyhedral Maze", "Skyrim", "Souvenir", "The Cube", "Tic Tac Toe", "Two Bits" ],
+      "vetoed-modules": {}
+    },
+    {
+      "name": "billybao",
+      "discord": "billybao#6960",
+      "teams": null,
+      "categories": [
+        "ModdedEFM"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": [ "Algebra", "Binary LEDs", "Boolean Venn Diagram", "Color Decoding", "Colored Squares", "Connection Check", "Coordinates", "Error Codes", "Greek Calculus", "Hexamaze", "LED Grid", "Logic Gates", "Microcontroller", "Resistors", "Rhythms", "Simon Shrieks", "Tangrams", "Uncolored Squares" ],
+      "vetoed-modules": {
+        "draket333": "Mineseeker",
+        "numdegased": "3D Tunnels",
+        "elias5891": "Laundry",
+        "Axwell15": "Flags",
+        "River": "Minesweeper",
+        "Ralp": "3D Tunnels",
+        "Lebossle": "3D Tunnels",
+        "OdderOtter": "Orientation Cube",
+        "ZekNikZ": "LEGO",
+        "Livio": "The Jewel Vault"
+      }
+    },
+    {
+      "name": "Lebossle",
+      "discord": "billybao#6960",
+      "teams": [ "DragonBourne" ],
+      "categories": [
+        "ModdedEFM",
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": [ "Black Hole", "Boolean Venn Diagram", "Equations", "Font Select", "Know Your Way", "LED Encryption", "Logic Gates", "Mystic Square", "Nonogram", "Pattern Cube", "Rubik's Clock", "Simon Sends", "Splitting the Loot", "Superlogic", "Tangrams", "Turtle Robot", "X-Ray", "X01" ],
+      "vetoed-modules": {
+        "draket333": "Marble Tumble",
+        "numdegased": "Mastermind Cruel",
+        "elias5891": "Determinants",
+        "Axwell15": "Flags",
+        "River": "Mouse in the Maze",
+        "Ralp": "Mouse in the Maze"
       }
     },
     {
       "name": "OdderOtter",
       "discord": "OdderOtter#2802",
-      "teams": [ "Team OdderOtter" ],
+      "teams": [ "The Odd Squad" ],
+      "categories": [
+        "VanillaTeam",
+        "ModdedEFM",
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": [ "Astrology", "Color Flash", "Connection Check", "Crazy Talk", "Crytography", "Emoji Math", "Foreign Exchange Rates", "Lettered Keys", "Listening", "Logic", "Orientation Cube", "Piano Keys", "Round Keypad", "Semaphore", "Simon States", "Switches", "Two Bits", "Word Scramble" ],
+      "vetoed-modules": {}
+    },
+    {
+      "name": "ZekNikZ",
+      "discord": "ZekNikZ#0878",
+      "teams": "Team ZekNikZ",
       "categories": [
         "ModdedEFM",
+        "ModdedTeam",
+        "ExperimentalEFM"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": [ "Complicated Buttons", "FizzBuzz", "Hexamaze", "Know Your Way", "Laundry", "LEGO", "Font Select", "Logic", "The London Underground", "Maritime Flags", "Neutralization", "S.E.T", "Shpae Shift", "Simon Sends", "Symbol Cycle", "Symbolic Password", "Turtle Robot", "USA Maze" ],
+      "vetoed-modules": {}
+    },
+    {
+      "name": "Livio",
+      "discord": "livPlaysYT#6969",
+      "teams": null,
+      "categories": [
+        "ModdedEFM"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": [ "Festive Piano Keys", "Human Resources", "Identity Parade", "iPhone", "Jewel Vault", "Jukebox", "Light Cycle", "Logical Buttons", "London Underground", "Maintenance", "Mastermind Cruel", "Mortal Kombat", "Murder", "Numberpad", "Piano Keys", "Rubik's Clock", "Seashells", "USA Maze" ],
+      "vetoed-modules": {
+        "draket333": "Mineseeker",
+        "numdegased": "3D Tunnels",
+        "elias5891": "Tax Returns",
+        "Axwell15": "The Switch",
+        "River": "Lasers",
+        "Ralp": "3D Tunnels",
+        "billybao": "Color Decoding",
+        "Lebossle": "3D Tunnels",
+        "OdderOtter": "Logic",
+        "ZekNikZ": "Boolean Venn Diagram"
+      }
+    },
+    {
+      "name": "Grunkle",
+      "discord": "Grunkle Squeaky#0001",
+      "teams": null,
+      "categories": [
+        "ModdedEFM"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": [ "Character Shift", "Color Decoding", "Colored Switches", "Equations", "Gridlock", "Human Resources", "iPhone", "Jewel Vault", "Know Your Way", "Logical Buttons", "Manometers", "Minesweeper", "Murder", "Numberpad", "Pattern Cube", "Plumbing", "Simon Shrieks", "X01" ],
+      "vetoed-modules": {
+        "draket333": "Marble Tumble",
+        "numdegased": "Mastermind Cruel",
+        "elias5891": "Forget Everything",
+        "Axwell15": "Cooking",
+        "River": "Broken Buttons",
+        "Ralp": "Forget Everything",
+        "billybao": "Coordinates",
+        "Lebossle": "Turtle Robot",
+        "OdderOtter": "Cryptography",
+        "ZekNikZ": "LEGO",
+        "Livio": "Mastermind Cruel"
+      }
+    },
+    {
+      "name": "doubleA-Ron",
+      "discord": null,
+      "teams": [ "The Odd Squad" ],
+      "categories": [
+        "VanillaTeam",
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "LeGeND",
+      "discord": "LeGeND#2727",
+      "teams": [ "DragonBourne" ],
+      "categories": [
+        "VanillaTeam",
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "Draykien Cyndrak",
+      "discord": "Draykien Cyndrak#5568",
+      "teams": [ "DragonBourne" ],
+      "categories": [
+        "VanillaTeam",
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "Aysidia",
+      "discord": "Aysidia#7419",
+      "teams": [ "Ariana Grande Fan Club" ],
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "keehaag",
+      "discord": "keehaag#8807",
+      "teams": [ "Ariana Grande Fan Club" ],
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "Christy989",
+      "discord": "Christy989#3172",
+      "teams": [ "Ariana Grande Fan Club" ],
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "shaunsnj",
+      "discord": "shaunsnj#0058",
+      "teams": [ "Team Atlantic" ],
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "mirene",
+      "discord": "mirene#8949",
+      "teams": [ "Team Atlantic" ],
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "Huarru",
+      "discord": "Huarru#0245",
+      "teams": [ "Team Atlantic" ],
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "54956",
+      "discord": "54956#4234",
+      "teams": [ "Team Ralp" ],
+      "categories": [
+        "VanillaTeam",
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "54956",
+      "discord": "54956#4234",
+      "teams": [ "Team Ralp" ],
+      "categories": [
+        "VanillaTeam",
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "cubemasterXD",
+      "discord": null,
+      "teams": [ "Team Ralp" ],
+      "categories": [
+        "VanillaTeam",
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "CoolkibKakadu",
+      "discord": "CoolkibKakadu#9001",
+      "teams": [ "Team Probably Insane" ],
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "Asrin",
+      "discord": "カイビチュウの伝説#2426",
+      "teams": [ "Team Probably Insane" ],
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "zacheldred",
+      "discord": "zacheldred#6068",
+      "teams": [ "Team Probably Insane" ],
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "rida.r1787",
+      "discord": "rida.r1787#2044",
+      "teams": [ "Big Weeb, Little Weeb, Cardboard Socks" ],
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "The Huntress main",
+      "discord": "The Huntress main#7859",
+      "teams": [ "Big Weeb, Little Weeb, Cardboard Socks" ],
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "OjamaBoy",
+      "discord": "OjamaBoy#9136",
+      "teams": [ "Big Weeb, Little Weeb, Cardboard Socks" ],
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "suihkuheebo",
+      "discord": "suihkuheebo#2667",
+      "teams": [ "Team suihkuheebo" ],
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "vagu",
+      "discord": "vagu#4115",
+      "teams": [ "Team suihkuheebo" ],
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "catnip",
+      "discord": "catnip#1586",
+      "teams": [ "DremTem", "The Dream Team" ],
+      "categories": [
+        "VanillaTeam",
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "Zaakeil",
+      "discord": "Zaakeil#9410",
+      "teams": [ "DremTem", "The Dream Team" ],
+      "categories": [
+        "VanillaTeam",
+        "ModdedTeam",
         "ExperimentalEFM"
       ],
       "eliminated-categories": [],
@@ -53,33 +481,181 @@
       "vetoed-modules": null
     },
     {
-      "name": "doubleA-Ron",
-      "discord": null,
-      "teams": [ "Team OdderOtter", "Team ZekNikZ" ],
-      "categories": [],
-      "eliminated-categories": [
-        "ExperimentalEFM"
+      "name": "ashthebash",
+      "discord": "ashthebash#1367",
+      "teams": [ "The Dream Team" ],
+      "categories": [
+        "ModdedTeam"
       ],
+      "eliminated-categories": [],
       "modded-modules": null,
       "vetoed-modules": null
     },
     {
-      "name": "Alice",
-      "discord": null,
-      "teams": [ "Team ZekNikZ" ],
+      "name": "Weter",
+      "discord": "Weter#5448",
+      "teams": [ "Main Street" ],
       "categories": [
-        "VanillaTeam"
+        "ModdedTeam"
       ],
-      "eliminated-categories": [
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "Ben Storer",
+      "discord": "Ben Storer#1452",
+      "teams": [ "Main Street" ],
+      "categories": [
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "King",
+      "discord": "King#4652",
+      "teams": [ "Main Street" ],
+      "categories": [
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "Rexkix",
+      "discord": "Rexkix#2074",
+      "teams": [ "Four Two" ],
+      "categories": [
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "BigLittleOrMe",
+      "discord": "BigLittleOrMe#8192",
+      "teams": [ "Four Two" ],
+      "categories": [
+        "ModdedTeam",
         "ExperimentalEFM"
       ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "epicness1728",
+      "discord": "epicness1728#1967",
+      "teams": [ "Four Two" ],
+      "categories": [
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "S",
+      "discord": "S'keeth#6058",
+      "teams": [ "FUN" ],
+      "categories": [
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "WhiteShadowZz",
+      "discord": "WhiteShadowZz#0755",
+      "teams": [ "FUN" ],
+      "categories": [
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "ValsafoZ",
+      "discord": "ValsafoZ#2945",
+      "teams": [ "FUN" ],
+      "categories": [
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "LotsaNinjas",
+      "discord": "LotsaNinjas#0244",
+      "teams": [ "Team ZekNikZ" ],
+      "categories": [
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
       "modded-modules": null,
       "vetoed-modules": null
     }
   ],
   "teams": [
     {
-      "name": "Team OdderOtter",
+      "name": "Four Two",
+      "discord": "483663689841377280",
+      "icon": null,
+      "categories": [
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "members": [
+        "Rexkix",
+        "BigLittleOrMe",
+        "epicness1728",
+        "draket333"
+      ],
+      "modded-modules": [ "Lights Out", "3D Tunnels", "Color Decoding", "Dragon Energy", "Forget Everything", "Forget Me Not", "Game of Life Simple", "Gridlock", "Jewel Vault", "Know Your Way", "LEGO", "Lightspeed", "Playfair Cipher", "Rubik's Cube", "SET", "Silly Slots", "Simon's Star", "Tax Returns", "The Cube", "The Wire" ],
+      "vetoed-modules": {}
+    },
+    {
+      "name": "The Odd Squad",
+      "discord": "483663689841377280",
+      "icon": null,
+      "categories": [
+        "VanillaTeam",
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "members": [
+        "OdderOtter",
+        "doubleA-Ron"
+      ],
+      "modded-modules": [ "Adventure Game", "Anagrams", "Astrology", "Color Flash", "Connection Check", "Crazy Talk", "Crytography", "Emoji Math", "Foreign Exchange Rates", "Lettered Keys", "Listening", "Logic", "Orientation Cube", "Piano Keys", "Round Keypad", "Semaphore", "Simon States", "Switches", "Two Bits", "Word Scramble" ],
+      "vetoed-modules": {}
+    },
+    {
+      "name": "The Dream Team",
+      "discord": "483663689841377280",
+      "icon": null,
+      "categories": [
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "members": [
+        "catnip",
+        "ashthebash",
+        "elias5891",
+        "Zaakeil"
+      ],
+      "modded-modules": [ "3D Maze", "Adjacent Letters", "Battleship", "Bitwise Operations", "Blind Alley", "Chord Qualities", "Color Math", "Cruel Piano Keys", "Double Oh", "FizzBuzz", "Forget Me Not", "Gamepad", "Gridlock", "Murder", "Only Connect", "Plumbing", "Polyhedral Maze", "Resistors", "Silly Slots", "X-Ray" ],
+      "vetoed-modules": {}
+    },
+    {
+      "name": "DragonBourne",
       "discord": "483663689841377280",
       "icon": null,
       "categories": [
@@ -89,46 +665,87 @@
       ],
       "eliminated-categories": [],
       "members": [
-        "OdderOtter",
-        "doubleA-Ron"
+        "LeGeND",
+        "numdegased",
+        "Lebossle",
+        "Draykien Cyndrak"
       ],
-      "modded-modules": null,
-      "vetoed-modules": null
+      "modded-modules": [ "Rapid Buttons", "Algebra", "Binary LEDs", "Chess", "Colored Switches", "Double-Oh", "Faulty Backgrounds", "Forget Me Not", "Gridlock", "Hexamaze", "LED Encryption", "London Underground", "Neutralization", "Nonograms", "Number Pad", "Orientation Cube", "Shape Shift", "Tax Returns", "The Cube", "The Swan" ],
+      "vetoed-modules": {}
     },
     {
-      "name": "Big Weeb, Little Weeb, Cardboard Socks",
-      "discord": "451318515794706432",
+      "name": "Main Street",
+      "discord": "483663689841377280",
       "icon": null,
       "categories": [
-        "VanillaTeam"
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "members": [
+        "Weter",
+        "Ben Storer",
+        "Axwell15",
+        "King"
+      ],
+      "modded-modules": [ "Rapid Buttons", "3D Maze", "Adventure Game", "Algebra", "Blind Alley", "Color Generator", "Colored Switches", "Forget Me Not", "iPhone", "Jewel Vault", "Lightspeed", "Logic Gates", "London Underground", "Mastermind Cruel", "Monsplode Trading Cards", "Morsematics", "Murder", "Perplexing Wires", "Plumbing", "Stopwatch" ],
+      "vetoed-modules": {}
+    },
+    {
+      "name": "Team Ralp",
+      "discord": "483663689841377280",
+      "icon": null,
+      "categories": [
+        "VanillaTeam",
+        "ModdedTeam",
+        "ExperimentalTeam"
+      ],
+      "eliminated-categories": [],
+      "members": [
+        "Ralp",
+        "54956",
+        "CubemasterXD"
+      ],
+      "modded-modules": [ "3D Tunnels", "Determinants", "Double-Oh", "Forget Me Not", "Game of Life Simple", "Hexamaze", "Logic Gates", "Microcontroller", "Minesweeper", "Morsematics", "Perplexing Wires", "Plubming", "Polyhedral Maze", "Rubik's Clock", "Skyrim", "Souvenir", "Tangrams", "Swan", "Two Bits", "Waste Management" ],
+      "vetoed-modules": {}
+    },
+    {
+      "name": "FUN",
+      "discord": "483663689841377280",
+      "icon": null,
+      "categories": [
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "members": [
+        "S",
+        "WhiteShadowZz",
+        "ValsafoZ"
+      ],
+      "modded-modules": [ "Binary Tree", "Boolean Venn Diagram", "Dragon Energy", "Forget Everything", "Forget Me Not", "Greek Calculus", "Know Your Way", "Laundry", "Logic", "Logic Gates", "Mafia", "Monsplode Trading Cards", "Only Connect", "Pattern Cube", "Playfair Cipher", "Rubik's Clock", "Superlogic", "Tax Returns", "The Cube", "Web Design" ],
+      "vetoed-modules": {
+        "The Odd Squad": "Round Keypad",
+        "The Dream Team": "Cruel Piano Keys",
+        "DragonBourne": "Rapid Buttons",
+        "Main Street": "Rapid Buttons",
+        "Team Ralp": "3D Tunnels",
+        "Team ZekNikZ": "Lasers"
+      }
+    },
+    {
+      "name": "Team ZekNikZ",
+      "discord": "483663689841377280",
+      "icon": null,
+      "categories": [
+        "ModdedTeam"
       ],
       "eliminated-categories": [],
       "members": [
         "ZekNikZ",
-        "doubleA-Ron"
+        "Moon",
+        "LotsaNinjas"
       ],
-      "modded-modules": null,
-      "vetoed-modules": null
-    },
-    {
-      "name": "Team Rexkix",
-      "discord": "451318515794706432",
-      "icon": null,
-      "categories": [
-        "VanillaTeam"
-      ],
-      "eliminated-categories": [],
-      "members": [
-        "Rexkix",
-        "BigLittleOrMe",
-        "epicness1728",
-        "draket333",
-        "Riking"
-      ],
-      "modded-modules": [ "Boolean Venn Diagram", "Colored Switches", "Complicated Buttons", "FizzBuzz", "Hexamaze", "Know Your Way", "Laundry", "LEGO", "Font Select", "Logic", "The London Underground", "Maritime Flags", "Neutralization", "S.E.T.", "Shape Shift", "Simon Sends", "Symbol Cycle", "Symbolic Password", "Turtle Robot", "USA Maze" ],
-      "vetoed-modules": {
-        "OdderOtter": "Semaphore"
-      }
+      "modded-modules": [ "3D Maze", "Button Sequences", "Colored Switches", "Fast Math", "Know Your Way", "Lasers", "Mouse in the Maze", "Pattern Cube", "Plumbing", "Polyhedral Maze", "Sea Shells", "Simon States", "The London Underground", "The Swan", "Third Base", "TicTacToe", "Two Bits", "Uncolored Squares", "USA Maze", "Yahtzee" ],
+      "vetoed-modules": {}
     }
   ],
   "categories": [
@@ -174,268 +791,163 @@
   ],
   "matches": [
     {
-      "id": "EE1B-A",
+      "id": "MT1X-A",
       "match-group": "Week 1",
-      "group": "B",
-      "category": "ExperimentalEFM",
+      "group": null,
+      "category": "ModdedTeam",
       "stream-url": null,
       "date": null,
-      "status": "done",
+      "status": "notcomplete",
       "competitors": [
-        "ZekNikZ",
+        "The Odd Squad",
+        "The Dream Team"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MT1X-B",
+      "match-group": "Week 1",
+      "group": null,
+      "category": "ModdedTeam",
+      "stream-url": null,
+      "date": null,
+      "status": "notcomplete",
+      "competitors": [
+        "DragonBourne",
+        "Team ZekNikZ"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MT1X-C",
+      "match-group": "Week 1",
+      "group": null,
+      "category": "ModdedTeam",
+      "stream-url": null,
+      "date": null,
+      "status": "notcomplete",
+      "competitors": [
+        "Main Stree",
+        "FUN"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MT1X-D",
+      "match-group": "Week 1",
+      "group": null,
+      "category": "ModdedTeam",
+      "stream-url": null,
+      "date": null,
+      "status": "notcomplete",
+      "competitors": [
+        "Team Ralp",
+        "Four Two"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MI1X-A",
+      "match-group": "Week 1",
+      "group": null,
+      "category": "ModdedEFM",
+      "stream-url": null,
+      "date": null,
+      "status": "notcomplete",
+      "competitors": [
+        "Axwell15",
+        "Grunkle"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MI1X-B",
+      "match-group": "Week 1",
+      "group": null,
+      "category": "ModdedEFM",
+      "stream-url": null,
+      "date": null,
+      "status": "notcomplete",
+      "competitors": [
+        "Ralp",
+        "Lebossle"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MI1X-C",
+      "match-group": "Week 1",
+      "group": null,
+      "category": "ModdedEFM",
+      "stream-url": null,
+      "date": null,
+      "status": "notcomplete",
+      "competitors": [
+        "draket333",
+        "numdegased"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MI1X-D",
+      "match-group": "Week 1",
+      "group": null,
+      "category": "ModdedEFM",
+      "stream-url": null,
+      "date": null,
+      "status": "notcomplete",
+      "competitors": [
+        "River",
+        "elias5891"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "MI1X-E",
+      "match-group": "Week 1",
+      "group": null,
+      "category": "ModdedEFM",
+      "stream-url": null,
+      "date": null,
+      "status": "notcomplete",
+      "competitors": [
+        "livPlaysTY",
         "OdderOtter"
       ],
-      "bombs": [
-        {
-          "bomb-info": "modsWeek1A",
-          "type": "normal",
-          "seed": 2032133,
-          "times": [
-            {
-              "competitor": "ZekNikZ",
-              "time-left": 24.5,
-              "strikes": 1,
-              "modules": null,
-              "log-link": null,
-              "vod-link": null
-            },
-            {
-              "competitor": "OdderOtter",
-              "time-left": 103.233,
-              "strikes": 2,
-              "modules": null,
-              "log-link": null,
-              "vod-link": null
-            }
-          ],
-          "winner": "ZekNikZ"
-        },
-        {
-          "bomb-info": "modsWeek1A",
-          "type": "normal",
-          "seed": 78302,
-          "times": [
-            {
-              "competitor": "ZekNikZ",
-              "time-left": 30.25,
-              "strikes": 1,
-              "modules": null,
-              "log-link": null,
-              "vod-link": null
-            },
-            {
-              "competitor": "OdderOtter",
-              "time-left": 30.34,
-              "strikes": 2,
-              "modules": null,
-              "log-link": null,
-              "vod-link": null
-            }
-          ],
-          "winner": "OdderOtter"
-        },
-        {
-          "bomb-info": "modsWeek1A",
-          "type": "normal",
-          "seed": 78302,
-          "times": [
-            {
-              "competitor": "ZekNikZ",
-              "time-left": 40.28,
-              "strikes": 1,
-              "modules": null,
-              "log-link": null,
-              "vod-link": null
-            },
-            {
-              "competitor": "OdderOtter",
-              "time-left": 29.39,
-              "strikes": 2,
-              "modules": null,
-              "log-link": null,
-              "vod-link": null
-            }
-          ],
-          "winner": "ZekNikZ"
-        }
-      ],
-      "eliminations": [ "OdderOtter" ],
+      "bombs": [],
+      "eliminations": null,
       "connection": null
     },
     {
-      "id": "EE1A-A",
+      "id": "MI1X-F",
       "match-group": "Week 1",
-      "group": "A",
-      "category": "ExperimentalEFM",
-      "stream-url": "https://twitch.tv/ZekNikZOfficial",
-      "date": null,
-      "status": "inprogress",
-      "competitors": [
-        "Timwi",
-        "samfun123"
-      ],
-      "bombs": [
-        {
-          "bomb-info": "modsWeek1A",
-          "type": "normal",
-          "seed": 2032133,
-          "times": [
-            {
-              "competitor": "Timwi",
-              "time-left": 24.5,
-              "strikes": 1,
-              "modules": null,
-              "log-link": null,
-              "vod-link": null
-            },
-            {
-              "competitor": "samfun123",
-              "time-left": 13.23,
-              "strikes": 2,
-              "modules": null,
-              "log-link": null,
-              "vod-link": null
-            }
-          ],
-          "winner": "Timwi"
-        }
-      ],
-      "winner": "Timwi",
-      "connection": null
-    },
-    {
-      "id": "EE1B-B",
-      "match-group": "Week 1",
-      "group": "B",
-      "category": "ExperimentalEFM",
-      "stream-url": "https://twitch.tv/ZekNikZOfficial",
-      "date": null,
-      "status": "notstarted",
-      "competitors": [
-        "Alice",
-        "Bob",
-        "Charlie",
-        "David",
-        "Eve"
-      ],
-      "bombs": [
-        { "winner": "Bob" },
-        { "winner": "Alice" },
-        { "winner": "David" },
-        { "winner": "Alice" },
-        { "winner": "Charlie" },
-        { "winner": "David" }
-      ],
-      "winner": [ "Alice", "David" ],
-      "eliminations": [ "Charlie", "Eve" ],
-      "connection": null
-    },
-    {
-      "id": "EE1B-B",
-      "match-group": "Week 4",
       "group": null,
-      "category": "ExperimentalEFM",
-      "stream-url": "https://twitch.tv/ZekNikZOfficial",
+      "category": "ModdedEFM",
+      "stream-url": null,
       "date": null,
-      "status": "notstarted",
+      "status": "notcomplete",
       "competitors": [
-        "Alice",
-        "Bob",
-        "Charlie",
-        "David",
-        "Eve"
+        "ZekNikZ",
+        "billybao"
       ],
-      "bombs": [
-        { "winner": "Bob" },
-        { "winner": "Alice" },
-        { "winner": "David" },
-        { "winner": "Alice" },
-        { "winner": "Charlie" },
-        { "winner": "David" }
-      ],
-      "winner": [ "Alice", "David" ],
-      "eliminations": [ "Charlie", "Eve" ],
-      "connection": null
-    },
-    {
-      "id": "EE1B-B",
-      "match-group": null,
-      "group": null,
-      "category": "ExperimentalEFM",
-      "stream-url": "https://twitch.tv/ZekNikZOfficial",
-      "date": null,
-      "status": "notstarted",
-      "competitors": [
-        "Alice",
-        "Bob",
-        "Charlie",
-        "David",
-        "Eve"
-      ],
-      "bombs": [
-        { "winner": "Bob" },
-        { "winner": "Alice" },
-        { "winner": "David" },
-        { "winner": "Alice" },
-        { "winner": "Charlie" },
-        { "winner": "David" }
-      ],
-      "winner": [ "Alice", "David" ],
-      "eliminations": [ "Charlie", "Eve" ],
-      "connection": null
-    },
-    {
-      "id": "EE1B-B",
-      "match-group": "Week 4",
-      "group": "A",
-      "category": "ExperimentalEFM",
-      "stream-url": "https://twitch.tv/ZekNikZOfficial",
-      "date": null,
-      "status": "notstarted",
-      "competitors": [
-        "Alice",
-        "Bob",
-        "Charlie",
-        "David",
-        "Eve"
-      ],
-      "bombs": [
-        { "winner": "Bob" },
-        { "winner": "Alice" },
-        { "winner": "David" },
-        { "winner": "Alice" },
-        { "winner": "Charlie" },
-        { "winner": "David" }
-      ],
-      "winner": [ "Alice", "David" ],
-      "eliminations": [ "Charlie", "Eve" ],
-      "connection": null
-    },
-    {
-      "id": "EE1B-B",
-      "match-group": "Week 4",
-      "group": "A",
-      "category": "VanillaTeam",
-      "stream-url": "https://twitch.tv/ZekNikZOfficial",
-      "date": null,
-      "status": "notstarted",
-      "competitors": [
-        "Alice",
-        "Bob",
-        "Charlie",
-        "David",
-        "Eve"
-      ],
-      "bombs": [
-        { "winner": "Bob" },
-        { "winner": "Alice" },
-        { "winner": "David" },
-        { "winner": "Alice" },
-        { "winner": "Charlie" },
-        { "winner": "David" }
-      ],
-      "winner": [ "Alice", "David" ],
-      "eliminations": [ "Charlie", "Eve" ],
+      "bombs": [],
+      "eliminations": null,
       "connection": null
     }
   ],
