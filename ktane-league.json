@@ -452,6 +452,17 @@
       "vetoed-modules": null
     },
     {
+      "name": "Winter",
+      "discord": "Winter#2658",
+      "teams": [ "Big Weeb, Little Weeb, Cardboard Socks" ],
+      "categories": [
+        "VanillaTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
       "name": "suihkuheebo",
       "discord": "suihkuheebo#2667",
       "teams": [ "Team suihkuheebo" ],
@@ -545,6 +556,17 @@
     {
       "name": "Rexkix",
       "discord": "Rexkix#2074",
+      "teams": [ "Four Two" ],
+      "categories": [
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "Riking",
+      "discord": "Riking#8582",
       "teams": [ "Four Two" ],
       "categories": [
         "ModdedTeam"
