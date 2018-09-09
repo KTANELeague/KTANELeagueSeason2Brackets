@@ -107,11 +107,46 @@ function makeMatchCard(match, showInfo) {
     // TODO: Show Info (Match id, week, group, etc)
 }
 
+function makePlayerCard(p) {
+    //$("<li>").append($("<a>", { href: `#${player["name"]}` }).text(player["name"]))
+    let player = p;
+    var card = $("<a>", { href: `#${player["name"]}`, class: "player-listing bg-light col-12 col-sm-6 col-md-4 col-lg-3" });
+    var categoryList = $("<div>");
+    for (var category of player["categories"]) {
+        var ctg = categories.filter(c => c.id === category)[0];
+        categoryList.append($("<span>").text(ctg["shorthand"] + " "));
+    }
+    for (var category of player["eliminated-categories"]) {
+        var ctg = categories.filter(c => c.id === category)[0];
+        categoryList.append($("<span>", { class: "eliminated" }).text(ctg["shorthand"] + " "));
+    }
+    card.append($("<div>", { class: "name" }).text(`${player["name"]}`));
+    card.append(categoryList);
+    return card;
+}
+
 function encodeModuleName(name) {
     var temp = name.replace("'", ".ap.");
     var encodedName = encodeURI(temp);
     var result = encodedName.replace(".ap.", "%E2%80%99");
     return result;
+}
+
+function dynamicSort(property) {
+    var sortOrder = 1;
+
+    if (property[0] === "-") {
+        sortOrder = -1;
+        property = property.substr(1);
+    }
+
+    return function (a, b) {
+        if (sortOrder == -1) {
+            return b[property].localeCompare(a[property]);
+        } else {
+            return a[property].localeCompare(b[property]);
+        }
+    }
 }
 
 var categories;

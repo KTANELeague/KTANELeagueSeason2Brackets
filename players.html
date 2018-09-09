@@ -117,15 +117,48 @@
         }
 
         var pageSetup = false;
+        var playerCards = [];
+        var categorySelections = {};
         function setupPlayersPage() {
+            for (var category of categories) {
+                categorySelections[category["id"]] = true;
+                $("#sidebar").append($("<button>", { "data-category": category["id"] }).text(category["shorthand"]).click({ "category": category }, toggleSelection));
+            }
+
             if (pageSetup) return;
 
-            // TODO: FIX, this is temporary
-            for (var player of players.sort((a, b) => a["name"] < b["name"] ? -1 : 1)) {
-                $(".player-list").append($("<li>").append($("<a>", { href: `#${player["name"]}` }).text(player["name"])));
+            for (let player of players.sort(dynamicSort("name"))) {
+                let card = makePlayerCard(player);
+                $(".player-list").append(card);
+                playerCards.push([player, card]);
             }
 
             pageSetup = true;
+        }
+
+        function toggleSelection(event) {
+            category = event.data["category"]["id"];
+            categorySelections[category] = !categorySelections[category];
+            filterSelector:
+            for (var playerTuple of playerCards) {
+                playerTuple[1].removeClass("disabled");
+                for (let ctg of playerTuple[0]["categories"]) {
+                    if (categorySelections[ctg]) {
+                        continue filterSelector;
+                    }
+                }
+                for (let ctg of playerTuple[0]["eliminated-categories"]) {
+                    if (categorySelections[ctg]) {
+                        continue filterSelector;
+                    }
+                }
+                playerTuple[1].addClass("disabled");
+            }
+            if (categorySelections[category]) {
+                $(`#sidebar [data-category=${category}]`).removeClass("disabled");
+            } else {
+                $(`#sidebar [data-category=${category}]`).addClass("disabled");
+            }
         }
 
         window.onhashchange = hashChange;
@@ -178,8 +211,7 @@
     </div>
     <div id="players-page" class="page">
         <h1>Players</h1>
-        <!--TODO: FIX, this is temporary-->
-        <ul class="player-list"></ul>
+        <div class="player-list row"></div>
     </div>
     <div class="bottom-spacer"></div>
 </body>

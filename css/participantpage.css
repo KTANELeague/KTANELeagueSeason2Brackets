@@ -99,3 +99,38 @@ h1 {
     color: lightgray;
     font-style: italic;
 }
+
+
+.player-list {
+    padding: 0 30px;
+}
+
+.player-list .player-listing {
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin: 1px auto;
+    padding: 2px 5px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.player-listing {
+    color: black;
+}
+
+.player-list .player-listing:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.player-listing .eliminated {
+    color: indianred;
+}
+
+.player-listing .name {
+    font-weight: 500;
+}
+
+.disabled {
+    filter: opacity(30%);
+}

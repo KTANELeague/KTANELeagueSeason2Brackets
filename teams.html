@@ -117,15 +117,48 @@
         }
 
         var pageSetup = false;
+        var teamCards = [];
+        var categorySelections = {};
         function setupTeamsPage() {
+            for (var category of categories) {
+                categorySelections[category["id"]] = true;
+                $("#sidebar").append($("<button>", { "data-category": category["id"] }).text(category["shorthand"]).click({ "category": category }, toggleSelection));
+            }
+
             if (pageSetup) return;
 
-            // TODO: FIX, this is temporary
-            for (var team of teams.sort((a, b) => a["name"] < b["name"] ? -1 : 1)) {
-                $(".player-list").append($("<li>").append($("<a>", { href: `#${team["name"]}` }).text(team["name"])));
+            for (let team of teams.sort(dynamicSort("name"))) {
+                let card = makePlayerCard(team);
+                $(".player-list").append(card);
+                teamCards.push([team, card]);
             }
 
             pageSetup = true;
+        }
+
+        function toggleSelection(event) {
+            category = event.data["category"]["id"];
+            categorySelections[category] = !categorySelections[category];
+            filterSelector:
+            for (var teamTuple of teamCards) {
+                teamTuple[1].removeClass("disabled");
+                for (let ctg of teamTuple[0]["categories"]) {
+                    if (categorySelections[ctg]) {
+                        continue filterSelector;
+                    }
+                }
+                for (let ctg of teamTuple[0]["eliminated-categories"]) {
+                    if (categorySelections[ctg]) {
+                        continue filterSelector;
+                    }
+                }
+                teamTuple[1].addClass("disabled");
+            }
+            if (categorySelections[category]) {
+                $(`#sidebar [data-category=${category}]`).removeClass("disabled");
+            } else {
+                $(`#sidebar [data-category=${category}]`).addClass("disabled");
+            }
         }
 
         window.onhashchange = hashChange;
@@ -178,8 +211,7 @@
     </div>
     <div id="player-page" class="page">
         <h1>Teams</h1>
-        <!--TODO: FIX, this is temporary-->
-        <ul class="player-list"></ul>
+        <div class="player-list row"></div>
     </div>
     <div class="bottom-spacer"></div>
 </body>
