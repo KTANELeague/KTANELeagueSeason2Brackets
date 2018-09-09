@@ -177,7 +177,7 @@
     {
       "name": "ZekNikZ",
       "discord": "ZekNikZ#0878",
-      "teams": [ "Team ZekNikZ" ],
+      "teams": [ "Team ______" ],
       "categories": [
         "ModdedTeam",
         "ModdedEFM",
@@ -186,6 +186,28 @@
       "eliminated-categories": [],
       "modded-modules": [ "Complicated Buttons", "FizzBuzz", "Hexamaze", "Know Your Way", "Laundry", "LEGO", "Font Select", "Logic", "The London Underground", "Maritime Flags", "Neutralization", "S.E.T.", "Shape Shift", "Simon Sends", "Symbol Cycle", "Symbolic Password", "Turtle Robot", "USA Maze" ],
       "vetoed-modules": {}
+    },
+    {
+      "name": "Moon",
+      "discord": "Moon#7226",
+      "teams": [ "Team ______" ],
+      "categories": [
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
+    },
+    {
+      "name": "LotsaNinjas",
+      "discord": "LotsaNinjas#0244",
+      "teams": [ "Team ______" ],
+      "categories": [
+        "ModdedTeam"
+      ],
+      "eliminated-categories": [],
+      "modded-modules": null,
+      "vetoed-modules": null
     },
     {
       "name": "Livio",
@@ -590,7 +612,7 @@
     {
       "name": "LotsaNinjas",
       "discord": "LotsaNinjas#0244",
-      "teams": [ "Team ZekNikZ" ],
+      "teams": [ "Team ______" ],
       "categories": [
         "ModdedTeam"
       ],
@@ -724,11 +746,11 @@
         "DragonBourne": "Rapid Buttons",
         "Main Street": "Rapid Buttons",
         "Team Ralp": "3D Tunnels",
-        "Team ZekNikZ": "Lasers"
+        "Team ______": "Lasers"
       }
     },
     {
-      "name": "Team ZekNikZ",
+      "name": "Team ______",
       "discord": "483663689841377280",
       "icon": null,
       "categories": [
@@ -882,6 +904,68 @@
   ],
   "matches": [
     {
+      "id": "VT1-1",
+      "match-group": "Week 1",
+      "group": "Bomb 1",
+      "category": "VanillaTeam",
+      "stream-url": null,
+      "date": null,
+      "status": "notcomplete",
+      "competitors": [
+        "Ariana Grande Fan Club",
+        "Big Weeb, Little Weeb, Cardboard Socks",
+        "DragonBourne",
+        "DremTem",
+        "Team Atlantic",
+        "Team Probably Insane",
+        "Team Ralp",
+        "Team suihkuheebo",
+        "The Odd Squad"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "VT1-2",
+      "match-group": "Week 1",
+      "group": "Bomb 2",
+      "category": "VanillaTeam",
+      "stream-url": null,
+      "date": null,
+      "status": "notcomplete",
+      "competitors": [
+        "Ariana Grande Fan Club",
+        "Big Weeb, Little Weeb, Cardboard Socks",
+        "DragonBourne",
+        "DremTem",
+        "Team Atlantic",
+        "Team Probably Insane",
+        "Team Ralp",
+        "Team suihkuheebo",
+        "The Odd Squad"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
+      "id": "VT1-3",
+      "match-group": "Week 1",
+      "group": "Elimination Tiebreaker",
+      "category": "VanillaTeam",
+      "stream-url": null,
+      "date": null,
+      "status": "notstarted",
+      "competitors": [
+        "TBD",
+        "TBD"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+    {
       "id": "MT1X-A",
       "match-group": "Week 1",
       "group": null,
@@ -907,7 +991,7 @@
       "status": "notcomplete",
       "competitors": [
         "DragonBourne",
-        "Team ZekNikZ"
+        "Team ______"
       ],
       "bombs": [],
       "eliminations": null,
@@ -1082,7 +1166,7 @@
       "date": null,
       "status": "notstarted",
       "competitors": [
-        "Team ZekNikZ",
+        "Team ______",
         "Team Ralp"
       ],
       "bombs": [],

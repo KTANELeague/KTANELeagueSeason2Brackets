@@ -25,7 +25,7 @@
             $("#player-info").hide();
             $("#players-page").hide();
             $("#sidebar").empty();
-            if (/^#([A-Za-z\-0-9 ,.]+)$/.exec(decodeURI(window.location.hash))) {
+            if (/^#([A-Za-z\-0-9 ,._]+)$/.exec(decodeURI(window.location.hash))) {
                 var playerId = RegExp.$1;
                 var player = players.filter(p => p["name"] === playerId)[0];
                 if (player) {

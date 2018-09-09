@@ -25,7 +25,7 @@
             $("#player-info").hide();
             $("#player-page").hide();
             $("#sidebar").empty();
-            if (/^#([A-Za-z\-0-9 ,.]+)$/.exec(decodeURI(window.location.hash))) {
+            if (/^#([A-Za-z\-0-9 ,._]+)$/.exec(decodeURI(window.location.hash))) {
                 var teamId = RegExp.$1;
                 var team = teams.filter(t => t["name"] === teamId)[0];
                 if (team) {
