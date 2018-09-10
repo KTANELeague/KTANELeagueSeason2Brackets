@@ -37,7 +37,7 @@
       "modded-modules": [ "Battleship", "Big Circle", "Binary Tree", "Chord Qualities", "Combination Lock", "Cruel Piano Keys", "Equations", "Greek Calculus", "Know Your Way", "Lasers", "Lightspeed", "Marble Tumble", "Maze Scrambler", "Mineseeker", "Modules Against Humanity", "The Number Cipher", "Rhythms", "Simon's Star", "Tangrams", "USA Maze" ],
       "vetoed-modules": {
         "numdegased": "3D Tunnels",
-        "elias5891": "Rubik's Clock",
+        "elias5891": "Splitting the Loot",
         "Axwell15": "Bitwise Operations",
         "River": "Braille",
         "Ralp": "3D Tunnels",
@@ -45,7 +45,7 @@
         "Lebossle": "3D Tunnels",
         "OdderOtter": "Cryptography",
         "ZekNikZ": "LEGO",
-        "Livio": "Rubik's Clock",
+        "Livio": "Murder",
         "Grunkle": "Pattern Cube"
       }
     },
@@ -88,7 +88,11 @@
         "River": "Mystic Square",
         "Ralp": "Polyhedral Maze",
         "billybao": "Greek Calculus",
-        "Lebossle": "X-Ray"
+        "Lebossle": "X-Ray",
+        "OdderOtter", "Forget Exchange Rates",
+        "ZekNikZ": "LEGO",
+        "Livio": "The Jewel Vault",
+        "Grunkle": "Manometers"
       }
     },
     {
@@ -101,7 +105,8 @@
       "eliminated-categories": [],
       "modded-modules": [ "Broken Buttons", "Button Sequences", "Cheap Checkout", "Colored Squares", "Creation", "Follow the Leader", "The iPhone", "Lasers", "Mineseeker", "Morsematics", "Mouse in the Maze", "Mystic Square", "Neutralization", "Nonogram", "Poker", "Sonic the Hedgehog", "The Bulb", "USA Maze" ],
       "vetoed-modules": {
-        "draket333": "Modules Against Humanity"
+        "draket333": "Modules Against Humanity",
+        "elias5891": "Rubik's Clock"
       }
     },
     {
@@ -137,12 +142,13 @@
         "Lebossle": "3D Tunnels",
         "OdderOtter": "Orientation Cube",
         "ZekNikZ": "LEGO",
-        "Livio": "The Jewel Vault"
+        "Livio": "The Jewel Vault",
+        "Grunkle": "Pattern Cube"
       }
     },
     {
       "name": "Lebossle",
-      "discord": "billybao#6960",
+      "discord": "Lebossle#5907",
       "teams": [ "DragonBourne" ],
       "categories": [
         "ModdedTeam",
@@ -157,7 +163,12 @@
         "elias5891": "Determinants",
         "Axwell15": "Flags",
         "River": "Mouse in the Maze",
-        "Ralp": "Mouse in the Maze"
+        "Ralp": "Mouse in the Maze",
+        "billybao": "Determinants",
+        "OdderOtter": "Round Keypad",
+        "ZekNikZ": "LEGO",
+        "Livio": "Light Cycle",
+        "Grunkle": "Manometers"
       }
     },
     {
