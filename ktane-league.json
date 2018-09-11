@@ -1004,7 +1004,32 @@
         "The Odd Squad",
         "The Dream Team"
       ],
-      "bombs": [],
+      "bombs": [
+        {
+          "type": "modpools",
+          "template": "moddedStandard",
+          "seed": null,
+          "rule-seed": 1,
+          "times": {
+            "The Odd Squad": {
+              "time-left": null,
+              "strikes": null,
+              "solved-modules": null,
+              "log-link": null,
+              "vod-link": null
+            },
+            "The Dream Team": {
+              "time-left": null,
+              "strikes": null,
+              "solved-modules": null,
+              "log-link": null,
+              "vod-link": null
+            }
+          },
+          "winner": null
+        }
+      ],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1021,6 +1046,7 @@
         "Team ______"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1037,6 +1063,7 @@
         "FUN"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1053,6 +1080,7 @@
         "Four Two"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1069,6 +1097,7 @@
         "Grunkle"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1085,6 +1114,7 @@
         "Lebossle"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1101,6 +1131,7 @@
         "numdegased"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1117,6 +1148,7 @@
         "elias5891"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1133,6 +1165,7 @@
         "OdderOtter"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1149,6 +1182,7 @@
         "billybao"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1165,6 +1199,7 @@
         "Main Street"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1181,6 +1216,7 @@
         "FUN"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1197,6 +1233,7 @@
         "Team Ralp"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1213,6 +1250,7 @@
         "Four Two"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1229,6 +1267,7 @@
         "numdegased"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1245,6 +1284,7 @@
         "draket333"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1261,6 +1301,7 @@
         "Livio"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1277,6 +1318,7 @@
         "billybao"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1293,6 +1335,7 @@
         "elias5891"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1309,6 +1352,7 @@
         "OdderOtter"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1325,6 +1369,7 @@
         "The Dream Team"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1341,6 +1386,7 @@
         "Team ______"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1357,6 +1403,7 @@
         "The Odd Squad"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1373,6 +1420,7 @@
         "Four Two"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1389,6 +1437,7 @@
         "Main Street"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1405,6 +1454,7 @@
         "The Dream Team"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1421,6 +1471,7 @@
         "The Odd Squad"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1437,6 +1488,7 @@
         "Team ______"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1453,6 +1505,7 @@
         "The Dream Team"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1469,6 +1522,7 @@
         "Main Street"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1485,6 +1539,7 @@
         "DragonBourne"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1501,6 +1556,7 @@
         "The Odd Squad"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1517,6 +1573,7 @@
         "Four Two"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1533,6 +1590,7 @@
         "DragonBourne"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1549,6 +1607,7 @@
         "Team ______"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1565,6 +1624,7 @@
         "FUN"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1581,6 +1641,7 @@
         "The Dream Team"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1597,6 +1658,7 @@
         "The Odd Squad"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1613,6 +1675,7 @@
         "Four Two"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     },
@@ -1629,20 +1692,19 @@
         "DragonBourne"
       ],
       "bombs": [],
+      "winner": null,
       "eliminations": null,
       "connection": null
     }
   ],
-  "bombs": [
+  "bomb-templates": [
     {
-      "id": "modsWeek1A",
-      "time": 300,
+      "id": "moddedStandard",
+      "time": 900,
       "strikes": 5,
-      "pools-and-vetos": {
-        "ZekNikZ": [ "hexamaze" ],
-        "OdderOtter": [ "taxReturnModule" ]
-      },
-      "log-link": null
+      "widgets": 5,
+      "pacing-events": false,
+      "pools": []
     }
   ]
 }
