@@ -121,6 +121,7 @@
         var categorySelections = {};
         function setupTeamsPage() {
             for (var category of categories) {
+                if (category["participant-type"] !== "team") continue;
                 categorySelections[category["id"]] = true;
                 $("#sidebar").append($("<button>", { "data-category": category["id"] }).text(category["shorthand"]).click({ "category": category }, toggleSelection));
             }
