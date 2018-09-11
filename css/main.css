@@ -111,6 +111,7 @@ body {
 
 .match-card a {
     color: black;
+    white-space: normal;
 }
 
 .match-card .match-info>a {
@@ -130,6 +131,7 @@ body {
 
 .match-card .score {
     text-align: right;
+    padding-left: 0;
 }
 
 .match-card .title {
