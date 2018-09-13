@@ -1,7 +1,7 @@
 var matchStatuses = {
     "notstarted": "Not Started",
     "notcomplete": "Not Completed",
-    "done": "Final Score",
+    "complete": "Final Score",
     "timetbd": "Time TBD"
     // Special case for 'settime', 'inprogress'
 }
