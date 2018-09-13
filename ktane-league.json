@@ -1181,13 +1181,89 @@
       "category": "ModdedEFM",
       "stream-url": null,
       "date": null,
-      "status": "notcomplete",
+      "status": "complete",
       "competitors": [
         "River",
         "elias5891"
       ],
-      "bombs": [],
-      "winner": null,
+      "bombs": [
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsA",
+          "seed": "<TODO>",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "River",
+              "time-left": "<TODO>",
+              "strikes": 3,
+              "solved-modules": 4,
+              "log-link": null,
+              "vod-link": null
+            },
+            {
+              "competitor": "elias5891",
+              "time-left": "<TODO>",
+              "strikes": 3,
+              "solved-modules": 0,
+              "log-link": null,
+              "vod-link": null
+            }
+          ],
+          "winner": "River"
+        },
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsB",
+          "seed": "<TODO>",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "River",
+              "time-left": "<TODO>",
+              "strikes": 3,
+              "solved-modules": 1,
+              "log-link": null,
+              "vod-link": null
+            },
+            {
+              "competitor": "elias5891",
+              "time-left": "<TODO>",
+              "strikes": 3,
+              "solved-modules": 8,
+              "log-link": null,
+              "vod-link": null
+            }
+          ],
+          "winner": "elias5891"
+        },
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsEven",
+          "seed": "<TODO>",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "River",
+              "time-left": "<TODO>",
+              "strikes": 3,
+              "solved-modules": 2,
+              "log-link": null,
+              "vod-link": null
+            },
+            {
+              "competitor": "elias5891",
+              "time-left": "<TODO>",
+              "strikes": 3,
+              "solved-modules": 7,
+              "log-link": null,
+              "vod-link": null
+            }
+          ],
+          "winner": "elias5891"
+        }
+      ],
+      "winner": "elias5891",
       "eliminations": null,
       "connection": null
     },
@@ -1743,7 +1819,7 @@
       "strikes": 3,
       "widgets": 5,
       "pacing-events": false,
-      "pools": []
+      "module-pools": []
     }
   ]
 }
