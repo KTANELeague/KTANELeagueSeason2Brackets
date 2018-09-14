@@ -1190,20 +1190,21 @@
         {
           "template": "moddedStandard",
           "type": "modpoolsA",
-          "seed": "<TODO>",
+          "seed": "1234141",
+          "mission": "486154",
           "rule-seed": null,
           "times": [
             {
               "competitor": "River",
-              "time-left": "<TODO>",
+              "time-left": "6:50",
               "strikes": 3,
-              "solved-modules": 4,
-              "log-link": null,
+              "solved-modules": 2,
+              "log-link": "https://drive.google.com/open?id=1qJzaqjmYt-WfQuJ57_0PePXCmphGetKa",
               "vod-link": null
             },
             {
               "competitor": "elias5891",
-              "time-left": "<TODO>",
+              "time-left": "15:00",
               "strikes": 3,
               "solved-modules": 0,
               "log-link": null,
@@ -1215,23 +1216,24 @@
         {
           "template": "moddedStandard",
           "type": "modpoolsB",
-          "seed": "<TODO>",
+          "seed": "6057991",
+          "mission": "793610",
           "rule-seed": null,
           "times": [
             {
               "competitor": "River",
-              "time-left": "<TODO>",
+              "time-left": "4:52",
               "strikes": 3,
               "solved-modules": 1,
-              "log-link": null,
+              "log-link": "https://drive.google.com/open?id=1qJzaqjmYt-WfQuJ57_0PePXCmphGetKa",
               "vod-link": null
             },
             {
               "competitor": "elias5891",
-              "time-left": "<TODO>",
+              "time-left": "3:56",
               "strikes": 3,
               "solved-modules": 8,
-              "log-link": null,
+              "log-link": "https://drive.google.com/open?id=1R9wNWYcDSDCsmhqOXp8uFs_R0b2n7niN",
               "vod-link": null
             }
           ],
@@ -1240,23 +1242,24 @@
         {
           "template": "moddedStandard",
           "type": "modpoolsEven",
-          "seed": "<TODO>",
+          "seed": "7628386",
+          "mission": "281936",
           "rule-seed": null,
           "times": [
             {
               "competitor": "River",
-              "time-left": "<TODO>",
+              "time-left": "0:39",
               "strikes": 3,
-              "solved-modules": 2,
-              "log-link": null,
+              "solved-modules": 4,
+              "log-link": "https://drive.google.com/open?id=1qJzaqjmYt-WfQuJ57_0PePXCmphGetKa",
               "vod-link": null
             },
             {
               "competitor": "elias5891",
-              "time-left": "<TODO>",
+              "time-left": "0:57",
               "strikes": 3,
               "solved-modules": 7,
-              "log-link": null,
+              "log-link": "https://drive.google.com/open?id=1R9wNWYcDSDCsmhqOXp8uFs_R0b2n7niN",
               "vod-link": null
             }
           ],
