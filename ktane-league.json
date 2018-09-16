@@ -1283,8 +1283,87 @@
         "Livio",
         "OdderOtter"
       ],
-      "bombs": [],
-      "winner": null,
+      "bombs": [
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsA",
+          "seed": "31608031",
+          "mission": "400079",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "Livio",
+              "time-left": "null",
+              "strikes": 3,
+              "solved-modules": 7,
+              "log-link": "https://drive.google.com/open?id=1wJqWUODwUteqQo3WPZ8bzRrTZ9SX30aW",
+              "vod-link": null
+            },
+            {
+              "competitor": "OdderOtter",
+              "time-left": "null",
+              "strikes": 3,
+              "solved-modules": 9,
+              "log-link": "https://drive.google.com/open?id=19d2ZEOoOMgDmhavs4WzoXDJImL76FeiL",
+              "vod-link": null
+            }
+          ],
+          "winner": "OdderOtter"
+        },
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsB,
+          "seed": "6450813",
+          "mission": "386412",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "Livio",
+              "time-left": "0:00",
+              "strikes": 2,
+              "solved-modules": 9,
+              "log-link": "https://drive.google.com/open?id=1wJqWUODwUteqQo3WPZ8bzRrTZ9SX30aW",
+              "vod-link": null
+            },
+            {
+              "competitor": "OdderOtter",
+              "time-left": "1:06.41",
+              "strikes": 0,
+              "solved-modules": 10,
+              "log-link": "https://drive.google.com/open?id=19d2ZEOoOMgDmhavs4WzoXDJImL76FeiL",
+              "vod-link": null
+            }
+          ],
+          "winner": "OdderOtter"
+        },
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsEven
+          "seed": "1097893",
+          "mission": "702087",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "Livio",
+              "time-left": "null",
+              "strikes": 3,
+              "solved-modules": 5,
+              "log-link": "https://drive.google.com/open?id=1wJqWUODwUteqQo3WPZ8bzRrTZ9SX30aW",
+              "vod-link": null
+            },
+            {
+              "competitor": "OdderOtter",
+              "time-left": "5:22.32",
+              "strikes": 0,
+              "solved-modules": 10,
+              "log-link": "https://drive.google.com/open?id=19d2ZEOoOMgDmhavs4WzoXDJImL76FeiL",
+              "vod-link": null
+            }
+          ],
+          "winner": "OdderOtter"
+        }
+      ],
+      "winner": "OdderOtter"
       "eliminations": null,
       "connection": null
     },
