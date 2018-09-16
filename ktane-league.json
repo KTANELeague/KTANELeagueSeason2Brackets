@@ -242,7 +242,8 @@
       "discord": "livPlaysYT#6969",
       "teams": null,
       "categories": [
-        "ModdedEFM"
+        "ModdedEFM", 
+        "ExperimentalEFM"
       ],
       "eliminated-categories": [],
       "modded-modules": [ "Festive Piano Keys", "Human Resources", "Identity Parade", "The iPhone", "The Jewel Vault", "The Jukebox", "Light Cycle", "Logical Buttons", "The London Underground", "Maintenance", "Mastermind Cruel", "Mortal Kombat", "Murder", "Number Pad", "Piano Keys", "Rubik's Clock", "Sea Shells", "USA Maze" ],
@@ -1279,7 +1280,7 @@
       "date": null,
       "status": "notcomplete",
       "competitors": [
-        "livPlaysTY",
+        "Livio",
         "OdderOtter"
       ],
       "bombs": [],
