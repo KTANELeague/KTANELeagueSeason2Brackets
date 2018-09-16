@@ -1312,7 +1312,7 @@
         },
         {
           "template": "moddedStandard",
-          "type": "modpoolsB,
+          "type": "modpoolsB",
           "seed": "6450813",
           "mission": "386412",
           "rule-seed": null,
@@ -1338,7 +1338,7 @@
         },
         {
           "template": "moddedStandard",
-          "type": "modpoolsEven
+          "type": "modpoolsEven",
           "seed": "1097893",
           "mission": "702087",
           "rule-seed": null,
@@ -1363,7 +1363,7 @@
           "winner": "OdderOtter"
         }
       ],
-      "winner": "OdderOtter"
+      "winner": "OdderOtter",
       "eliminations": null,
       "connection": null
     },
