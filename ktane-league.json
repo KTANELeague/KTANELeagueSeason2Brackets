@@ -70,7 +70,10 @@
         "Ralp": "Pattern Cube",
         "billybao": "Tangrams",
         "Lebossle": "Pattern Cube",
-        "ZekNikZ": "LEGO"
+		"OdderOtter": "Listening",
+        "ZekNikZ": "LEGO",
+		"Livio": "Rubik's Clock",
+		"Grunkle": "Pattern Cube"
       }
     },
     {
@@ -164,7 +167,7 @@
       "modded-modules": [ "Black Hole", "Boolean Venn Diagram", "Equations", "Font Select", "Know Your Way", "LED Encryption", "Logic Gates", "Mystic Square", "Nonogram", "Pattern Cube", "Rubik's Clock", "Simon Sends", "Splitting the Loot", "Superlogic", "Tangrams", "Turtle Robot", "X-Ray", "X01" ],
       "vetoed-modules": {
         "draket333": "Marble Tumble",
-        "numdegased": "Mastermind Cruel",
+        "numdegased": "Tax Returns",
         "elias5891": "Determinants",
         "Axwell15": "Flags",
         "River": "Mouse in the Maze",
@@ -257,7 +260,8 @@
         "billybao": "Color Decoding",
         "Lebossle": "3D Tunnels",
         "OdderOtter": "Logic",
-        "ZekNikZ": "Boolean Venn Diagram"
+        "ZekNikZ": "Boolean Venn Diagram",
+		"Grunkle": "Manometers"
       }
     },
     {
@@ -679,8 +683,13 @@
       ],
       "modded-modules": [ "Lights Out", "3D Tunnels", "Color Decoding", "Dragon Energy", "Forget Everything", "Forget Me Not", "Game of Life Simple", "Gridlock", "The Jewel Vault", "Know Your Way", "LEGO", "Lightspeed", "Playfair Cipher", "Rubik's Cube", "S.E.T.", "Silly Slots", "Simon's Star", "Tax Returns", "The Cube", "The Wire" ],
       "vetoed-modules": {
+	    "The Odd Squad": "Cryptography",
         "The Dream Team": "X-Ray",
-        "Team Ralp": "Determinants"
+		"DragonBourne": "Rapid Buttons",
+		"Main Street": "Stopwatch",
+        "Team Ralp": "Determinants",
+		"FUN": "Pattern Cube",
+		"Team ______": "Pattern Cube"
       }
     },
     {
@@ -697,7 +706,10 @@
         "doubleA-Ron"
       ],
       "modded-modules": [ "Adventure Game", "Anagrams", "Astrology", "Color Flash", "Connection Check", "Crazy Talk", "Cryptography", "Emoji Math", "Foreign Exchange Rates", "Letter Keys", "Listening", "Logic", "Orientation Cube", "Piano Keys", "Round Keypad", "Semaphore", "Simon States", "Switches", "Two Bits", "Word Scramble" ],
-      "vetoed-modules": {}
+      "vetoed-modules": {
+	    "The Dream Team": "Only Connect",
+		"FUN": "Only Connect"
+	  }
     },
     {
       "name": "The Dream Team",
@@ -717,6 +729,7 @@
       "vetoed-modules": {
         "DragonBourne": "The Cube",
         "Main Street": "Mastermind Cruel",
+		"Team Ralp": "Skyrim",
         "Four Two": "LEGO",
         "FUN": "Pattern Cube",
         "Team ______": "Pattern Cube"
@@ -740,7 +753,12 @@
       ],
       "modded-modules": [ "Rapid Buttons", "Algebra", "Binary LEDs", "Chess", "Colored Switches", "Double-Oh", "Faulty Backgrounds", "Forget Me Not", "Gridlock", "Hexamaze", "LED Encryption", "The London Underground", "Neutralization", "Nonogram", "Number Pad", "Orientation Cube", "Shape Shift", "Tax Returns", "The Cube", "The Swan" ],
       "vetoed-modules": {
+	    "The Odd Squad": "Semaphore",
+		"The Dream Team": "X-Ray",
         "Main Street": "Monsplode Trading Cards",
+		"Team Ralp": "Minesweeper",
+		"Four Two": "LEGO",
+		"FUN": "Dragon Energy",
         "Team ______": "Pattern Cube"
       }
     },
@@ -761,8 +779,11 @@
       "modded-modules": [ "Rapid Buttons", "3D Maze", "Adventure Game", "Algebra", "Blind Alley", "Color Generator", "Colored Switches", "Forget Me Not", "The iPhone", "The Jewel Vault", "Lightspeed", "Logic Gates", "The London Underground", "Mastermind Cruel", "Monsplode Trading Cards", "Morsematics", "Murder", "Perplexing Wires", "Plumbing", "The Stopwatch" ],
       "vetoed-modules": {
         "The Odd Squad": "Cryptography",
+		"The Dream Team": "Only Connect",
         "DragonBourne": "LED Encryption",
-        "FUN": "Greek Calculus"
+		"Team Ralp": "Waste Management",
+        "FUN": "Greek Calculus",
+		"Team ______": "Pattern Cube"
       }
     },
     {
@@ -1293,18 +1314,18 @@
           "times": [
             {
               "competitor": "Livio",
-              "time-left": "<TODO>",
+              "time-left": "1:06.12",
               "strikes": 3,
               "solved-modules": 7,
-              "log-link": null,
+              "log-link": "https://drive.google.com/open?id=1wJqWUODwUteqQo3WPZ8bzRrTZ9SX30aW",
               "vod-link": null
             },
             {
               "competitor": "OdderOtter",
-              "time-left": "<TODO>",
-              "strikes": 3,
+              "time-left": "0:00.00",
+              "strikes": 2,
               "solved-modules": 9,
-              "log-link": null,
+              "log-link": "https://drive.google.com/open?id=12ijyK-54hqdmxv8T-IpP9l_nDqDuaqmn",
               "vod-link": null
             }
           ],
@@ -1319,18 +1340,18 @@
           "times": [
             {
               "competitor": "Livio",
-              "time-left": "<TODO>",
-              "strikes": 3,
+              "time-left": "0:00.00",
+              "strikes": 1,
               "solved-modules": 9,
-              "log-link": null,
+              "log-link": "https://drive.google.com/open?id=1wJqWUODwUteqQo3WPZ8bzRrTZ9SX30aW",
               "vod-link": null
             },
             {
               "competitor": "OdderOtter",
               "time-left": "1:06.41",
-              "strikes": 2,
+              "strikes": 0,
               "solved-modules": 10,
-              "log-link": null,
+              "log-link": "https://drive.google.com/open?id=12ijyK-54hqdmxv8T-IpP9l_nDqDuaqmn",
               "vod-link": null
             }
           ],
@@ -1345,10 +1366,10 @@
           "times": [
             {
               "competitor": "Livio",
-              "time-left": "<TODO>",
+              "time-left": "8:27.94",
               "strikes": 3,
               "solved-modules": 5,
-              "log-link": null,
+              "log-link": "https://drive.google.com/open?id=1wJqWUODwUteqQo3WPZ8bzRrTZ9SX30aW",
               "vod-link": null
             },
             {
@@ -1356,7 +1377,7 @@
               "time-left": "5:22.32",
               "strikes": 0,
               "solved-modules": 10,
-              "log-link": null,
+              "log-link": "https://drive.google.com/open?id=12ijyK-54hqdmxv8T-IpP9l_nDqDuaqmn",
               "vod-link": null
             }
           ],
