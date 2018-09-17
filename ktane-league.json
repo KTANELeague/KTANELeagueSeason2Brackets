@@ -1044,10 +1044,70 @@
       "category": "VanillaTeam",
       "stream-url": null,
       "date": null,
-      "status": "notstarted",
+      "status": "notcomplete",
       "competitors": [
         "TBD",
         "TBD"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+	{
+      "id": "VT2-1",
+      "match-group": "Week 2",
+      "group": "Bomb 1",
+      "category": "VanillaTeam",
+      "stream-url": null,
+      "date": null,
+      "status": "notstarted",
+      "competitors": [
+        "TBD",
+		"TBD",
+		"TBD",
+		"TBD",
+		"TBD",
+		"TBD",
+		"TBD",
+		"TBD"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+	{
+      "id": "VT2-2",
+      "match-group": "Week 2",
+      "group": "Bomb 2",
+      "category": "VanillaTeam",
+      "stream-url": null,
+      "date": null,
+      "status": "notstarted",
+      "competitors": [
+        "TBD",
+		"TBD",
+		"TBD",
+		"TBD",
+		"TBD",
+		"TBD",
+		"TBD",
+		"TBD"
+      ],
+      "bombs": [],
+      "eliminations": null,
+      "connection": null
+    },
+	{
+      "id": "VT2-3",
+      "match-group": "Week 2",
+      "group": "Bomb 3",
+      "category": "VanillaTeam",
+      "stream-url": null,
+      "date": null,
+      "status": "notstarted",
+      "competitors": [
+        "TBD",
+		"TBD"
       ],
       "bombs": [],
       "eliminations": null,
@@ -1348,13 +1408,92 @@
       "category": "ModdedTeam",
       "stream-url": null,
       "date": null,
-      "status": "notcomplete",
+      "status": "inprogress",
       "competitors": [
         "Team Ralp",
         "Four Two"
       ],
-      "bombs": [],
-      "winner": null,
+      "bombs": [
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsA",
+          "seed": "12536253",
+          "mission": "653124",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "Team Ralp",
+              "time-left": "0:00.00",
+              "strikes": 0,
+              "solved-modules": 0,
+              "log-link": null,
+              "vod-link": null
+            },
+            {
+              "competitor": "Four Two",
+              "time-left": "0:19.73",
+              "strikes": 1,
+              "solved-modules": 10,
+              "log-link": "https://drive.google.com/open?id=1_jVO8qsq7x82CNjRy4xpHv6IO0DH-jGA",
+              "vod-link": "https://youtu.be/T7EeyXfyg5M"
+            }
+          ],
+          "winner": ""
+        },
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsB",
+          "seed": "252316",
+          "mission": "986210",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "Team Ralp",
+              "time-left": "0:00.00",
+              "strikes": 0,
+              "solved-modules": 0,
+              "log-link": null,
+              "vod-link": null
+            },
+            {
+              "competitor": "Four Two",
+              "time-left": "1:55.67",
+              "strikes": 1,
+              "solved-modules": 10,
+              "log-link": "https://drive.google.com/open?id=1_jVO8qsq7x82CNjRy4xpHv6IO0DH-jGA",
+              "vod-link": "https://youtu.be/xd7K6nAeVzE"
+            }
+          ],
+          "winner": ""
+        },
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsEven",
+          "seed": "1748170",
+          "mission": "831414",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "Team Ralp",
+              "time-left": "0:00.00",
+              "strikes": 0,
+              "solved-modules": 0,
+              "log-link": null,
+              "vod-link": null
+            },
+            {
+              "competitor": "Four Two",
+              "time-left": "0:00.00",
+              "strikes": 1,
+              "solved-modules": 9,
+              "log-link": "https://drive.google.com/open?id=1_jVO8qsq7x82CNjRy4xpHv6IO0DH-jGA",
+              "vod-link": "https://youtu.be/UpZJE8dY2Mk"
+            }
+          ],
+          "winner": ""
+        }
+      ],
+      "winner": "",
       "eliminations": null,
       "connection": null
     },
@@ -1681,8 +1820,87 @@
         "The Dream Team",
         "Four Two"
       ],
-      "bombs": [],
-      "winner": null,
+      "bombs": [
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsA",
+          "seed": "seed",
+          "mission": "mission",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "Team1",
+              "time-left": "0:00.00",
+              "strikes": 0,
+              "solved-modules": 0,
+              "log-link": null,
+              "vod-link": null
+            },
+            {
+              "competitor": "Team2",
+              "time-left": "0:00.00",
+              "strikes": 0,
+              "solved-modules": 0,
+              "log-link": null,
+              "vod-link": null
+            }
+          ],
+          "winner": ""
+        },
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsA",
+          "seed": "seed",
+          "mission": "mission",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "Team1",
+              "time-left": "0:00.00",
+              "strikes": 0,
+              "solved-modules": 0,
+              "log-link": null,
+              "vod-link": null
+            },
+            {
+              "competitor": "Team2",
+              "time-left": "0:00.00",
+              "strikes": 0,
+              "solved-modules": 0,
+              "log-link": null,
+              "vod-link": null
+            }
+          ],
+          "winner": ""
+        },
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsA",
+          "seed": "seed",
+          "mission": "mission",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "Team1",
+              "time-left": "0:00.00",
+              "strikes": 0,
+              "solved-modules": 0,
+              "log-link": null,
+              "vod-link": null
+            },
+            {
+              "competitor": "Team2",
+              "time-left": "0:00.00",
+              "strikes": 0,
+              "solved-modules": 0,
+              "log-link": null,
+              "vod-link": null
+            }
+          ],
+          "winner": ""
+        }
+      ],
+      "winner": "",
       "eliminations": null,
       "connection": null
     },
