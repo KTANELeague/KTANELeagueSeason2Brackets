@@ -1060,37 +1060,92 @@
       "category": "ModdedTeam",
       "stream-url": null,
       "date": null,
-      "status": "notcomplete",
+      "status": "complete",
       "competitors": [
         "The Odd Squad",
         "The Dream Team"
       ],
       "bombs": [
         {
-          "type": "modpools",
           "template": "moddedStandard",
-          "seed": null,
-          "rule-seed": 1,
-          "times": {
-            "The Odd Squad": {
-              "time-left": null,
-              "strikes": null,
-              "solved-modules": null,
-              "log-link": null,
+          "type": "modpoolsA",
+          "seed": "468143",
+          "mission": "123457",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "The Odd Squad",
+              "time-left": "0:02.23",
+              "strikes": 3,
+              "solved-modules": 6,
+              "log-link": "https://drive.google.com/open?id=1C69zWAZHQRGvR4zkQ1vV0E-0369edpG1",
               "vod-link": null
             },
-            "The Dream Team": {
-              "time-left": null,
-              "strikes": null,
-              "solved-modules": null,
-              "log-link": null,
+            {
+              "competitor": "The Dream Team",
+              "time-left": "8:57.76",
+              "strikes": 0,
+              "solved-modules": 10,
+              "log-link": "https://drive.google.com/open?id=1N0L5-9eyEidZd3Qq7v8u5oDq-Xwi0tSg",
               "vod-link": null
             }
-          },
-          "winner": null
+          ],
+          "winner": "The Dream Team"
+        },
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsB",
+          "seed": "6450813",
+          "mission": "386412",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "The Odd Squad",
+              "time-left": "0:00.00",
+              "strikes": 2,
+              "solved-modules": 6,
+              "log-link": "https://drive.google.com/open?id=1C69zWAZHQRGvR4zkQ1vV0E-0369edpG1",
+              "vod-link": null
+            },
+            {
+              "competitor": "The Dream Team",
+              "time-left": "11:38.60",
+              "strikes": 0,
+              "solved-modules": 10,
+              "log-link": "https://drive.google.com/open?id=1N0L5-9eyEidZd3Qq7v8u5oDq-Xwi0tSg",
+              "vod-link": null
+            }
+          ],
+          "winner": "The Dream Team"
+        },
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsEven",
+          "seed": "1097893",
+          "mission": "702087",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "The Odd Squad",
+              "time-left": "3:37.17",
+              "strikes": 3,
+              "solved-modules": 6,
+              "log-link": "https://drive.google.com/open?id=1C69zWAZHQRGvR4zkQ1vV0E-0369edpG1",
+              "vod-link": null
+            },
+            {
+              "competitor": "The Dream Team",
+              "time-left": "10:14.56",
+              "strikes": 0,
+              "solved-modules": 10,
+              "log-link": "https://drive.google.com/open?id=1N0L5-9eyEidZd3Qq7v8u5oDq-Xwi0tSg",
+              "vod-link": null
+            }
+          ],
+          "winner": "The Dream Team"
         }
       ],
-      "winner": null,
+      "winner": "The Dream Team",
       "eliminations": null,
       "connection": null
     },
