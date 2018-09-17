@@ -1,0 +1,454 @@
+{
+    "teams": [
+        {
+            "name": "Four Two",
+            "discord": "483663689841377280",
+            "icon": null,
+            "categories": [
+                "ModdedTeam"
+            ],
+            "eliminated-categories": [],
+            "members": [
+                "Rexkix",
+                "BigLittleOrMe",
+                "epicness1728",
+                "draket333",
+                "Riking"
+            ],
+            "modded-modules": [
+                "Lights Out",
+                "3D Tunnels",
+                "Color Decoding",
+                "Dragon Energy",
+                "Forget Everything",
+                "Forget Me Not",
+                "Game of Life Simple",
+                "Gridlock",
+                "The Jewel Vault",
+                "Know Your Way",
+                "LEGO",
+                "Lightspeed",
+                "Playfair Cipher",
+                "Rubik's Cube",
+                "S.E.T.",
+                "Silly Slots",
+                "Simon's Star",
+                "Tax Returns",
+                "The Cube",
+                "The Wire"
+            ],
+            "vetoed-modules": {
+                "The Odd Squad": "Cryptography",
+                "The Dream Team": "X-Ray",
+                "DragonBourne": "Rapid Buttons",
+                "Main Street": "Stopwatch",
+                "Team Ralp": "Determinants",
+                "FUN": "Pattern Cube",
+                "Team ______": "Pattern Cube"
+            }
+        },
+        {
+            "name": "The Odd Squad",
+            "discord": "483663689841377280",
+            "icon": null,
+            "categories": [
+                "VanillaTeam",
+                "ModdedTeam"
+            ],
+            "eliminated-categories": [],
+            "members": [
+                "OdderOtter",
+                "doubleA-Ron"
+            ],
+            "modded-modules": [
+                "Adventure Game",
+                "Anagrams",
+                "Astrology",
+                "Color Flash",
+                "Connection Check",
+                "Crazy Talk",
+                "Cryptography",
+                "Emoji Math",
+                "Foreign Exchange Rates",
+                "Letter Keys",
+                "Listening",
+                "Logic",
+                "Orientation Cube",
+                "Piano Keys",
+                "Round Keypad",
+                "Semaphore",
+                "Simon States",
+                "Switches",
+                "Two Bits",
+                "Word Scramble"
+            ],
+            "vetoed-modules": {
+                "The Dream Team": "Only Connect",
+                "FUN": "Only Connect"
+            }
+        },
+        {
+            "name": "The Dream Team",
+            "discord": "483663689841377280",
+            "icon": null,
+            "categories": [
+                "ModdedTeam"
+            ],
+            "eliminated-categories": [],
+            "members": [
+                "catnip",
+                "ashthebash",
+                "elias5891",
+                "Zaakeil"
+            ],
+            "modded-modules": [
+                "3D Maze",
+                "Adjacent Letters",
+                "Battleship",
+                "Bitwise Operations",
+                "Blind Alley",
+                "Chord Qualities",
+                "Color Math",
+                "Cruel Piano Keys",
+                "Double-Oh",
+                "FizzBuzz",
+                "Forget Me Not",
+                "The Gamepad",
+                "Gridlock",
+                "Murder",
+                "Only Connect",
+                "Plumbing",
+                "Polyhedral Maze",
+                "Resistors",
+                "Silly Slots",
+                "X-Ray"
+            ],
+            "vetoed-modules": {
+                "DragonBourne": "The Cube",
+                "Main Street": "Mastermind Cruel",
+                "Team Ralp": "Skyrim",
+                "Four Two": "LEGO",
+                "FUN": "Pattern Cube",
+                "Team ______": "Pattern Cube"
+            }
+        },
+        {
+            "name": "DragonBourne",
+            "discord": "483663689841377280",
+            "icon": null,
+            "categories": [
+                "VanillaTeam",
+                "ModdedTeam",
+                "ExperimentalTeam"
+            ],
+            "eliminated-categories": [],
+            "members": [
+                "LeGeND",
+                "numdegased",
+                "Lebossle",
+                "Draykien Cyndrak"
+            ],
+            "modded-modules": [
+                "Rapid Buttons",
+                "Algebra",
+                "Binary LEDs",
+                "Chess",
+                "Colored Switches",
+                "Double-Oh",
+                "Faulty Backgrounds",
+                "Forget Me Not",
+                "Gridlock",
+                "Hexamaze",
+                "LED Encryption",
+                "The London Underground",
+                "Neutralization",
+                "Nonogram",
+                "Number Pad",
+                "Orientation Cube",
+                "Shape Shift",
+                "Tax Returns",
+                "The Cube",
+                "The Swan"
+            ],
+            "vetoed-modules": {
+                "The Odd Squad": "Semaphore",
+                "The Dream Team": "X-Ray",
+                "Main Street": "Monsplode Trading Cards",
+                "Team Ralp": "Minesweeper",
+                "Four Two": "LEGO",
+                "FUN": "Dragon Energy",
+                "Team ______": "Pattern Cube"
+            }
+        },
+        {
+            "name": "Main Street",
+            "discord": "483663689841377280",
+            "icon": null,
+            "categories": [
+                "ModdedTeam"
+            ],
+            "eliminated-categories": [],
+            "members": [
+                "Weter",
+                "Ben Storer",
+                "Axwell15",
+                "King"
+            ],
+            "modded-modules": [
+                "Rapid Buttons",
+                "3D Maze",
+                "Adventure Game",
+                "Algebra",
+                "Blind Alley",
+                "Color Generator",
+                "Colored Switches",
+                "Forget Me Not",
+                "The iPhone",
+                "The Jewel Vault",
+                "Lightspeed",
+                "Logic Gates",
+                "The London Underground",
+                "Mastermind Cruel",
+                "Monsplode Trading Cards",
+                "Morsematics",
+                "Murder",
+                "Perplexing Wires",
+                "Plumbing",
+                "The Stopwatch"
+            ],
+            "vetoed-modules": {
+                "The Odd Squad": "Cryptography",
+                "The Dream Team": "Only Connect",
+                "DragonBourne": "LED Encryption",
+                "Team Ralp": "Waste Management",
+                "FUN": "Greek Calculus",
+                "Team ______": "Pattern Cube"
+            }
+        },
+        {
+            "name": "Team Ralp",
+            "discord": "483663689841377280",
+            "icon": null,
+            "categories": [
+                "VanillaTeam",
+                "ModdedTeam",
+                "ExperimentalTeam"
+            ],
+            "eliminated-categories": [],
+            "members": [
+                "Ralp",
+                "54956",
+                "CubemasterXD"
+            ],
+            "modded-modules": [
+                "3D Tunnels",
+                "Determinants",
+                "Double-Oh",
+                "Forget Me Not",
+                "Game of Life Simple",
+                "Hexamaze",
+                "Logic Gates",
+                "Microcontroller",
+                "Minesweeper",
+                "Morsematics",
+                "Perplexing Wires",
+                "Plumbing",
+                "Polyhedral Maze",
+                "Rubik's Clock",
+                "Skyrim",
+                "Souvenir",
+                "Tangrams",
+                "The Swan",
+                "Two Bits",
+                "Waste Management"
+            ],
+            "vetoed-modules": {}
+        },
+        {
+            "name": "FUN",
+            "discord": "483663689841377280",
+            "icon": null,
+            "categories": [
+                "ModdedTeam"
+            ],
+            "eliminated-categories": [],
+            "members": [
+                "S",
+                "WhiteShadowZz",
+                "ValsafoZ"
+            ],
+            "modded-modules": [
+                "Binary Tree",
+                "Boolean Venn Diagram",
+                "Dragon Energy",
+                "Forget Everything",
+                "Forget Me Not",
+                "Greek Calculus",
+                "Know Your Way",
+                "Laundry",
+                "Logic",
+                "Logic Gates",
+                "Mafia",
+                "Monsplode Trading Cards",
+                "Only Connect",
+                "Pattern Cube",
+                "Playfair Cipher",
+                "Rubik's Clock",
+                "Superlogic",
+                "Tax Returns",
+                "The Cube",
+                "Web Design"
+            ],
+            "vetoed-modules": {
+                "The Odd Squad": "Round Keypad",
+                "The Dream Team": "Cruel Piano Keys",
+                "DragonBourne": "Rapid Buttons",
+                "Main Street": "Rapid Buttons",
+                "Team Ralp": "Determinants",
+                "Four Two": "LEGO",
+                "Team ______": "Lasers"
+            }
+        },
+        {
+            "name": "Team ______",
+            "discord": "483663689841377280",
+            "icon": null,
+            "categories": [
+                "ModdedTeam"
+            ],
+            "eliminated-categories": [],
+            "members": [
+                "ZekNikZ",
+                "Moon",
+                "LotsaNinjas"
+            ],
+            "modded-modules": [
+                "3D Maze",
+                "Button Sequences",
+                "Colored Switches",
+                "Fast Math",
+                "Know Your Way",
+                "Lasers",
+                "Mouse in the Maze",
+                "Pattern Cube",
+                "Plumbing",
+                "Polyhedral Maze",
+                "Sea Shells",
+                "Simon States",
+                "The London Underground",
+                "The Swan",
+                "Third Base",
+                "Tic-Tac-Toe",
+                "Two Bits",
+                "Uncolored Squares",
+                "USA Maze",
+                "Yahtzee"
+            ],
+            "vetoed-modules": {
+                "The Odd Squad": "Foreign Exchange Rates",
+                "The Dream Team": "Cruel Piano Keys",
+                "DragonBourne": "The Cube",
+                "Main Street": "Logic Gates",
+                "Team Ralp": "3D Tunnels",
+                "Four Two": "Dragon Energy",
+                "FUN": "Dragon Energy"
+            }
+        },
+        {
+            "name": "Ariana Grande Fan Club",
+            "discord": "483663689841377280",
+            "icon": null,
+            "categories": [
+                "VanillaTeam"
+            ],
+            "eliminated-categories": [],
+            "members": [
+                "Aysidia",
+                "keehaag",
+                "Christy989"
+            ],
+            "modded-modules": null,
+            "vetoed-modules": null
+        },
+        {
+            "name": "Team n00b",
+            "discord": "483663689841377280",
+            "icon": null,
+            "categories": [
+                "VanillaTeam"
+            ],
+            "eliminated-categories": [],
+            "members": [
+                "shaunsnj",
+                "mirene",
+                "Huarru"
+            ],
+            "modded-modules": null,
+            "vetoed-modules": null
+        },
+        {
+            "name": "Team Probably Insane",
+            "discord": "483663689841377280",
+            "icon": null,
+            "categories": [
+                "VanillaTeam"
+            ],
+            "eliminated-categories": [],
+            "members": [
+                "CoolkibKakadu",
+                "Asrin",
+                "zacheldred"
+            ],
+            "modded-modules": null,
+            "vetoed-modules": null
+        },
+        {
+            "name": "Big Weeb, Little Weeb, Cardboard Socks",
+            "discord": "483663689841377280",
+            "icon": null,
+            "categories": [
+                "VanillaTeam"
+            ],
+            "eliminated-categories": [],
+            "members": [
+                "rida.r1787",
+                "The Huntress main",
+                "OjamaBoy",
+                "Winter"
+            ],
+            "modded-modules": null,
+            "vetoed-modules": null
+        },
+        {
+            "name": "Team suihkuheebo",
+            "discord": "483663689841377280",
+            "icon": null,
+            "categories": [
+                "VanillaTeam"
+            ],
+            "eliminated-categories": [],
+            "members": [
+                "suihkuheebo",
+                "vagu"
+            ],
+            "modded-modules": null,
+            "vetoed-modules": null
+        },
+        {
+            "name": "DremTem",
+            "discord": "483663689841377280",
+            "icon": null,
+            "categories": [
+                "VanillaTeam"
+            ],
+            "eliminated-categories": [],
+            "members": [
+                "elias5891",
+                "catnip",
+                "Zaakeil"
+            ],
+            "modded-modules": null,
+            "vetoed-modules": null
+        }
+    ]
+}

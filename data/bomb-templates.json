@@ -1,0 +1,12 @@
+{
+    "bomb-templates": [
+        {
+            "id": "moddedStandard",
+            "time": 900,
+            "strikes": 3,
+            "widgets": 5,
+            "pacing-events": false,
+            "module-pools": []
+        }
+    ]
+}

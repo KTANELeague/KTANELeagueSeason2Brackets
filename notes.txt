@@ -1,9 +1,0 @@
-/index - redirect to information
-/information - link to discord, vods, rules, etc
-/brackets - all five brackets individual
-/competitors - list of all players & teams
-/players#{name} - specific info for a player; no {name} -> redirect to /competitors
-/teams#{team} - specific info for a team -> redirect to /competitors
-/matches - list of all matches by bracket, then by id
-/matches#{match} - specific info for a match
-/standings
