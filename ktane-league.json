@@ -1156,12 +1156,12 @@
       "category": "ModdedTeam",
       "stream-url": null,
       "date": null,
-      "status": "notcomplete",
+      "status": "complete",
       "competitors": [
         "DragonBourne",
         "Team ______"
       ],
-            "bombs": [
+      "bombs": [
         {
           "template": "moddedStandard",
           "type": "modpoolsA",
@@ -1252,13 +1252,92 @@
       "category": "ModdedTeam",
       "stream-url": null,
       "date": null,
-      "status": "notcomplete",
+      "status": "inprogress",
       "competitors": [
         "Main Street",
         "FUN"
       ],
-      "bombs": [],
-      "winner": null,
+      "bombs": [
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsA",
+          "seed": "1978361",
+          "mission": "664219",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "Main Street",
+              "time-left": "0:00.00",
+              "strikes": 0,
+              "solved-modules": 0,
+              "log-link": null,
+              "vod-link": null
+            },
+            {
+              "competitor": "FUN",
+              "time-left": "0:00.00",
+              "strikes": 2,
+              "solved-modules": 5,
+              "log-link": "https://drive.google.com/open?id=1H5bZ1ZFmrEevAN8VESB40ZmBpiZfft_t",
+              "vod-link": null
+            }
+          ],
+          "winner": ""
+        },
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsB",
+          "seed": "81960701",
+          "mission": "444414",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "Main Street",
+              "time-left": "0:00.00",
+              "strikes": 0,
+              "solved-modules": 0,
+              "log-link": null,
+              "vod-link": null
+            },
+            {
+              "competitor": "FUN",
+              "time-left": "0:00.00",
+              "strikes": 1,
+              "solved-modules": 7,
+              "log-link": "https://drive.google.com/open?id=1H5bZ1ZFmrEevAN8VESB40ZmBpiZfft_t",
+              "vod-link": null
+            }
+          ],
+          "winner": ""
+        },
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsEven",
+          "seed": "5535551",
+          "mission": "5535553",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "Main Street",
+              "time-left": "0:00.00",
+              "strikes": 0,
+              "solved-modules": 0,
+              "log-link": null,
+              "vod-link": null
+            },
+            {
+              "competitor": "FUN",
+              "time-left": "0:00.00",
+              "strikes": 1,
+              "solved-modules": 5,
+              "log-link": "https://drive.google.com/open?id=1H5bZ1ZFmrEevAN8VESB40ZmBpiZfft_t",
+              "vod-link": null
+            }
+          ],
+          "winner": ""
+        }
+      ],
+      "winner": "",
       "eliminations": null,
       "connection": null
     },
