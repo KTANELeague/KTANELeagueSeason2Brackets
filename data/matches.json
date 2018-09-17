@@ -19,7 +19,90 @@
                 "Team suihkuheebo",
                 "The Odd Squad"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "vanillaStandard",
+                    "type": null,
+                    "seed": "8139923",
+                    "mission": "649831",
+                    "rule-seed": "30052",
+                    "times": [
+                        {
+                            "competitor": "Ariana Grande Fan Club",
+                            "time-left": "10:41.63",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "Big Weeb, Little Weeb, Cardboard Socks",
+                            "time-left": "10:21.76",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "DragonBourne",
+                            "time-left": "9:46.43",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "DremTem",
+                            "time-left": "9:22.00",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "Team n00b",
+                            "time-left": "4:42.60",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "Team Probably Insane",
+                            "time-left": "7:48.45",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "Team Ralp",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "Team suihkuheebo",
+                            "time-left": "10:06.54",
+                            "strikes": 3,
+                            "solved-modules": 7,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "The Odd Squad",
+                            "time-left": "9:02.93",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": null
+                }
+            ],
             "eliminations": null,
             "connection": null
         },
@@ -42,7 +125,90 @@
                 "Team suihkuheebo",
                 "The Odd Squad"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "vanillaStandard",
+                    "type": null,
+                    "seed": "6162644",
+                    "mission": "794856",
+                    "rule-seed": "30052",
+                    "times": [
+                        {
+                            "competitor": "Ariana Grande Fan Club",
+                            "time-left": "9:10.67",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "Big Weeb, Little Weeb, Cardboard Socks",
+                            "time-left": "0:00.00",
+                            "strikes": 3,
+                            "solved-modules": 7,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "DragonBourne",
+                            "time-left": "7:15.18",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "DremTem",
+                            "time-left": "9:12.12",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "Team n00b",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "Team Probably Insane",
+                            "time-left": "3:13.13",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "Team Ralp",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "Team suihkuheebo",
+                            "time-left": "1:24.45",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "The Odd Squad",
+                            "time-left": "3:07.83",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": null
+                }
+            ],
             "eliminations": null,
             "connection": null
         },
@@ -58,7 +224,34 @@
                 "TBD",
                 "TBD"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "vanillaStandard",
+                    "type": null,
+                    "seed": "8139923",
+                    "mission": "649831",
+                    "rule-seed": "30052",
+                    "times": [
+						{
+                            "competitor": "Big Weeb, Little Weeb, Cardboard Socks",
+                            "time-left": "9:47.67",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+						{
+                            "competitor": "Team suihkuheebo",
+                            "time-left": "6:37.39",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": null
+                }
+            ],
             "eliminations": null,
             "connection": null
         },
