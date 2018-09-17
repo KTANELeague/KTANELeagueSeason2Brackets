@@ -1095,8 +1095,8 @@
         {
           "template": "moddedStandard",
           "type": "modpoolsB",
-          "seed": "6450813",
-          "mission": "386412",
+          "seed": "1097864",
+          "mission": "765431",
           "rule-seed": null,
           "times": [
             {
@@ -1121,8 +1121,8 @@
         {
           "template": "moddedStandard",
           "type": "modpoolsEven",
-          "seed": "1097893",
-          "mission": "702087",
+          "seed": "4618246",
+          "mission": "800800",
           "rule-seed": null,
           "times": [
             {
@@ -1161,8 +1161,87 @@
         "DragonBourne",
         "Team ______"
       ],
-      "bombs": [],
-      "winner": null,
+            "bombs": [
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsA",
+          "seed": "94618034",
+          "mission": "2212112",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "DragonBourne",
+              "time-left": "4:26.45",
+              "strikes": 0,
+              "solved-modules": 10,
+              "log-link": "https://drive.google.com/open?id=1RC-rvBV28xwTa2Qt-D8P7427cMPIjTgG",
+              "vod-link": null
+            },
+            {
+              "competitor": "Team ______",
+              "time-left": "2:10.32",
+              "strikes": 1,
+              "solved-modules": 10,
+              "log-link": "https://drive.google.com/open?id=1Ud6I8D7lpLfAUZrlxT_on_lju1xCUnxm",
+              "vod-link": null
+            }
+          ],
+          "winner": "DragonBourne"
+        },
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsB",
+          "seed": "81960701",
+          "mission": "444414",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "DragonBourne",
+              "time-left": "3:01.21",
+              "strikes": 1,
+              "solved-modules": 10,
+              "log-link": "https://drive.google.com/open?id=1RC-rvBV28xwTa2Qt-D8P7427cMPIjTgG",
+              "vod-link": null
+            },
+            {
+              "competitor": "Team ______",
+              "time-left": "4:47.81",
+              "strikes": 0,
+              "solved-modules": 10,
+              "log-link": "https://drive.google.com/open?id=1Ud6I8D7lpLfAUZrlxT_on_lju1xCUnxm",
+              "vod-link": null
+            }
+          ],
+          "winner": "Team ______"
+        },
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsEven",
+          "seed": "5535551",
+          "mission": "5535553",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "DragonBourne",
+              "time-left": "0:07.97",
+              "strikes": 2,
+              "solved-modules": 10,
+              "log-link": "https://drive.google.com/open?id=1RC-rvBV28xwTa2Qt-D8P7427cMPIjTgG",
+              "vod-link": null
+            },
+            {
+              "competitor": "Team ______",
+              "time-left": "0:00.00",
+              "strikes": 0,
+              "solved-modules": 9,
+              "log-link": "https://drive.google.com/open?id=1Ud6I8D7lpLfAUZrlxT_on_lju1xCUnxm",
+              "vod-link": null
+            }
+          ],
+          "winner": "DragonBourne"
+        }
+      ],
+      "winner": "DragonBourne",
       "eliminations": null,
       "connection": null
     },
