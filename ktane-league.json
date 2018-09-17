@@ -1497,7 +1497,7 @@
             "category": "VanillaTeam",
             "stream-url": null,
             "date": null,
-            "status": "notcomplete",
+            "status": "inprogress",
             "competitors": [
                 "Ariana Grande Fan Club",
                 "Big Weeb, Little Weeb, Cardboard Socks",
@@ -1520,7 +1520,7 @@
             "category": "VanillaTeam",
             "stream-url": null,
             "date": null,
-            "status": "notcomplete",
+            "status": "inprogress",
             "competitors": [
                 "Ariana Grande Fan Club",
                 "Big Weeb, Little Weeb, Cardboard Socks",
@@ -1543,7 +1543,7 @@
             "category": "VanillaTeam",
             "stream-url": null,
             "date": null,
-            "status": "notcomplete",
+            "status": "inprogress",
             "competitors": [
                 "TBD",
                 "TBD"
@@ -2003,7 +2003,7 @@
             "category": "ModdedEFM",
             "stream-url": null,
             "date": null,
-            "status": "notcomplete",
+            "status": "inprogress",
             "competitors": [
                 "Axwell15",
                 "Grunkle"
@@ -2104,7 +2104,86 @@
                 "Ralp",
                 "Lebossle"
             ],
-            "bombs": [],
+            "bombs": [
+              {
+                "template": "moddedStandard",
+                "type": "modpoolsA",
+                "seed": "947625",
+                "mission": "364218",
+                "rule-seed": null,
+                "times": [
+                  {
+                    "competitor": "Ralp",
+                    "time-left": "0:00.00",
+                    "strikes": 0,
+                    "solved-modules": 0,
+                    "log-link": null,
+                    "vod-link": null
+                  },
+                  {
+                    "competitor": "Lebossle",
+                    "time-left": "0:00.00",
+                    "strikes": 0,
+                    "solved-modules": 0,
+                    "log-link": null,
+                    "vod-link": null
+                  }
+                ],
+                "winner": ""
+              },
+              {
+                "template": "moddedStandard",
+                "type": "modpoolsB",
+                "seed": "1300700",
+                "mission": "513297",
+                "rule-seed": null,
+                "times": [
+                  {
+                    "competitor": "Ralp",
+                    "time-left": "0:00.00",
+                    "strikes": 0,
+                    "solved-modules": 0,
+                    "log-link": null,
+                    "vod-link": null
+                  },
+                  {
+                    "competitor": "Lebossle",
+                    "time-left": "0:00.00",
+                    "strikes": 0,
+                    "solved-modules": 0,
+                    "log-link": null,
+                    "vod-link": null
+                  }
+                ],
+                "winner": ""
+              },
+              {
+                "template": "moddedStandard",
+                "type": "modpoolsEven",
+                "seed": "9164378",
+                "mission": "717876",
+                "rule-seed": null,
+                "times": [
+                  {
+                    "competitor": "Ralp",
+                    "time-left": "0:00.00",
+                    "strikes": 0,
+                    "solved-modules": 0,
+                    "log-link": null,
+                    "vod-link": null
+                  },
+                  {
+                    "competitor": "Lebossle",
+                    "time-left": "0:00.00",
+                    "strikes": 0,
+                    "solved-modules": 0,
+                    "log-link": null,
+                    "vod-link": null
+                  }
+                ],
+                "winner": ""
+              }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
