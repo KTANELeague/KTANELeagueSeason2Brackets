@@ -2008,7 +2008,86 @@
                 "Axwell15",
                 "Grunkle"
             ],
-            "bombs": [],
+            "bombs": [
+              {
+                "template": "moddedStandard",
+                "type": "modpoolsA",
+                "seed": "1067294",
+                "mission": "716482",
+                "rule-seed": null,
+                "times": [
+                  {
+                    "competitor": "Axwell15",
+                    "time-left": "0:00.00",
+                    "strikes": 1,
+                    "solved-modules": 6,
+                    "log-link": "https://drive.google.com/open?id=1Pz4OIkC5lKVheGw42zdt3U7bVcvR1j8R",
+                    "vod-link": null
+                  },
+                  {
+                    "competitor": "Grunkle",
+                    "time-left": "0:00.00",
+                    "strikes": 0,
+                    "solved-modules": 0,
+                    "log-link": null,
+                    "vod-link": null
+                  }
+                ],
+                "winner": ""
+              },
+              {
+                "template": "moddedStandard",
+                "type": "modpoolsB",
+                "seed": "7916438",
+                "mission": "713692",
+                "rule-seed": null,
+                "times": [
+                  {
+                    "competitor": "Axwell15",
+                    "time-left": "0:33.98",
+                    "strikes": 3,
+                    "solved-modules": 4,
+                    "log-link": "https://drive.google.com/open?id=1Pz4OIkC5lKVheGw42zdt3U7bVcvR1j8R",
+                    "vod-link": null
+                  },
+                  {
+                    "competitor": "Grunkle",
+                    "time-left": "0:00.00",
+                    "strikes": 0,
+                    "solved-modules": 0,
+                    "log-link": null,
+                    "vod-link": null
+                  }
+                ],
+                "winner": ""
+              },
+              {
+                "template": "moddedStandard",
+                "type": "modpoolsEven",
+                "seed": "2946781",
+                "mission": "963700",
+                "rule-seed": null,
+                "times": [
+                  {
+                    "competitor": "Axwell15",
+                    "time-left": "0:24.39",
+                    "strikes": 3,
+                    "solved-modules": 5,
+                    "log-link": "https://drive.google.com/open?id=1Pz4OIkC5lKVheGw42zdt3U7bVcvR1j8R",
+                    "vod-link": null
+                  },
+                  {
+                    "competitor": "Grunkle",
+                    "time-left": "0:00.00",
+                    "strikes": 0,
+                    "solved-modules": 0,
+                    "log-link": null,
+                    "vod-link": null
+                  }
+                ],
+                "winner": ""
+              }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
