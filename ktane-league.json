@@ -1278,13 +1278,92 @@
       "category": "ModdedEFM",
       "stream-url": null,
       "date": null,
-      "status": "notcomplete",
+      "status": "complete",
       "competitors": [
         "Livio",
         "OdderOtter"
       ],
-      "bombs": [],
-      "winner": null,
+      "bombs": [
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsA",
+          "seed": "31608031",
+          "mission": "400079",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "Livio",
+              "time-left": "<TODO>",
+              "strikes": 3,
+              "solved-modules": 7,
+              "log-link": null,
+              "vod-link": null
+            },
+            {
+              "competitor": "OdderOtter",
+              "time-left": "<TODO>",
+              "strikes": 3,
+              "solved-modules": 9,
+              "log-link": null,
+              "vod-link": null
+            }
+          ],
+          "winner": "OdderOtter"
+        },
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsB",
+          "seed": "6450813",
+          "mission": "386412",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "Livio",
+              "time-left": "<TODO>",
+              "strikes": 3,
+              "solved-modules": 9,
+              "log-link": null,
+              "vod-link": null
+            },
+            {
+              "competitor": "OdderOtter",
+              "time-left": "1:06.41",
+              "strikes": 2,
+              "solved-modules": 10,
+              "log-link": null,
+              "vod-link": null
+            }
+          ],
+          "winner": "OdderOtter"
+        },
+        {
+          "template": "moddedStandard",
+          "type": "modpoolsEven",
+          "seed": "1097893",
+          "mission": "702087",
+          "rule-seed": null,
+          "times": [
+            {
+              "competitor": "Livio",
+              "time-left": "<TODO>",
+              "strikes": 3,
+              "solved-modules": 5,
+              "log-link": null,
+              "vod-link": null
+            },
+            {
+              "competitor": "OdderOtter",
+              "time-left": "5:22.32",
+              "strikes": 0,
+              "solved-modules": 10,
+              "log-link": null,
+              "vod-link": null
+            }
+          ],
+          "winner": "OdderOtter"
+        }
+      ],
+      "winner": "OdderOtter",
       "eliminations": null,
       "connection": null
     },
