@@ -12,16 +12,20 @@ function makeMatchCard(match, showInfo) {
     var competitors = match["competitors"].sort();
     var bombs = match["bombs"];
     var eliminations = match["eliminations"];
-    if (eliminations === undefined || eliminations === null) {
-        eliminations = [];
-    } else if (eliminations.constructor !== Array) {
-        eliminations = [eliminations];
+    if (status === "complete") {
+        if (eliminations === undefined || eliminations === null) {
+            eliminations = [];
+        } else if (eliminations.constructor !== Array) {
+            eliminations = [eliminations];
+        }
     }
     var winners = match["winner"];
-    if (winners === undefined || winners === null) {
-        winners = [];
-    } else if (winners.constructor !== Array) {
-        winners = [winners];
+    if (status === "complete") {
+        if (winners === undefined || winners === null) {
+            winners = [];
+        } else if (winners.constructor !== Array) {
+            winners = [winners];
+        }
     }
 
     var competitorType;
@@ -35,7 +39,7 @@ function makeMatchCard(match, showInfo) {
     // Get the displayed information by each name
     var displayedInfo = {};
     var showWinner = false;
-    if (status === "done" && bombs.length === 1) {
+    if (status === "complete" && bombs.length === 1) {
         showWinner = true;
         if (bombs[0]["times"][0]["time-left"] != null) {
             for (var time of bombs[0]["times"]) {
@@ -47,15 +51,17 @@ function makeMatchCard(match, showInfo) {
             }
         }
     } else {
-        showWinner = true;
         for (var competitor of competitors) {
             displayedInfo[competitor] = 0;
         }
-        for (var bomb of bombs) {
-            if (displayedInfo[bomb["winner"]] === undefined) {
-                displayedInfo[bomb["winner"]] = 1;
-            } else {
-                displayedInfo[bomb["winner"]] += 1;
+        if (status === "complete") {
+            showWinner = true;
+            for (var bomb of bombs) {
+                if (displayedInfo[bomb["winner"]] === undefined) {
+                    displayedInfo[bomb["winner"]] = 1;
+                } else {
+                    displayedInfo[bomb["winner"]] += 1;
+                }
             }
         }
     }
@@ -75,9 +81,9 @@ function makeMatchCard(match, showInfo) {
     }
     for (var competitor of competitors) {
         let row;
-        if (winners.includes(competitor)) {
+        if (status === "complete" && winners.includes(competitor)) {
             row = $("<div>", {"class": "row winner"});
-        } else if (eliminations.includes(competitor)) {
+        } else if (status === "done" && eliminations.includes(competitor)) {
             row = $("<div>", {"class": "row eliminated"});
         } else {
             row = $("<div>", {"class": "row"});
