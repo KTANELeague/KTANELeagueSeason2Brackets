@@ -1446,12 +1446,91 @@
             "category": "ModdedEFM",
             "stream-url": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "Grunkle",
                 "draket333"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": "seed",
+                    "mission": "mission",
+                    "rule-seed": null,
+                    "times": [
+                        {
+                            "competitor": "Grunkle",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "draket333",
+                            "time-left": "0:21.64",
+                            "strikes": 1,
+                            "solved-modules": 10,
+                            "log-link": "https://drive.google.com/open?id=1UipemfvZSMmc9Ocx6Qmye0jPvqpvadvn",
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": ""
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": "seed",
+                    "mission": "mission",
+                    "rule-seed": null,
+                    "times": [
+                        {
+                            "competitor": "Grunkle",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "draket333",
+                            "time-left": "6:20.80",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": "https://drive.google.com/open?id=1UipemfvZSMmc9Ocx6Qmye0jPvqpvadvn",
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": ""
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsC",
+                    "seed": "seed",
+                    "mission": "mission",
+                    "rule-seed": null,
+                    "times": [
+                        {
+                            "competitor": "Grunkle",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "draket333",
+                            "time-left": "7:38.92",
+                            "strikes": 1,
+                            "solved-modules": 10,
+                            "log-link": "https://drive.google.com/open?id=1UipemfvZSMmc9Ocx6Qmye0jPvqpvadvn",
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": ""
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
