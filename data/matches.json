@@ -706,7 +706,7 @@
             "category": "ModdedEFM",
             "stream-url": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "Axwell15",
                 "Grunkle"
@@ -802,7 +802,7 @@
             "category": "ModdedEFM",
             "stream-url": null,
             "date": null,
-            "status": "notcomplete",
+            "status": "notstarted",
             "competitors": [
                 "Ralp",
                 "Lebossle"
@@ -898,7 +898,7 @@
             "category": "ModdedEFM",
             "stream-url": null,
             "date": null,
-            "status": "notcomplete",
+            "status": "complete",
             "competitors": [
                 "draket333",
                 "numdegased"
