@@ -802,7 +802,7 @@
             "category": "ModdedEFM",
             "stream-url": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "Ralp",
                 "Lebossle"
@@ -825,10 +825,10 @@
                   },
                   {
                     "competitor": "Lebossle",
-                    "time-left": "0:00.00",
-                    "strikes": 0,
-                    "solved-modules": 0,
-                    "log-link": null,
+                    "time-left": "7:43.59",
+                    "strikes": 3,
+                    "solved-modules": 3,
+                    "log-link": "https://drive.google.com/open?id=1uoD07ASyWajAfAJiWNPxkzlNNDD9Qa6e",
                     "vod-link": null
                   }
                 ],
@@ -851,10 +851,10 @@
                   },
                   {
                     "competitor": "Lebossle",
-                    "time-left": "0:00.00",
-                    "strikes": 0,
-                    "solved-modules": 0,
-                    "log-link": null,
+                    "time-left": "0:43.71",
+                    "strikes": 1,
+                    "solved-modules": 10,
+                    "log-link": "https://drive.google.com/open?id=1uoD07ASyWajAfAJiWNPxkzlNNDD9Qa6e",
                     "vod-link": null
                   }
                 ],
@@ -879,8 +879,8 @@
                     "competitor": "Lebossle",
                     "time-left": "0:00.00",
                     "strikes": 0,
-                    "solved-modules": 0,
-                    "log-link": null,
+                    "solved-modules": 8,
+                    "log-link": "https://drive.google.com/open?id=1uoD07ASyWajAfAJiWNPxkzlNNDD9Qa6e",
                     "vod-link": null
                   }
                 ],
@@ -1514,12 +1514,91 @@
             "category": "ModdedEFM",
             "stream-url": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "Axwell15",
                 "OdderOtter"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": "seed",
+                    "mission": "mission",
+                    "rule-seed": null,
+                    "times": [
+                        {
+                            "competitor": "Axwell15",
+                            "time-left": "3:16.57",
+                            "strikes": 1,
+                            "solved-modules": 10,
+                            "log-link": "https://drive.google.com/open?id=1gZwceNNURJ8DcViPWgXGQtjquXhaBF-T",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "Team2",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": ""
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": "seed",
+                    "mission": "mission",
+                    "rule-seed": null,
+                    "times": [
+                        {
+                            "competitor": "Axwell15",
+                            "time-left": "5:58.48",
+                            "strikes": 3,
+                            "solved-modules": 9,
+                            "log-link": "https://drive.google.com/open?id=1O7eST5gUvQlALhh1artrbnTOplA18SG3",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "Team2",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": ""
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsC",
+                    "seed": "seed",
+                    "mission": "mission",
+                    "rule-seed": null,
+                    "times": [
+                        {
+                            "competitor": "Axwell15",
+                            "time-left": "3:34.69",
+                            "strikes": 1,
+                            "solved-modules": 10,
+                            "log-link": "https://drive.google.com/open?id=1O7eST5gUvQlALhh1artrbnTOplA18SG3",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "Team2",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": ""
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
