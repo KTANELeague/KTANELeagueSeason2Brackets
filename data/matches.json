@@ -167,7 +167,7 @@
                         },
 						{
                             "competitor": "Team n00b",
-                            "time-left": "0:00.00",
+                            "time-left": "1:29.88",
                             "strikes": 0,
                             "solved-modules": 0,
                             "log-link": null,
@@ -730,13 +730,13 @@
                   {
                     "competitor": "Grunkle",
                     "time-left": "0:00.00",
-                    "strikes": 0,
-                    "solved-modules": 0,
-                    "log-link": null,
+                    "strikes": 2,
+                    "solved-modules": 6,
+                    "log-link": "https://drive.google.com/open?id=1GyHoKPV9pwxQJBiw2A9exGhU3W898_ao",
                     "vod-link": null
                   }
                 ],
-                "winner": ""
+                "winner": "Axwell15"
               },
               {
                 "template": "moddedStandard",
@@ -755,14 +755,14 @@
                   },
                   {
                     "competitor": "Grunkle",
-                    "time-left": "0:00.00",
-                    "strikes": 0,
-                    "solved-modules": 0,
-                    "log-link": null,
+                    "time-left": "0:41.79",
+                    "strikes": 3,
+                    "solved-modules": 5,
+                    "log-link": "https://drive.google.com/open?id=1GyHoKPV9pwxQJBiw2A9exGhU3W898_ao",
                     "vod-link": null
                   }
                 ],
-                "winner": ""
+                "winner": "Grunkle"
               },
               {
                 "template": "moddedStandard",
@@ -781,17 +781,17 @@
                   },
                   {
                     "competitor": "Grunkle",
-                    "time-left": "0:00.00",
-                    "strikes": 0,
-                    "solved-modules": 0,
-                    "log-link": null,
+                    "time-left": "0:06.63",
+                    "strikes": 3,
+                    "solved-modules": 8,
+                    "log-link": "https://drive.google.com/open?id=1GyHoKPV9pwxQJBiw2A9exGhU3W898_ao",
                     "vod-link": null
                   }
                 ],
-                "winner": ""
+                "winner": "Grunkle"
               }
             ],
-            "winner": null,
+            "winner": "Grunkle",
             "eliminations": null,
             "connection": null
         },
