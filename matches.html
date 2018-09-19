@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/matchpage.css" />
     <script src="js/common.js"></script>
 
     <style>
@@ -29,15 +30,163 @@
     </style>
 
     <script>
-        function setupPage() {
-            console.log("Hello, world!");
+        function hashChange() {
+            setupPage(200);
         }
+
+        function setupPage(animationDuration) {
+            animationDuration = animationDuration || 0;
+            $("#match-info").hide();
+            $("#matches-page").hide();
+            $("#sidebar").empty();
+            if (/^#([A-Za-z\-0-9 ,._]+)$/.exec(decodeURI(window.location.hash))) {
+                let matchId = RegExp.$1;
+                let match = matches.filter(m => m["id"] === matchId)[0];
+                match = null; // TODO: REMOVE
+                if (match) {
+                    setupMatchInfo(match);
+                    $("#match-info").show(animationDuration);
+                    return;
+                }
+            }
+            //$("#players-page").empty();
+            setupMatchesPage();
+            $("#matches-page").show(animationDuration);
+        }
+
+        // TODO: Redo
+        function setupMatchInfo(player) {
+            $("#sidebar").append($("<a>", { href: "#", class: "fa fa-angle-left" }));
+
+            $(".player-name").text(player["name"]);
+
+            $(".player-links").empty();
+            if (player["discord"]) {
+                var discordLink = $("<a>", { href: `#${player["name"]}`, class: "btn btn-light discord" });
+                //discordLink.append($("<span>", { class: "fa fa-fire" }));
+                discordLink.append($("<img>", { src: "img/discord-icon.svg" }));
+                discordLink.append(` @${player["discord"]}`);
+                $(".player-links").append(discordLink);
+            }
+            if (player["teams"]) {
+                for (var team of player["teams"]) {
+                    var teamLink = $("<a>", { href: `teams.html#${team}`, class: "btn btn-light team" });
+                    //discordLink.append($("<span>", { class: "fa fa-fire" }));
+                    teamLink.append($("<img>", { src: "img/team-icon.svg" }));
+                    teamLink.append(` ${team}`);
+                    $(".player-links").append(teamLink);
+                }
+            }
+
+            $(".category-links").empty();
+            for (var category of player["categories"]) {
+                var ctg = categories.filter(c => c.id === category)[0];
+                $("#sidebar").append($("<button>").text(ctg["shorthand"]).click({ "player": player, "category": category }, changeCategorySelection));
+                $(".category-links").append($("<button>", { class: "btn btn-light", "data-category": category }).text(ctg["name"]).click({ "player": player, "category": category }, changeCategorySelection));
+            }
+            for (var category of player["eliminated-categories"]) {
+                var ctg = categories.filter(c => c.id === category)[0];
+                $("#sidebar").append($("<button>", { class: "eliminated" }).text(ctg["shorthand"]).click({ "player": player, "category": category }, changeCategorySelection));
+                $(".category-links").append($("<button>", { class: "btn btn-light eliminated", "data-category": category }).text(ctg["name"]).click({ "player": player, "category": category }, changeCategorySelection));
+            }
+            changeCategorySelection({ data: { "player": player, "category": $(".category-links :first-child").attr("data-category") } });
+
+            $(".player-modules").empty();
+            $(".player-module-vetos").empty();
+            if (player["modded-modules"]) {
+                $(".mod-list").show();
+                for (var module of player["modded-modules"]) {
+                    var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${encodeModuleName(module)}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-light" });
+                    moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${encodeModuleName(module)}.png`, class: "module-image" }));
+                    moduleListing.append(module);
+                    $(".mod-list .player-modules").append(moduleListing);
+                }
+                var vetos = player["vetoed-modules"];
+                for (var opponent in vetos) {
+                    var module = vetos[opponent];
+                    var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${encodeModuleName(module)}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-dark" });
+                    moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${encodeModuleName(module)}.png`, class: "module-image" }));
+                    moduleListing.append(module + " ");
+                    moduleListing.append($("<a>", { href: `players.html#${opponent}` }).text(`(against ${opponent})`));
+                    $(".mod-list .player-module-vetos").append(moduleListing);
+                }
+            } else {
+                $(".mod-list").hide();
+            }
+        }
+
+        // TODO: Redo
+        function changeCategorySelection(event) {
+            let category = event.data["category"];
+            let player = event.data["match"];
+
+            $(".category-links button").removeClass("selected");
+            $(`.category-links button[data-category~=${category}]`).addClass("selected");
+            $(".player-matches").empty();
+
+            let matchList = matches.filter(m => (m["competitors"].includes(player["name"]) || m["competitors"].some(c => player["teams"] ? player["teams"].includes(c) : false)) && m["category"] === category);
+            //matchList.sort((a, b) => a["group"] < b["group"] ? -1 : 1);
+            matchList.sort((a, b) => a["match-group"] < b["match-group"] ? -1 : 1);
+            for (var match of matchList) {
+                $(".player-matches").append(makeMatchCard(match, true));
+            }
+        }
+
+        let pageSetup = false;
+        let matchCards = [];
+        let categorySelections = {};
+        function setupMatchesPage() {
+            for (let category of categories) {
+                categorySelections[category["id"]] = true;
+                $("#sidebar").append($("<button>", { "data-category": category["id"] }).text(category["shorthand"]).click({ "category": category }, toggleSelection));
+            }
+
+            if (pageSetup) return;
+
+            for (let match of matches.sort(dynamicSort("id"))) {
+                let card = makeMatchCard(match, true);
+                $(".match-list").append(card);
+                matchCards.push([match, card]);
+            }
+
+            pageSetup = true;
+        }
+
+        function toggleSelection(event) {
+            let category = event.data["category"]["id"];
+            categorySelections[category] = !categorySelections[category];
+            for (let matchTuple of matchCards) {
+                matchTuple[1].removeClass("disabled");
+                let ctg = matchTuple[0]["category"];
+                if (categorySelections[ctg]) {
+                    continue;
+                }
+                matchTuple[1].addClass("disabled");
+            }
+            if (categorySelections[category]) {
+                $(`#sidebar [data-category=${category}]`).removeClass("disabled");
+            } else {
+                $(`#sidebar [data-category=${category}]`).addClass("disabled");
+            }
+        }
+
+        window.onhashchange = hashChange;
     </script>
 </head>
 <body data-spy="scroll" data-target=".icon-bar" data-offset="50">
     <!-- Import Navbar -->
     <div id="navbar-placeholder" class="container"></div>
 
-    <div class="check-back-later"><div class="align-middle">The match details page is currently under construction.<br />Please check again later. Sorry for the inconvenience.</div></div>
+    <div id="sidebar" class="icon-bar"></div>
+
+    <div id="match-info" class="page">
+        <div class="check-back-later"><div class="align-middle">The match details page is currently under construction.<br />Please check again later. Sorry for the inconvenience.</div></div>
+    </div>
+
+    <div id="matches-page" class="page">
+        <h1>Matches</h1>
+        <div class="match-list row"></div>
+    </div>
+
 </body>
 </html>

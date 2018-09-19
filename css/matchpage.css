@@ -1,0 +1,9 @@
+.match-list {
+    padding: 0 30px;
+}
+
+.match-list .match-card {
+    margin: 5px;
+    flex-grow: 1;
+    align-content: flex-start;
+}
