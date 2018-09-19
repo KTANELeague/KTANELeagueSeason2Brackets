@@ -1,9 +1,10 @@
 .match-list {
-    padding: 0 30px;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .match-list .match-card {
     margin: 5px;
     flex-grow: 1;
-    align-content: flex-start;
 }

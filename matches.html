@@ -143,7 +143,7 @@
 
             if (pageSetup) return;
 
-            for (let match of matches.sort(dynamicSort("id"))) {
+            for (let match of matches.sort(dynamicSort("match-group"))) {
                 let card = makeMatchCard(match, true);
                 $(".match-list").append(card);
                 matchCards.push([match, card]);
@@ -185,7 +185,7 @@
 
     <div id="matches-page" class="page">
         <h1>Matches</h1>
-        <div class="match-list row"></div>
+        <div class="match-list"></div>
     </div>
 
 </body>

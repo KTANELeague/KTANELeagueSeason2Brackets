@@ -156,6 +156,15 @@ body {
     color: #0000EE;
 }
 
+.match-card>.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.match-card .last-row {
+    margin-top: auto;
+}
+
 .bracket-week {
     padding: 0 !important;
     margin: 0 20px 0 0 !important;

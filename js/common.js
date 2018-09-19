@@ -2,8 +2,9 @@ var matchStatuses = {
     "notstarted": "Not Started",
     "notcomplete": "Not Completed",
     "complete": "Final Score",
-    "timetbd": "Time TBD"
-    // Special case for 'settime', 'inprogress'
+    "timetbd": "Time TBD",
+    "inprogress": "Match In Progress"
+    // Special case for 'settime', 'live'
 }
 
 function makeMatchCard(match, showInfo) {
@@ -92,18 +93,18 @@ function makeMatchCard(match, showInfo) {
         row.append($("<a>", {"class": "col-3 score", "href": `matches.html#${matchId}`}).text(displayedInfo[competitor]));
         cardBody.append(row);
     }
-    var row = $("<div>", {"class": "row"});
+    var row = $("<div>", {"class": "row last-row"});
     row.append($("<a>", {"class": "col-4 link", "href": `matches.html#${matchId}`}).text("Details"));
     var link = $("<a>", {"class": "col-8 date"});
     if (status in matchStatuses) {
         link.text(matchStatuses[status]);
     } else if (status === "settime") {
         link.text(match["date"]);
-    } else if (status === "inprogress") {
+    } else if (status === "live") {
         if (match["stream-url"]) {
             link.attr("href", match["stream-url"]);
         }
-        link.text("Match In Progress");
+        link.text("Currently Live");
     }
     row.append(link);
     cardBody.append(row);
