@@ -76,7 +76,7 @@ function makeMatchCard(match, showInfo) {
     var cardBody = $("<div>", { "class": "card-body container" });
     if (showInfo) {
         let row = $("<div>", { "class": "row match-info" });
-        row.append($("<a>", { "class": "col-12", "href": `matches.html#${matchId}` }).text(`${match["match-group"] || "Unsorted"} - ${match["group"] ? "Group " + match["group"] : "No Group"}`));
+        row.append($("<a>", { "class": "col-12", "href": `matches.html#${matchId}` }).text(`${match["match-group"] || "Unsorted"} - ${match["group"] ? match["group"] : "No Group"}`));
         cardBody.append(row);
     }
     for (var competitor of competitors) {
@@ -99,7 +99,7 @@ function makeMatchCard(match, showInfo) {
         link.text(matchStatuses[status]);
     } else if (status === "settime") {
         link.text(match["date"]);
-    } else if (status == "inprogress") {
+    } else if (status === "inprogress") {
         if (match["stream-url"]) {
             link.attr("href", match["stream-url"]);
         }

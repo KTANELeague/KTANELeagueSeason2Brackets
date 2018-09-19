@@ -136,7 +136,3 @@ h1 {
 .player-listing .name {
     font-weight: 500;
 }
-
-.disabled {
-    filter: opacity(30%);
-}
