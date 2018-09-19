@@ -1186,7 +1186,7 @@
             "category": "ModdedEFM",
             "stream-url": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "ZekNikZ",
                 "billybao"
@@ -1559,12 +1559,91 @@
             "category": "ModdedEFM",
             "stream-url": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "River",
                 "billybao"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": "seed",
+                    "mission": "mission",
+                    "rule-seed": null,
+                    "times": [
+                        {
+                            "competitor": "River",
+                            "time-left": "0:00.00",
+                            "strikes": 1,
+                            "solved-modules": 4,
+                            "log-link": "https://drive.google.com/file/d/1NhjN4vWT4mDN8R-A-IlH-kNgFCKsWNGY",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "billybao",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": ""
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": "seed",
+                    "mission": "mission",
+                    "rule-seed": null,
+                    "times": [
+                        {
+                            "competitor": "River",
+                            "time-left": "1:45.56",
+                            "strikes": 3,
+                            "solved-modules": 3,
+                            "log-link": "https://drive.google.com/file/d/1NhjN4vWT4mDN8R-A-IlH-kNgFCKsWNGY",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "billybao",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": ""
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsC",
+                    "seed": "seed",
+                    "mission": "mission",
+                    "rule-seed": null,
+                    "times": [
+                        {
+                            "competitor": "River",
+                            "time-left": "0:05.84",
+                            "strikes": 3,
+                            "solved-modules": 5,
+                            "log-link": "https://drive.google.com/file/d/1NhjN4vWT4mDN8R-A-IlH-kNgFCKsWNGY",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "billybao",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": ""
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
