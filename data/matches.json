@@ -1211,12 +1211,12 @@
                     "competitor": "billybao",
                     "time-left": "0:00.00",
                     "strikes": 0,
-                    "solved-modules": 0,
-                    "log-link": null,
+                    "solved-modules": 8,
+                    "log-link": "https://drive.google.com/open?id=1O3VKDa7m-sy5e_x4mtUmb0pyoNOsEn8R",
                     "vod-link": null
                   }
                 ],
-                "winner": ""
+                "winner": "billybao"
               },
               {
                 "template": "moddedStandard",
@@ -1235,14 +1235,14 @@
                   },
                   {
                     "competitor": "billybao",
-                    "time-left": "0:00.00",
-                    "strikes": 0,
-                    "solved-modules": 0,
-                    "log-link": null,
+                    "time-left": "1:59.12",
+                    "strikes": 1,
+                    "solved-modules": 10,
+                    "log-link": "https://drive.google.com/open?id=1O3VKDa7m-sy5e_x4mtUmb0pyoNOsEn8R",
                     "vod-link": null
                   }
                 ],
-                "winner": ""
+                "winner": "ZekNikZ"
               },
               {
                 "template": "moddedStandard",
@@ -1261,17 +1261,17 @@
                   },
                   {
                     "competitor": "billybao",
-                    "time-left": "0:00.00",
-                    "strikes": 0,
-                    "solved-modules": 0,
-                    "log-link": null,
+                    "time-left": "0:00.93",
+                    "strikes": 3,
+                    "solved-modules": 9,
+                    "log-link": "https://drive.google.com/open?id=1O3VKDa7m-sy5e_x4mtUmb0pyoNOsEn8R",
                     "vod-link": null
                   }
                 ],
-                "winner": ""
+                "winner": "billybao"
               }
             ],
-            "winner": null,
+            "winner": "billybao",
             "eliminations": null,
             "connection": null
         },
