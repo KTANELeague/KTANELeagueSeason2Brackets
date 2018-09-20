@@ -1287,7 +1287,35 @@
                 "DragonBourne",
                 "Main Street"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1304,7 +1332,35 @@
                 "The Odd Squad",
                 "FUN"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1321,7 +1377,35 @@
                 "Team ______",
                 "Team Ralp"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1342,80 +1426,29 @@
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsA",
-                    "seed": "seed",
-                    "mission": "mission",
+                    "seed": null,
+                    "mission": null,
                     "rule-seed": null,
-                    "times": [
-                        {
-                            "competitor": "Team1",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": null,
-                            "vod-link": null
-                        },
-                        {
-                            "competitor": "Team2",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": null,
-                            "vod-link": null
-                        }
-                    ],
-                    "winner": ""
+                    "times": [],
+                    "winner": null
                 },
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsB",
-                    "seed": "seed",
-                    "mission": "mission",
+                    "seed": null,
+                    "mission": null,
                     "rule-seed": null,
-                    "times": [
-                        {
-                            "competitor": "Team1",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": null,
-                            "vod-link": null
-                        },
-                        {
-                            "competitor": "Team2",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": null,
-                            "vod-link": null
-                        }
-                    ],
-                    "winner": ""
+                    "times": [],
+                    "winner": null
                 },
                 {
                     "template": "moddedStandard",
-                    "type": "modpoolsC",
-                    "seed": "seed",
-                    "mission": "mission",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
                     "rule-seed": null,
-                    "times": [
-                        {
-                            "competitor": "Team1",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": null,
-                            "vod-link": null
-                        },
-                        {
-                            "competitor": "Team2",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": null,
-                            "vod-link": null
-                        }
-                    ],
-                    "winner": ""
+                    "times": [],
+                    "winner": null
                 }
             ],
             "winner": "",
@@ -1434,7 +1467,35 @@
                 "ZekNikZ",
                 "numdegased"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1547,7 +1608,35 @@
                 "Ralp",
                 "Livio"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1660,7 +1749,35 @@
                 "Lebossle",
                 "elias5891"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1773,7 +1890,35 @@
                 "Team Ralp",
                 "The Dream Team"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1790,7 +1935,35 @@
                 "FUN",
                 "Team ______"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1807,7 +1980,35 @@
                 "Main Street",
                 "The Odd Squad"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1824,7 +2025,35 @@
                 "DragonBourne",
                 "Four Two"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1841,7 +2070,35 @@
                 "billybao",
                 "Ralp"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1858,7 +2115,35 @@
                 "Lebossle",
                 "Grunkle"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1875,7 +2160,35 @@
                 "Axwell15",
                 "draket333"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1892,7 +2205,35 @@
                 "ZekNikZ",
                 "Livio"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1909,7 +2250,35 @@
                 "River",
                 "numdegased"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1926,7 +2295,35 @@
                 "elias5891",
                 "OdderOtter"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1943,7 +2340,35 @@
                 "Team Ralp",
                 "Main Street"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1960,7 +2385,35 @@
                 "FUN",
                 "The Dream Team"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1977,7 +2430,35 @@
                 "DragonBourne",
                 "The Odd Squad"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -1994,7 +2475,35 @@
                 "Four Two",
                 "Team ______"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -2011,7 +2520,35 @@
                 "Team ______",
                 "The Dream Team"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -2028,7 +2565,35 @@
                 "Four Two",
                 "Main Street"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -2045,7 +2610,35 @@
                 "FUN",
                 "DragonBourne"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -2062,7 +2655,35 @@
                 "Team Ralp",
                 "The Odd Squad"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -2079,7 +2700,35 @@
                 "The Odd Squad",
                 "Four Two"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -2096,7 +2745,35 @@
                 "The Dream Team",
                 "DragonBourne"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -2113,7 +2790,35 @@
                 "Main Street",
                 "Team ______"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -2130,7 +2835,35 @@
                 "Team Ralp",
                 "FUN"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -2147,7 +2880,35 @@
                 "Main Street",
                 "The Dream Team"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -2164,7 +2925,35 @@
                 "Team ______",
                 "The Odd Squad"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -2181,7 +2970,35 @@
                 "FUN",
                 "Four Two"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
@@ -2198,7 +3015,35 @@
                 "Team Ralp",
                 "DragonBourne"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
             "winner": null,
             "eliminations": null,
             "connection": null
