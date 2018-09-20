@@ -90,3 +90,73 @@
     font-style: italic;
     color: gray;
 }
+/*
+.mod-list {
+    width: 95%;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media(max-width: 767px) {
+    .mod-list {
+        margin-bottom: 65px;
+    }
+}
+
+@media(min-width: 768px) {
+    .mod-list {
+        margin-bottom: 20px;
+    }
+}
+*/
+.bomb-module-pools .module-image {
+    float: left;
+    margin-right: 4px;
+    margin: auto 4px auto 0;
+}
+
+.bomb-module-pools .module-listing {
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin: 1px auto;
+    padding: 2px;
+}
+
+.bomb-module-pools .module-listing:hover {
+    text-decoration: none;
+}
+
+.player-modules .module-listing {
+    color: black;
+}
+
+.player-module-vetos .module-listing {
+    color: white;
+}
+
+.module-listing a {
+    color: lightgray;
+    font-style: italic;
+}
+
+.header {
+    text-align: center;
+    color: gray;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.bomb-results {
+    overflow: hidden;
+}
+
+.bomb-results .info-hidden {
+    text-align: center;
+    font-size: 300%;
+    font-style: italic;
+    color: gray;
+    background-color: #eeeeee;
+    padding-top: 20px;
+    height: 100%;
+}

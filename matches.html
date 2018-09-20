@@ -231,6 +231,7 @@
             let bombTemplateId = bomb["template"];
             let bombTemplate = bombTemplates.filter(bt => bt.id == bombTemplateId)[0];
 
+            // Bomb Info
             let row1 = $("<div>", {class: "row"});
             let row2 = $("<div>", {class: "row"});
             row1.append($("<div>", {class: "col-6 col-md-3 info"}).text(bombTemplate["time"]));
@@ -238,7 +239,7 @@
             row1.append($("<div>", {class: "col-6 col-md-3 info"}).text(`${bombTemplate["widgets"]} widgets`));
             row1.append($("<div>", {class: "col-6 col-md-3 info"}).text(`${bombTemplate["modules"]} modules`));
 
-            if (status === "done") {
+            if (match["status"] === "complete") {
                 if (bomb["rule-seed"]) {
                     row2.append($("<div>", {class: "col-6 col-md-4 info"}).text(`Seed: ${bomb["seed"]}`));
                     row2.append($("<div>", {class: "col-6 col-md-4 info"}).text(`Rule Seed: ${bomb["rule-seed"]}`));
@@ -253,6 +254,48 @@
 
             $(".bomb-info").append(row1);
             $(".bomb-info").append(row2);
+
+            // Component Pools
+            $(".bomb-module-pools").empty();
+            $(".bomb-module-pools").append($("<h1>").text("Module Pools"));
+
+            let bombType = bomb["type"];
+
+            if (bombType === "custom") {
+                // TODO: Do something
+            } else {
+                let competitorType;
+                for (let category of categories) {
+                    if (category["id"] === match["category"]) {
+                        competitorType = category["participant-type"];
+                        break;
+                    }
+                }
+
+                let competitorList = competitorType === "player" ? players : teams;
+
+                let moduleDist = bombType === "modpoolsA" ? 0.7 : bombType === "modpoolsB" ? 0.3 : 0.5;
+                for (let i = 0; i < 2; i++) {
+                    let competitor = match["competitors"][i];
+                    let other = match["competitors"][1-i];
+                    let modList = $("<div>", {class: "module-pool row"});
+                    modList.append($("<h4>", {class: "header col-12"}).text(`${Math.round((i === 0 ? moduleDist : 1 - moduleDist) * bombTemplate["modules"])} from...`));
+                    let veto = competitorList.filter(c => c.name === other)[0]["vetoed-modules"][competitor];
+                    for (var module of competitorList.filter(c => c.name === competitor)[0]["modded-modules"]) {
+                        if (module === veto) continue;
+                        var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${encodeModuleName(module)}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-light" });
+                        moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${encodeModuleName(module)}.png`, class: "module-image" }));
+                        moduleListing.append(module);
+                        modList.append(moduleListing);
+                    }
+                    $(".bomb-module-pools").append(modList);
+                }   
+            }
+
+            // Results
+            $(".bomb-results").empty();
+            $(".bomb-results").append($("<h1>").text("Results"));
+            $(".bomb-results").append($("<div>", {class: "info-hidden"}).text("Results Hidden"));
         }
 
         let pageSetup = false;
