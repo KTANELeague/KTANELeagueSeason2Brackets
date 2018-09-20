@@ -53,3 +53,17 @@
         display: none;
     }
 }
+
+.bomb-links button {
+    font-size: 20px;
+    background-color: #e4e4e4;
+}
+
+.bomb-links button.selected{
+    font-size: 20px;
+    background-color: lightgray;
+}
+
+#twitch-embed {
+    text-align: center;
+}

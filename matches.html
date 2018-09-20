@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brackets</title>
+    <title>Matches</title>
 
     <!-- Bootstrap and jQuery -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
 
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/matchpage.css" />
@@ -39,6 +40,7 @@
             $("#matches-page").hide();
             $("#match-info").hide();
             $("#sidebar").empty();
+            $("#twitch-embed").empty();
             if (/^#([A-Za-z\-0-9 ,._]+)$/.exec(decodeURI(window.location.hash))) {
                 let matchId = RegExp.$1;
                 console.log(matchId);
@@ -103,6 +105,23 @@
                 $(".competitor-list").append($("<h2>", {class: "competitor-name"}).html(`<a href="${competitorType}s.html#${competitor}">${competitor}</a>${(showWinner && winners.includes(competitor)) ? ' <i class="fa fa-trophy"></i>' : ""}`));
             }
 
+            $(".bomb-links").empty();
+            let bombNum = 0;
+            for (let bomb of match["bombs"]) {
+                $("#sidebar").append($("<button>").text(`B${++bombNum}`).click({ "match": match, "bomb": bomb, "bombNum": bombNum }, changeBombSelection));
+                $(".bomb-links").append($("<button>", { class: "btn btn-light", "data-bomb": bombNum }).text(`Bomb ${bombNum}`).click({ "match": match, "bomb": bomb, "bombNum": bombNum }, changeBombSelection));
+            }
+
+            let streamChannel = match["stream-channel"];
+            if (streamChannel) {
+                let options = {
+                    channel: streamChannel,
+                    layout: "video"
+                };
+                let player = new Twitch.Player("twitch-embed", options);
+                player.setVolume(0.5);
+            }
+
             /*$(".player-name").text(player["name"]);
 
             $(".player-links").empty();
@@ -161,20 +180,13 @@
         }
 
         // TODO: Redo
-        function changeCategorySelection(event) {
-            let category = event.data["category"];
-            let player = event.data["match"];
+        function changeBombSelection(event) {
+            let match = event.data["match"];
+            let bomb = event.data["bomb"];
+            let bombNum = event.data["bombNum"];
 
-            $(".category-links button").removeClass("selected");
-            $(`.category-links button[data-category~=${category}]`).addClass("selected");
-            $(".player-matches").empty();
-
-            let matchList = matches.filter(m => (m["competitors"].includes(player["name"]) || m["competitors"].some(c => player["teams"] ? player["teams"].includes(c) : false)) && m["category"] === category);
-            //matchList.sort((a, b) => a["group"] < b["group"] ? -1 : 1);
-            matchList.sort((a, b) => a["match-group"] < b["match-group"] ? -1 : 1);
-            for (var match of matchList) {
-                $(".player-matches").append(makeMatchCard(match, true));
-            }
+            $(".bomb-links button").removeClass("selected");
+            $(`.bomb-links button[data-bomb~=${bombNum}]`).addClass("selected");
         }
 
         let pageSetup = false;
@@ -228,6 +240,25 @@
         <h1 class="match-name"></h1>
         <h1 class="match-name-id"></h1>
         <div class="competitor-list"></div>
+
+        <div class="text-center">
+            <div id="twitch-embed"></div>
+        </div>
+
+        <div class="text-center">
+            <div class="bomb-links btn-group d-none d-sm-block" role="group"></div>
+            <div class="bomb-links btn-group-vertical d-sm-none" role="group"></div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 bomb-info"></div>
+            </div>
+            <div class="row">
+                <div class="col-6 bomb-module-pools"></div>
+                <div class="col-6 bomb-results"></div>
+            </div>
+        </div>
     </div>
 
     <div id="matches-page" class="page">
