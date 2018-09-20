@@ -217,16 +217,21 @@
 
             changeBombSelection({ data: { "match": match, "bomb": bombs[0], "bombNum": 1 } });
         }
-
+        
         function changeBombSelection(event) {
             let match = event.data["match"];
             let bomb = event.data["bomb"];
             let bombNum = event.data["bombNum"];
 
+            $(".bomb-info").empty();
+            $(".bomb-module-pools").empty();
+            $(".bomb-results").empty();
+
+            if (bomb === null || bomb === undefined) return;
+
             $(".bomb-links button").removeClass("selected");
             $(`.bomb-links button[data-bomb~=${bombNum}]`).addClass("selected");
 
-            $(".bomb-info").empty();
 
             let bombTemplateId = bomb["template"];
             let bombTemplate = bombTemplates.filter(bt => bt.id == bombTemplateId)[0];
@@ -264,7 +269,6 @@
             $(".bomb-info").append(row2);
 
             // Component Pools
-            $(".bomb-module-pools").empty();
             $(".bomb-module-pools").append($("<h1>").text("Module Pools"));
 
             let bombType = bomb["type"];
@@ -309,7 +313,6 @@
             } else if (winners.constructor !== Array) {
                 winners = [winners];
             }
-            $(".bomb-results").empty();
             $(".bomb-results").append($("<h1>").text("Results"));
             if (match["status"] === "complete") {
                 for (let time of bomb["times"]) {
