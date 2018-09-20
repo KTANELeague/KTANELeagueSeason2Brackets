@@ -262,7 +262,17 @@
             let bombType = bomb["type"];
 
             if (bombType === "custom") {
-                // TODO: Do something
+                for (let modPool of bombTemplate["module-pools"]) {
+                    let modList = $("<div>", {class: "module-pool row"});
+                    modList.append($("<h4>", {class: "header col-12"}).text(`${modPool["count"]} from...`));
+                    for (var module of modPool["modules"]) {
+                        var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${encodeModuleName(module)}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-light" });
+                        moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${encodeModuleName(module)}.png`, class: "module-image" }));
+                        moduleListing.append(module);
+                        modList.append(moduleListing);
+                    }
+                    $(".bomb-module-pools").append(modList);
+                }
             } else {
                 let competitorType;
                 for (let category of categories) {
