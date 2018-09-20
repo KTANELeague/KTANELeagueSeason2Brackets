@@ -5,7 +5,7 @@
             "match-group": "Week 1",
             "group": "Bomb 1",
             "category": "VanillaTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "inprogress",
             "competitors": [
@@ -111,7 +111,7 @@
             "match-group": "Week 1",
             "group": "Bomb 2",
             "category": "VanillaTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "inprogress",
             "competitors": [
@@ -217,7 +217,7 @@
             "match-group": "Week 1",
             "group": "Elimination",
             "category": "VanillaTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "inprogress",
             "competitors": [
@@ -260,7 +260,7 @@
             "match-group": "Week 2",
             "group": "Bomb 1",
             "category": "VanillaTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -282,7 +282,7 @@
             "match-group": "Week 2",
             "group": "Bomb 2",
             "category": "VanillaTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -304,7 +304,7 @@
             "match-group": "Week 2",
             "group": "Bomb 3",
             "category": "VanillaTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -320,7 +320,7 @@
             "match-group": "Week 1",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "complete",
             "competitors": [
@@ -416,7 +416,7 @@
             "match-group": "Week 1",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "complete",
             "competitors": [
@@ -512,7 +512,7 @@
             "match-group": "Week 1",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "inprogress",
             "competitors": [
@@ -608,7 +608,7 @@
             "match-group": "Week 1",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "inprogress",
             "competitors": [
@@ -704,7 +704,7 @@
             "match-group": "Week 1",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "complete",
             "competitors": [
@@ -800,7 +800,7 @@
             "match-group": "Week 1",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "inprogress",
             "competitors": [
@@ -896,7 +896,7 @@
             "match-group": "Week 1",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "complete",
             "competitors": [
@@ -992,7 +992,7 @@
             "match-group": "Week 1",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "complete",
             "competitors": [
@@ -1088,7 +1088,7 @@
             "match-group": "Week 1",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "complete",
             "competitors": [
@@ -1184,7 +1184,7 @@
             "match-group": "Week 1",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "complete",
             "competitors": [
@@ -1280,7 +1280,7 @@
             "match-group": "Week 2",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1297,7 +1297,7 @@
             "match-group": "Week 2",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1314,7 +1314,7 @@
             "match-group": "Week 2",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1331,7 +1331,7 @@
             "match-group": "Week 2",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1427,7 +1427,7 @@
             "match-group": "Week 2",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1444,7 +1444,7 @@
             "match-group": "Week 2",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "inprogress",
             "competitors": [
@@ -1540,7 +1540,7 @@
             "match-group": "Week 2",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1557,7 +1557,7 @@
             "match-group": "Week 2",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "inprogress",
             "competitors": [
@@ -1653,7 +1653,7 @@
             "match-group": "Week 2",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1670,7 +1670,7 @@
             "match-group": "Week 2",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "inprogress",
             "competitors": [
@@ -1766,7 +1766,7 @@
             "match-group": "Week 3",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1783,7 +1783,7 @@
             "match-group": "Week 3",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1800,7 +1800,7 @@
             "match-group": "Week 3",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1817,7 +1817,7 @@
             "match-group": "Week 3",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1834,7 +1834,7 @@
             "match-group": "Week 3",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1851,7 +1851,7 @@
             "match-group": "Week 3",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1868,7 +1868,7 @@
             "match-group": "Week 3",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1885,7 +1885,7 @@
             "match-group": "Week 3",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1902,7 +1902,7 @@
             "match-group": "Week 3",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1919,7 +1919,7 @@
             "match-group": "Week 3",
             "group": null,
             "category": "ModdedEFM",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1936,7 +1936,7 @@
             "match-group": "Week 4",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1953,7 +1953,7 @@
             "match-group": "Week 4",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1970,7 +1970,7 @@
             "match-group": "Week 4",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -1987,7 +1987,7 @@
             "match-group": "Week 4",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -2004,7 +2004,7 @@
             "match-group": "Week 5",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -2021,7 +2021,7 @@
             "match-group": "Week 5",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -2038,7 +2038,7 @@
             "match-group": "Week 5",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -2055,7 +2055,7 @@
             "match-group": "Week 5",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -2072,7 +2072,7 @@
             "match-group": "Week 6",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -2089,7 +2089,7 @@
             "match-group": "Week 6",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -2106,7 +2106,7 @@
             "match-group": "Week 6",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -2123,7 +2123,7 @@
             "match-group": "Week 6",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -2140,7 +2140,7 @@
             "match-group": "Week 7",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -2157,7 +2157,7 @@
             "match-group": "Week 7",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -2174,7 +2174,7 @@
             "match-group": "Week 7",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
@@ -2191,7 +2191,7 @@
             "match-group": "Week 7",
             "group": null,
             "category": "ModdedTeam",
-            "stream-url": null,
+            "stream-channel": null,
             "date": null,
             "status": "notstarted",
             "competitors": [
