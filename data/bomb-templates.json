@@ -2,9 +2,10 @@
     "bomb-templates": [
         {
             "id": "moddedStandard",
-            "time": 900,
+            "time": "15:00",
             "strikes": 3,
             "widgets": 5,
+            "modules": 10,
             "pacing-events": false,
             "module-pools": []
         }
