@@ -160,3 +160,15 @@
     padding-top: 20px;
     height: 100%;
 }
+
+.match-result {
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin: 1px auto;
+    padding: 2px;
+}
+
+.match-result .competitor a {
+    color: #212529 !important;
+}

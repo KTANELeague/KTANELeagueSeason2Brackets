@@ -231,6 +231,14 @@
             let bombTemplateId = bomb["template"];
             let bombTemplate = bombTemplates.filter(bt => bt.id == bombTemplateId)[0];
 
+            let competitorType;
+            for (let category of categories) {
+                if (category["id"] === match["category"]) {
+                    competitorType = category["participant-type"];
+                    break;
+                }
+            }
+
             // Bomb Info
             let row1 = $("<div>", {class: "row"});
             let row2 = $("<div>", {class: "row"});
@@ -274,14 +282,6 @@
                     $(".bomb-module-pools").append(modList);
                 }
             } else {
-                let competitorType;
-                for (let category of categories) {
-                    if (category["id"] === match["category"]) {
-                        competitorType = category["participant-type"];
-                        break;
-                    }
-                }
-
                 let competitorList = competitorType === "player" ? players : teams;
 
                 let moduleDist = bombType === "modpoolsA" ? 0.7 : bombType === "modpoolsB" ? 0.3 : 0.5;
@@ -303,9 +303,27 @@
             }
 
             // Results
+            let winners = match["winner"];
+            if (winners === undefined || winners === null) {
+                winners = [];
+            } else if (winners.constructor !== Array) {
+                winners = [winners];
+            }
             $(".bomb-results").empty();
             $(".bomb-results").append($("<h1>").text("Results"));
-            $(".bomb-results").append($("<div>", {class: "info-hidden"}).text("Results Hidden"));
+            if (match["status"] === "complete") {
+                for (let time of bomb["times"]) {
+                    let competitor = time["competitor"];
+                    let matchResult = $("<div>", {class: "match-result row"});
+                    matchResult.append($("<div>", {class: "col-12 competitor"}).html(`<a href="${competitorType}s.html#${competitor}">${competitor} ${bomb["winner"] === competitor ? ' <i class="fa fa-trophy"></i>' : ""}</a>`));
+                    matchResult.append($("<div>", {class: "col-4"}).html(`${time["time-left"]}`));
+                    matchResult.append($("<div>", {class: "col-4"}).html(`${time["strikes"]} strikes`));
+                    matchResult.append($("<div>", {class: "col-4"}).html(`${time["solved-modules"]}/${bombTemplate["modules"]} modules`));
+                    $(".bomb-results").append(matchResult);
+                }
+            } else {
+                $(".bomb-results").append($("<div>", {class: "info-hidden"}).text("Results Hidden"));
+            }
         }
 
         let pageSetup = false;
