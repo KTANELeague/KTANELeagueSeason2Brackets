@@ -8,6 +8,35 @@
             "modules": 10,
             "pacing-events": false,
             "module-pools": []
+        },
+        {
+            "id": "vanillaStandard",
+            "time": "15:00",
+            "strikes": 3,
+            "widgets": 5,
+            "modules": 11,
+            "pacing-events": false,
+            "module-pools": [
+                {
+                    "count": 11,
+                    "modules": [
+                        "Capacitor Discharge",
+                        "Complicated Wires",
+                        "Keypad",
+                        "Knob",
+                        "Maze",
+                        "Memory",
+                        "Morse Code",
+                        "Password",
+                        "Simon Says",
+                        "The Button",
+                        "Venting Gas",
+                        "Who's on First",
+                        "Wire Sequence",
+                        "Wires"
+                    ]
+                }
+            ]
         }
     ]
 }
