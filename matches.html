@@ -261,7 +261,7 @@
 
             let bombType = bomb["type"];
 
-            if (bombType === "custom") {
+            if (bombType === "custom" || bombType === null) {
                 for (let modPool of bombTemplate["module-pools"]) {
                     let modList = $("<div>", {class: "module-pool row"});
                     modList.append($("<h4>", {class: "header col-12"}).text(`${modPool["count"]} from...`));
