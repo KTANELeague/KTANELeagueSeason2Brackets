@@ -43,10 +43,105 @@
             $("#twitch-embed").empty();
             if (/^#([A-Za-z\-0-9 ,._]+)$/.exec(decodeURI(window.location.hash))) {
                 let matchId = RegExp.$1;
-                console.log(matchId);
                 let match = matches.filter(m => m["id"] === matchId)[0];
-                console.log(match);
-                //match = null; // TODO: REMOVE
+                if (matchId === "TEST") {
+                    match = {
+                        "id": "MI1X-F",
+                        "match-group": "Week 1",
+                        "group": null,
+                        "category": "ModdedEFM",
+                        "stream-channel": "monstercat",
+                        "date": null,
+                        "status": "live",
+                        "competitors": [
+                            "ZekNikZ",
+                            "billybao"
+                        ],
+                        "bombs": [
+                        {
+                            "template": "moddedStandard",
+                            "type": "modpoolsA",
+                            "seed": "4197321",
+                            "mission": "861204",
+                            "rule-seed": null,
+                            "times": [
+                            {
+                                "competitor": "ZekNikZ",
+                                "time-left": "0:00.00",
+                                "strikes": 2,
+                                "solved-modules": 7,
+                                "log-link": "https://drive.google.com/open?id=1JxsfCWbJmvfpjXGoKrRfB6rsj22rx5DS",
+                                "vod-link": null
+                            },
+                            {
+                                "competitor": "billybao",
+                                "time-left": "0:00.00",
+                                "strikes": 0,
+                                "solved-modules": 8,
+                                "log-link": "https://drive.google.com/open?id=1O3VKDa7m-sy5e_x4mtUmb0pyoNOsEn8R",
+                                "vod-link": null
+                            }
+                            ],
+                            "winner": "billybao"
+                        },
+                        {
+                            "template": "moddedStandard",
+                            "type": "modpoolsB",
+                            "seed": "1973052",
+                            "mission": "813219",
+                            "rule-seed": null,
+                            "times": [
+                            {
+                                "competitor": "ZekNikZ",
+                                "time-left": "2:48.95",
+                                "strikes": 2,
+                                "solved-modules": 10,
+                                "log-link": "https://drive.google.com/open?id=1JxsfCWbJmvfpjXGoKrRfB6rsj22rx5DS",
+                                "vod-link": null
+                            },
+                            {
+                                "competitor": "billybao",
+                                "time-left": "1:59.12",
+                                "strikes": 1,
+                                "solved-modules": 10,
+                                "log-link": "https://drive.google.com/open?id=1O3VKDa7m-sy5e_x4mtUmb0pyoNOsEn8R",
+                                "vod-link": null
+                            }
+                            ],
+                            "winner": "ZekNikZ"
+                        },
+                        {
+                            "template": "moddedStandard",
+                            "type": "modpoolsEven",
+                            "seed": "318",
+                            "mission": "986471",
+                            "rule-seed": null,
+                            "times": [
+                            {
+                                "competitor": "ZekNikZ",
+                                "time-left": "1:00.26",
+                                "strikes": 3,
+                                "solved-modules": 7,
+                                "log-link": "https://drive.google.com/open?id=1JxsfCWbJmvfpjXGoKrRfB6rsj22rx5DS",
+                                "vod-link": null
+                            },
+                            {
+                                "competitor": "billybao",
+                                "time-left": "0:00.93",
+                                "strikes": 3,
+                                "solved-modules": 9,
+                                "log-link": "https://drive.google.com/open?id=1O3VKDa7m-sy5e_x4mtUmb0pyoNOsEn8R",
+                                "vod-link": null
+                            }
+                            ],
+                            "winner": "billybao"
+                        }
+                        ],
+                        "winner": "billybao",
+                        "eliminations": null,
+                        "connection": null
+                    };
+                }
                 if (match) {
                     setupMatchInfo(match);
                     $("#match-info").show(animationDuration);
@@ -58,16 +153,14 @@
             $("#matches-page").show(animationDuration);
         }
 
-        // TODO: Redo
         function setupMatchInfo(match) {
-            console.log(match);
-
             $("#sidebar").append($("<a>", { href: "#", class: "fa fa-angle-left" }));
 
             let competitors = match["competitors"];
             let winners = match["winner"];
             let status = match["status"];
             let matchCategory = match["category"];
+            let bombs = match["bombs"];
 
             let competitorType;
             for (let category of categories) {
@@ -107,13 +200,13 @@
 
             $(".bomb-links").empty();
             let bombNum = 0;
-            for (let bomb of match["bombs"]) {
+            for (let bomb of bombs) {
                 $("#sidebar").append($("<button>").text(`B${++bombNum}`).click({ "match": match, "bomb": bomb, "bombNum": bombNum }, changeBombSelection));
                 $(".bomb-links").append($("<button>", { class: "btn btn-light", "data-bomb": bombNum }).text(`Bomb ${bombNum}`).click({ "match": match, "bomb": bomb, "bombNum": bombNum }, changeBombSelection));
             }
 
             let streamChannel = match["stream-channel"];
-            if (streamChannel) {
+            if (status === "live" && streamChannel) {
                 let options = {
                     channel: streamChannel,
                     layout: "video"
@@ -122,64 +215,9 @@
                 player.setVolume(0.5);
             }
 
-            /*$(".player-name").text(player["name"]);
-
-            $(".player-links").empty();
-            if (player["discord"]) {
-                var discordLink = $("<a>", { href: `#${player["name"]}`, class: "btn btn-light discord" });
-                //discordLink.append($("<span>", { class: "fa fa-fire" }));
-                discordLink.append($("<img>", { src: "img/discord-icon.svg" }));
-                discordLink.append(` @${player["discord"]}`);
-                $(".player-links").append(discordLink);
-            }
-            if (player["teams"]) {
-                for (var team of player["teams"]) {
-                    var teamLink = $("<a>", { href: `teams.html#${team}`, class: "btn btn-light team" });
-                    //discordLink.append($("<span>", { class: "fa fa-fire" }));
-                    teamLink.append($("<img>", { src: "img/team-icon.svg" }));
-                    teamLink.append(` ${team}`);
-                    $(".player-links").append(teamLink);
-                }
-            }
-
-            $(".category-links").empty();
-            for (var category of player["categories"]) {
-                var ctg = categories.filter(c => c.id === category)[0];
-                $("#sidebar").append($("<button>").text(ctg["shorthand"]).click({ "player": player, "category": category }, changeCategorySelection));
-                $(".category-links").append($("<button>", { class: "btn btn-light", "data-category": category }).text(ctg["name"]).click({ "player": player, "category": category }, changeCategorySelection));
-            }
-            for (var category of player["eliminated-categories"]) {
-                var ctg = categories.filter(c => c.id === category)[0];
-                $("#sidebar").append($("<button>", { class: "eliminated" }).text(ctg["shorthand"]).click({ "player": player, "category": category }, changeCategorySelection));
-                $(".category-links").append($("<button>", { class: "btn btn-light eliminated", "data-category": category }).text(ctg["name"]).click({ "player": player, "category": category }, changeCategorySelection));
-            }
-            changeCategorySelection({ data: { "player": player, "category": $(".category-links :first-child").attr("data-category") } });
-
-            $(".player-modules").empty();
-            $(".player-module-vetos").empty();
-            if (player["modded-modules"]) {
-                $(".mod-list").show();
-                for (var module of player["modded-modules"]) {
-                    var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${encodeModuleName(module)}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-light" });
-                    moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${encodeModuleName(module)}.png`, class: "module-image" }));
-                    moduleListing.append(module);
-                    $(".mod-list .player-modules").append(moduleListing);
-                }
-                var vetos = player["vetoed-modules"];
-                for (var opponent in vetos) {
-                    var module = vetos[opponent];
-                    var moduleListing = $("<a>", { href: `https://ktane.timwi.de/HTML/${encodeModuleName(module)}.html`, class: "module-listing col-12 col-md-6 col-lg-6 col-xl-6 bg-dark" });
-                    moduleListing.append($("<img>", { src: `https://ktane.timwi.de/Icons/${encodeModuleName(module)}.png`, class: "module-image" }));
-                    moduleListing.append(module + " ");
-                    moduleListing.append($("<a>", { href: `players.html#${opponent}` }).text(`(against ${opponent})`));
-                    $(".mod-list .player-module-vetos").append(moduleListing);
-                }
-            } else {
-                $(".mod-list").hide();
-            }*/
+            changeBombSelection({ data: { "match": match, "bomb": bombs[0], "bombNum": 1 } });
         }
 
-        // TODO: Redo
         function changeBombSelection(event) {
             let match = event.data["match"];
             let bomb = event.data["bomb"];
@@ -187,6 +225,34 @@
 
             $(".bomb-links button").removeClass("selected");
             $(`.bomb-links button[data-bomb~=${bombNum}]`).addClass("selected");
+
+            $(".bomb-info").empty();
+
+            let bombTemplateId = bomb["template"];
+            let bombTemplate = bombTemplates.filter(bt => bt.id == bombTemplateId)[0];
+
+            let row1 = $("<div>", {class: "row"});
+            let row2 = $("<div>", {class: "row"});
+            row1.append($("<div>", {class: "col-6 col-md-3 info"}).text(bombTemplate["time"]));
+            row1.append($("<div>", {class: "col-6 col-md-3 info"}).text(`${bombTemplate["strikes"]} strikes`));
+            row1.append($("<div>", {class: "col-6 col-md-3 info"}).text(`${bombTemplate["widgets"]} widgets`));
+            row1.append($("<div>", {class: "col-6 col-md-3 info"}).text(`${bombTemplate["modules"]} modules`));
+
+            if (status === "done") {
+                if (bomb["rule-seed"]) {
+                    row2.append($("<div>", {class: "col-6 col-md-4 info"}).text(`Seed: ${bomb["seed"]}`));
+                    row2.append($("<div>", {class: "col-6 col-md-4 info"}).text(`Rule Seed: ${bomb["rule-seed"]}`));
+                    row2.append($("<div>", {class: "col-12 col-md-4 info"}).text(`Mission Name: ${bomb["mission"]}`));
+                } else {
+                    row2.append($("<div>", {class: "col-6 info"}).text(`Seed: ${bomb["seed"]}`));
+                    row2.append($("<div>", {class: "col-6 info"}).text(`Mission Name: ${bomb["mission"]}`));
+                }
+            } else {
+                row2.append($("<div>", {class: "col-12 info-hidden"}).text(`Mission Information Hidden`));
+            }
+
+            $(".bomb-info").append(row1);
+            $(".bomb-info").append(row2);
         }
 
         let pageSetup = false;

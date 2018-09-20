@@ -160,6 +160,7 @@ var categories;
 var matches;
 var players;
 var teams;
+var bombTemplates;
 
 $(function(){
     // Load navbar
@@ -177,7 +178,7 @@ $(function(){
     );
     */
 
-    var dataCount = 4;
+    var dataCount = 5;
     $.getJSON("https://raw.githubusercontent.com/KTANECommunity/KTANELeagueSeason2Brackets/master/data/players.json").then(function(data, status, jqXHR) {
         players = data["players"];
         if (--dataCount === 0) setupPage();
@@ -192,6 +193,10 @@ $(function(){
     });
     $.getJSON("https://raw.githubusercontent.com/KTANECommunity/KTANELeagueSeason2Brackets/master/data/matches.json").then(function(data, status, jqXHR) {
         matches = data["matches"];
+        if (--dataCount === 0) setupPage();
+    });
+    $.getJSON("https://raw.githubusercontent.com/KTANECommunity/KTANELeagueSeason2Brackets/master/data/bomb-templates.json").then(function(data, status, jqXHR) {
+        bombTemplates = data["bomb-templates"];
         if (--dataCount === 0) setupPage();
     });
 });

@@ -67,3 +67,26 @@
 #twitch-embed {
     text-align: center;
 }
+
+.flexbox {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+}
+
+.bomb-info {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.bomb-info .info, .bomb-info .info-hidden {
+    text-align: center;
+    font-size: 150%;
+}
+
+.bomb-info .info-hidden {
+    font-style: italic;
+    color: gray;
+}
