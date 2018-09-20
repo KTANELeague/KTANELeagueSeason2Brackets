@@ -8,3 +8,48 @@
     margin: 5px;
     flex-grow: 1;
 }
+
+.match-name {
+    font-size: 400%;
+    margin-top: 76px;
+}
+
+.match-name a,.competitor-list a {
+    color: #212529 !important;
+}
+
+.match-name.hidden+.match-name-id {
+    font-size: 400%;
+    margin-top: 76px;
+}
+
+.competitor-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.competitor-list .competitor-name {
+    flex-grow: 1;
+    margin: 5px;
+    text-align: center;
+}
+
+@media(max-width: 767px) {
+    .match-name {
+        display: none;
+    }
+    .match-name-id {
+        font-size: 400%;
+        margin-top: 76px;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+@media(min-width: 768px) {
+    .competitor-list.partial-hidden {
+        display: none;
+    }
+}

@@ -10,7 +10,7 @@ var matchStatuses = {
 function makeMatchCard(match, showInfo) {
     var matchId = match["id"];
     var status = match["status"];
-    var competitors = match["competitors"].sort();
+    var competitors = match["competitors"];
     var bombs = match["bombs"];
     var eliminations = match["eliminations"];
     if (status === "complete") {

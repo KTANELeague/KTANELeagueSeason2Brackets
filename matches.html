@@ -36,13 +36,15 @@
 
         function setupPage(animationDuration) {
             animationDuration = animationDuration || 0;
-            $("#match-info").hide();
             $("#matches-page").hide();
+            $("#match-info").hide();
             $("#sidebar").empty();
             if (/^#([A-Za-z\-0-9 ,._]+)$/.exec(decodeURI(window.location.hash))) {
                 let matchId = RegExp.$1;
+                console.log(matchId);
                 let match = matches.filter(m => m["id"] === matchId)[0];
-                match = null; // TODO: REMOVE
+                console.log(match);
+                //match = null; // TODO: REMOVE
                 if (match) {
                     setupMatchInfo(match);
                     $("#match-info").show(animationDuration);
@@ -55,10 +57,53 @@
         }
 
         // TODO: Redo
-        function setupMatchInfo(player) {
+        function setupMatchInfo(match) {
+            console.log(match);
+
             $("#sidebar").append($("<a>", { href: "#", class: "fa fa-angle-left" }));
 
-            $(".player-name").text(player["name"]);
+            let competitors = match["competitors"];
+            let winners = match["winner"];
+            let status = match["status"];
+            let matchCategory = match["category"];
+
+            let competitorType;
+            for (let category of categories) {
+                if (category["id"] === matchCategory) {
+                    competitorType = category["participant-type"];
+                    break;
+                }
+            }
+
+            if (winners === undefined || winners === null) {
+                winners = [];
+            } else if (winners.constructor !== Array) {
+                winners = [winners];
+            }
+            let showWinner = false;
+            if (status === "complete") {
+                showWinner = true;
+            }
+
+            $(".competitor-list").empty();
+
+            if (competitors.length === 2) {
+                $(".match-name").html(`${(showWinner && winners.includes(competitors[0])) ? '<i class="fa fa-trophy"></i> ' : ""}<a href="${competitorType}s.html#${competitors[0]}">${competitors[0]}</a> vs. <a href="${competitorType}s.html#${competitors[1]}">${competitors[1]}</a>${(showWinner && winners.includes(competitors[1])) ? ' <i class="fa fa-trophy"></i>' : ""}`);
+                $(".match-name").removeClass("hidden");
+                $(".match-name-id").text(`Match ${match["id"]}`);
+                $(".competitor-list").addClass("partial-hidden");
+            } else if (competitors.length > 2) {
+                $(".match-name").addClass("hidden");
+                $(".match-name-id").text(`Match ${match["id"]}`);
+                $(".competitor-list").removeClass("partial-hidden");
+            } else {
+                // TODO: Error
+            }
+            for (let competitor of competitors) {
+                $(".competitor-list").append($("<h2>", {class: "competitor-name"}).html(`<a href="${competitorType}s.html#${competitor}">${competitor}</a>${(showWinner && winners.includes(competitor)) ? ' <i class="fa fa-trophy"></i>' : ""}`));
+            }
+
+            /*$(".player-name").text(player["name"]);
 
             $(".player-links").empty();
             if (player["discord"]) {
@@ -112,7 +157,7 @@
                 }
             } else {
                 $(".mod-list").hide();
-            }
+            }*/
         }
 
         // TODO: Redo
@@ -180,13 +225,14 @@
     <div id="sidebar" class="icon-bar"></div>
 
     <div id="match-info" class="page">
-        <div class="check-back-later"><div class="align-middle">The match details page is currently under construction.<br />Please check again later. Sorry for the inconvenience.</div></div>
+        <h1 class="match-name"></h1>
+        <h1 class="match-name-id"></h1>
+        <div class="competitor-list"></div>
     </div>
 
     <div id="matches-page" class="page">
         <h1>Matches</h1>
         <div class="match-list"></div>
     </div>
-
 </body>
 </html>
