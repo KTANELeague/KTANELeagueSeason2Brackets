@@ -127,12 +127,8 @@
     text-decoration: none;
 }
 
-.player-modules .module-listing {
+.module-pool .module-listing {
     color: black;
-}
-
-.player-module-vetos .module-listing {
-    color: white;
 }
 
 .module-listing a {
