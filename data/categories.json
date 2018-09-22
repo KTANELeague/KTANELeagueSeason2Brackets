@@ -30,20 +30,6 @@
             "weeks-per-stage": 5,
             "shorthand": "MI",
             "participant-type": "player"
-        },
-        {
-            "id": "ExperimentalTeam",
-            "name": "Experimental Team",
-            "type": "WeekByWeek",
-            "participant-type": "team",
-            "shorthand": "ET"
-        },
-        {
-            "id": "ExperimentalEFM",
-            "name": "Experimental EFM",
-            "type": "WeekByWeek",
-            "participant-type": "player",
-            "shorthand": "EI"
         }
     ]
 }
