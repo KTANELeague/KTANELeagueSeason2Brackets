@@ -448,7 +448,7 @@
                             "vod-link": null
                         }
                     ],
-                    "winner": "DragonBourne"
+                    "winner": "Team ______"
                 },
                 {
                     "template": "moddedStandard",
@@ -500,11 +500,11 @@
                             "vod-link": null
                         }
                     ],
-                    "winner": "DragonBourne"
+                    "winner": "Team ______"
                 }
             ],
-            "winner": "DragonBourne",
-            "eliminations": null,
+            "winner": "Team ______",
+            "eliminations": "DragonBourne",
             "connection": null
         },
         {
@@ -928,7 +928,7 @@
                     "vod-link": null
                   }
                 ],
-                "winner": "numdegased"
+                "winner": "draket333"
               },
               {
                 "template": "moddedStandard",
@@ -984,7 +984,7 @@
               }
             ],
             "winner": "draket333",
-            "eliminations": null,
+            "eliminations": "numdegased",
             "connection": null
         },
         {
@@ -1282,7 +1282,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "DragonBourne",
                 "Main Street"
@@ -1295,7 +1295,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Main Street"
                 },
                 {
                     "template": "moddedStandard",
@@ -1304,7 +1304,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Main Street"
                 },
                 {
                     "template": "moddedStandard",
@@ -1313,11 +1313,11 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Main Street"
                 }
             ],
-            "winner": null,
-            "eliminations": null,
+            "winner": "Main Street",
+            "eliminations": "DragonBourne",
             "connection": null
         },
         {
@@ -1462,7 +1462,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "ZekNikZ",
                 "numdegased"
@@ -1475,7 +1475,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "ZekNikZ"
                 },
                 {
                     "template": "moddedStandard",
@@ -1484,7 +1484,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "ZekNikZ"
                 },
                 {
                     "template": "moddedStandard",
@@ -1493,11 +1493,11 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "ZekNikZ"
                 }
             ],
-            "winner": null,
-            "eliminations": null,
+            "winner": "ZekNikZ",
+            "eliminations": "numdegased",
             "connection": null
         },
         {
@@ -2020,7 +2020,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "DragonBourne",
                 "Four Two"
@@ -2033,7 +2033,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Four Two"
                 },
                 {
                     "template": "moddedStandard",
@@ -2042,7 +2042,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Four Two"
                 },
                 {
                     "template": "moddedStandard",
@@ -2051,11 +2051,11 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Four Two"
                 }
             ],
-            "winner": null,
-            "eliminations": null,
+            "winner": "Four Two",
+            "eliminations": "DragonBourne",
             "connection": null
         },
 		{
@@ -2245,7 +2245,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "River",
                 "numdegased"
@@ -2258,7 +2258,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "River"
                 },
                 {
                     "template": "moddedStandard",
@@ -2267,7 +2267,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "River"
                 },
                 {
                     "template": "moddedStandard",
@@ -2276,11 +2276,11 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "River"
                 }
             ],
-            "winner": null,
-            "eliminations": null,
+            "winner": "River",
+            "eliminations": "numdegased",
             "connection": null
         },
         {
@@ -2425,7 +2425,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "DragonBourne",
                 "The Odd Squad"
@@ -2438,7 +2438,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "The Odd Squad"
                 },
                 {
                     "template": "moddedStandard",
@@ -2447,7 +2447,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "The Odd Squad"
                 },
                 {
                     "template": "moddedStandard",
@@ -2456,11 +2456,11 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "The Odd Squad"
                 }
             ],
-            "winner": null,
-            "eliminations": null,
+            "winner": "The Odd Squad",
+            "eliminations": "DragonBourne",
             "connection": null
         },
         {
@@ -2605,7 +2605,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "FUN",
                 "DragonBourne"
@@ -2618,7 +2618,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "FUN"
                 },
                 {
                     "template": "moddedStandard",
@@ -2627,7 +2627,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "FUN"
                 },
                 {
                     "template": "moddedStandard",
@@ -2636,11 +2636,11 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "FUN"
                 }
             ],
-            "winner": null,
-            "eliminations": null,
+            "winner": "FUN",
+            "eliminations": "DragonBourne",
             "connection": null
         },
         {
@@ -2740,7 +2740,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "The Dream Team",
                 "DragonBourne"
@@ -2753,7 +2753,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "The Dream Team"
                 },
                 {
                     "template": "moddedStandard",
@@ -2762,7 +2762,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "The Dream Team"
                 },
                 {
                     "template": "moddedStandard",
@@ -2771,11 +2771,11 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "The Dream Team"
                 }
             ],
-            "winner": null,
-            "eliminations": null,
+            "winner": "The Dream Team",
+            "eliminations": "DragonBourne",
             "connection": null
         },
         {
@@ -3010,7 +3010,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "Team Ralp",
                 "DragonBourne"
@@ -3023,7 +3023,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Team Ralp"
                 },
                 {
                     "template": "moddedStandard",
@@ -3032,7 +3032,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Team Ralp"
                 },
                 {
                     "template": "moddedStandard",
@@ -3041,11 +3041,11 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Team Ralp"
                 }
             ],
-            "winner": null,
-            "eliminations": null,
+            "winner": "Team Ralp",
+            "eliminations": "DragonBourne",
             "connection": null
         }
     ]
