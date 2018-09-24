@@ -7,7 +7,7 @@
             "category": "VanillaTeam",
             "stream-channel": null,
             "date": null,
-            "status": "complete",
+            "status": "inprogress",
             "competitors": [
                 "Ariana Grande Fan Club",
                 "Big Weeb, Little Weeb, Cardboard Socks",
@@ -103,7 +103,7 @@
                     "winner":  null
                 }
             ],
-            "eliminations": "Team Ralp",
+            "eliminations": null,
             "connection": null
         },
         {
