@@ -514,7 +514,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "Main Street",
                 "FUN"
@@ -610,7 +610,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "Team Ralp",
                 "Four Two"
@@ -640,7 +640,7 @@
                             "vod-link": "https://youtu.be/T7EeyXfyg5M"
                         }
                     ],
-                    "winner": ""
+                    "winner": "Four Two"
                 },
                 {
                     "template": "moddedStandard",
@@ -666,7 +666,7 @@
                             "vod-link": "https://youtu.be/xd7K6nAeVzE"
                         }
                     ],
-                    "winner": ""
+                    "winner": "Four Two"
                 },
                 {
                     "template": "moddedStandard",
@@ -692,10 +692,10 @@
                             "vod-link": "https://youtu.be/UpZJE8dY2Mk"
                         }
                     ],
-                    "winner": ""
+                    "winner": "Four Two"
                 }
             ],
-            "winner": "",
+            "winner": "Four Two",
             "eliminations": null,
             "connection": null
         },
@@ -802,7 +802,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "Ralp",
                 "Lebossle"
@@ -832,7 +832,7 @@
                     "vod-link": null
                   }
                 ],
-                "winner": ""
+                "winner": "Lebossle"
               },
               {
                 "template": "moddedStandard",
@@ -858,7 +858,7 @@
                     "vod-link": null
                   }
                 ],
-                "winner": ""
+                "winner": "Lebossle"
               },
               {
                 "template": "moddedStandard",
@@ -884,10 +884,10 @@
                     "vod-link": null
                   }
                 ],
-                "winner": ""
+                "winner": "Lebossle"
               }
             ],
-            "winner": null,
+            "winner": "Lebossle",
             "eliminations": null,
             "connection": null
         },
