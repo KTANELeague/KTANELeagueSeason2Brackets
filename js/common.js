@@ -42,6 +42,7 @@ function makeMatchCard(match, showInfo) {
     var showWinner = false;
     if (status === "complete" && bombs.length === 1) {
         showWinner = true;
+        competitors = multipleSort(bombs[0]["times"], ["time-left", "-modules", "competitor"], competitors, "competitor");
         if (bombs[0]["times"][0]["time-left"] != null) {
             for (var time of bombs[0]["times"]) {
                 //displayedInfo[time["competitor"]] = time["time-left"].toFixed(2);
@@ -155,6 +156,58 @@ function dynamicSort(property) {
             return a[property].localeCompare(b[property]);
         }
     }
+}
+
+function timeSort(property) {
+    let sortOrder = 1;
+
+    if (property[0] === "-") {
+        sortOrder = -1;
+        property = property.substr(1);
+    }
+
+    return function(a, b) {
+        let maxLength = a[property].replace(/:|\./, "").length;
+        if (b[property].replace(/:|\./, "").length > maxLength) maxLength = b[property].replace(/:|\./, "").length;
+        if (sortOrder === -1) {
+            return b[property].replace(/:|\./, "").padStart(maxLength, '0').localeCompare(a[property].replace(/:|\./, "").padStart(maxLength, '0'))
+        } else {
+            return a[property].replace(/:|\./, "").padStart(maxLength, '0').localeCompare(b[property].replace(/:|\./, "").padStart(maxLength, '0'))
+        }
+    }    
+}
+
+function multipleSort(objList, properties, listToSort, keyToSortBy) {
+    if (listToSort === null || listToSort === undefined) {
+        listToSort = objList;
+        keyToSortBy = null;
+    }
+    let newList = objList.slice(0);
+    newList.sort(
+        function(a, b) {
+            let res = 0;
+            for (let property of properties) {
+                if (property.includes("time-left")) {
+                    res = timeSort(property)(a, b);
+                } else {
+                    res = dynamicSort(property)(a, b);
+                }
+                if (res) break;
+            }
+            return res;
+        }
+    );
+    let result = [];
+    if (keyToSortBy !== null) {
+        for (let obj of newList) {
+            result.push(obj[keyToSortBy]);
+        }
+    } else {
+        for (let obj of newList) {
+            result.push(obj);
+        }
+    }
+    return result;
 }
 
 var categories;
