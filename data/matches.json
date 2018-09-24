@@ -77,7 +77,7 @@
                         },
 						{
                             "competitor": "Team Ralp",
-                            "time-left": "0:00.00",
+                            "time-left": "13:45.86",
                             "strikes": 0,
                             "solved-modules": 0,
                             "log-link": null,
@@ -100,10 +100,19 @@
                             "vod-link": null
                         }
                     ],
-                    "winner": null
+                    "winner":  [
+		"Ariana Grande Fan Club",
+                "Big Weeb, Little Weeb, Cardboard Socks",
+                "DragonBourne",
+                "DremTem",
+                "Team n00b",
+                "Team Probably Insane",
+                "Team suihkuheebo",
+                "The Odd Squad"
+		]
                 }
             ],
-            "eliminations": null,
+            "eliminations": "Team Ralp",
             "connection": null
         },
         {
