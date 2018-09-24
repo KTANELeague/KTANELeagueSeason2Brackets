@@ -84,7 +84,7 @@ function makeMatchCard(match, showInfo) {
         let row;
         if (status === "complete" && winners.includes(competitor)) {
             row = $("<div>", {"class": "row winner"});
-        } else if (status === "done" && eliminations.includes(competitor)) {
+        } else if (status === "complete" && eliminations.includes(competitor)) {
             row = $("<div>", {"class": "row eliminated"});
         } else {
             row = $("<div>", {"class": "row"});
