@@ -100,16 +100,7 @@
                             "vod-link": null
                         }
                     ],
-                    "winner":  [
-		"Ariana Grande Fan Club",
-                "Big Weeb, Little Weeb, Cardboard Socks",
-                "DragonBourne",
-                "DremTem",
-                "Team n00b",
-                "Team Probably Insane",
-                "Team suihkuheebo",
-                "The Odd Squad"
-		]
+                    "winner":  null
                 }
             ],
             "eliminations": "Team Ralp",
