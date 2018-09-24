@@ -529,10 +529,10 @@
                     "times": [
                         {
                             "competitor": "Main Street",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
+                            "time-left": "7:00.88",
+                            "strikes": 3,
                             "solved-modules": 0,
-                            "log-link": null,
+                            "log-link": "https://drive.google.com/open?id=1OHmiUj7db1H87WBHf_aN1fn1-rkR58s5",
                             "vod-link": null
                         },
                         {
@@ -544,7 +544,7 @@
                             "vod-link": null
                         }
                     ],
-                    "winner": ""
+                    "winner": "FUN"
                 },
                 {
                     "template": "moddedStandard",
@@ -556,9 +556,9 @@
                         {
                             "competitor": "Main Street",
                             "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": null,
+                            "strikes": 2,
+                            "solved-modules": 2,
+                            "log-link": "https://drive.google.com/open?id=1OHmiUj7db1H87WBHf_aN1fn1-rkR58s5",
                             "vod-link": null
                         },
                         {
@@ -570,7 +570,7 @@
                             "vod-link": null
                         }
                     ],
-                    "winner": ""
+                    "winner": "FUN"
                 },
                 {
                     "template": "moddedStandard",
@@ -582,9 +582,9 @@
                         {
                             "competitor": "Main Street",
                             "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": null,
+                            "strikes": 1,
+                            "solved-modules": 2,
+                            "log-link": "https://drive.google.com/open?id=1OHmiUj7db1H87WBHf_aN1fn1-rkR58s5",
                             "vod-link": null
                         },
                         {
@@ -596,10 +596,10 @@
                             "vod-link": null
                         }
                     ],
-                    "winner": ""
+                    "winner": "FUN"
                 }
             ],
-            "winner": "",
+            "winner": "FUN",
             "eliminations": null,
             "connection": null
         },
