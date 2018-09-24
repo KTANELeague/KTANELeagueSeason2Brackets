@@ -1327,41 +1327,92 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "The Odd Squad",
                 "FUN"
             ],
             "bombs": [
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                }
+              {
+                "template": "moddedStandard",
+                "type": "modpoolsA",
+                "seed": null,
+                "mission": "null",
+                "rule-seed": null,
+                "times": [
+                  {
+                    "competitor": "The Odd Squad",
+                    "time-left": "0:00.00",
+                    "strikes": 2,
+                    "solved-modules": 3,
+                    "log-link": "https://drive.google.com/open?id=1KSAKw4TrVaNzhf8xDJuufc8YdR9QHyAL",
+                    "vod-link": null
+                  },
+                  {
+                    "competitor": "FUN",
+                    "time-left": "0:00.00",
+                    "strikes": 0,
+                    "solved-modules": 8,
+                    "log-link": "https://drive.google.com/open?id=1O3VKDa7m-sy5e_x4mtUmb0pyoNOsEn8R",
+                    "vod-link": null
+                  }
+                ],
+                "winner": ""
+              },
+              {
+                "template": "moddedStandard",
+                "type": "modpoolsB",
+                "seed": "null",
+                "mission": null,
+                "rule-seed": null,
+                "times": [
+                  {
+                    "competitor": "The Odd Squad",
+                    "time-left": "7:47.95",
+                    "strikes": 3,
+                    "solved-modules": 2,
+                    "log-link": "https://drive.google.com/open?id=1KSAKw4TrVaNzhf8xDJuufc8YdR9QHyAL",
+                    "vod-link": null
+                  },
+                  {
+                    "competitor": "FUN",
+                    "time-left": "0:00.00",
+                    "strikes": 0,
+                    "solved-modules": 8,
+                    "log-link": "https://drive.google.com/open?id=1O3VKDa7m-sy5e_x4mtUmb0pyoNOsEn8R",
+                    "vod-link": null
+                  }
+                ],
+                "winner": ""
+              },
+              {
+                "template": "moddedStandard",
+                "type": "modpoolsEven",
+                "seed": null,
+                "mission": null,
+                "rule-seed": null,
+                "times": [
+                  {
+                    "competitor": "The Odd Squad",
+                    "time-left": "0:01.28",
+                    "strikes": 3,
+                    "solved-modules": 6,
+                    "log-link": "https://drive.google.com/open?id=1KSAKw4TrVaNzhf8xDJuufc8YdR9QHyAL",
+                    "vod-link": null
+                  },
+                  {
+                    "competitor": "FUN",
+                    "time-left": "0:00.00",
+                    "strikes": 0,
+                    "solved-modules": 8,
+                    "log-link": "https://drive.google.com/open?id=1O3VKDa7m-sy5e_x4mtUmb0pyoNOsEn8R",
+                    "vod-link": null
+                  }
+                ],
+                "winner": ""
+              }
             ],
-            "winner": null,
+            "winner": "",
             "eliminations": null,
             "connection": null
         },
