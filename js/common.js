@@ -44,7 +44,8 @@ function makeMatchCard(match, showInfo) {
         showWinner = true;
         if (bombs[0]["times"][0]["time-left"] != null) {
             for (var time of bombs[0]["times"]) {
-                displayedInfo[time["competitor"]] = time["time-left"].toFixed(2);
+                //displayedInfo[time["competitor"]] = time["time-left"].toFixed(2);
+                displayedInfo[time["competitor"]] = time["time-left"];
             }
         } else {
             for (var time of bombs[0]["times"]) {
