@@ -1423,7 +1423,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "Team ______",
                 "Team Ralp"
@@ -1436,7 +1436,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Team ______"
                 },
                 {
                     "template": "moddedStandard",
@@ -1445,7 +1445,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Team ______"
                 },
                 {
                     "template": "moddedStandard",
@@ -1454,11 +1454,11 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Team ______"
                 }
             ],
-            "winner": null,
-            "eliminations": null,
+            "winner": "Team ______",
+            "eliminations": "Team Ralp",
             "connection": null
         },
         {
@@ -1468,7 +1468,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "The Dream Team",
                 "Four Two"
@@ -1477,29 +1477,80 @@
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
+                    "seed": "seed",
+                    "mission": "mission",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                        {
+                            "competitor": "Dream Team",
+                            "time-left": "0:00.00",
+                            "strikes": 1,
+                            "solved-modules": 7,
+                            "log-link": "https://drive.google.com/open?id=1LiyRmr-X7ayWai6iaP0rTmosEoXAYWph",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "Four Two",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": ""
                 },
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
+                    "seed": "seed",
+                    "mission": "mission",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                      {
+                            "competitor": "Dream Team",
+                            "time-left": "0:00.00",
+                            "strikes": 2,
+                            "solved-modules": 6,
+                            "log-link": "https://drive.google.com/open?id=1LiyRmr-X7ayWai6iaP0rTmosEoXAYWph",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "Four Two",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": ""
                 },
                 {
                     "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
+                    "type": "modpoolsC",
+                    "seed": "seed",
+                    "mission": "mission",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                        {
+                            "competitor": "Dream Team",
+                            "time-left": "0:00.00",
+                            "strikes": 2,
+                            "solved-modules": 7,
+                            "log-link": "https://drive.google.com/open?id=1LiyRmr-X7ayWai6iaP0rTmosEoXAYWph",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "Four Two",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": ""
                 }
             ],
             "winner": "",
@@ -1654,7 +1705,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "Ralp",
                 "Livio"
@@ -1667,7 +1718,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Livio"
                 },
                 {
                     "template": "moddedStandard",
@@ -1676,7 +1727,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Livio"
                 },
                 {
                     "template": "moddedStandard",
@@ -1685,10 +1736,10 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Livio"
                 }
             ],
-            "winner": null,
+            "winner": "Livio",
             "eliminations": null,
             "connection": null
         },
@@ -1795,7 +1846,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "Lebossle",
                 "elias5891"
@@ -1804,32 +1855,83 @@
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
+                    "seed": "seed",
+                    "mission": "mission",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                        {
+                            "competitor": "Lebossle",
+                            "time-left": "2:00.09",
+                            "strikes": 1,
+                            "solved-modules": 10,
+                            "log-link": "https://drive.google.com/open?id=1vfHsZ34cqy73kZor_eSbyu08JrObZNxx",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "elias5891",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 9,
+                            "log-link": "https://drive.google.com/open?id=1ohI-E1T0TDx7lt6Ymcr5y2FYTAZs2CV3",
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": "Lebossle"
                 },
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
+                    "seed": "seed",
+                    "mission": "mission",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                        {
+                            "competitor": "Lebossle",
+                            "time-left": "0:06.14",
+                            "strikes": 3,
+                            "solved-modules": 9,
+                            "log-link": "https://drive.google.com/open?id=1vfHsZ34cqy73kZor_eSbyu08JrObZNxx",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "elias5891",
+                            "time-left": "0:04.74",
+                            "strikes": 3,
+                            "solved-modules": 7,
+                            "log-link": "https://drive.google.com/open?id=1ohI-E1T0TDx7lt6Ymcr5y2FYTAZs2CV3",
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": "Lebossle"
                 },
                 {
                     "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
+                    "type": "modpoolsC",
+                    "seed": "seed",
+                    "mission": "mission",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                        {
+                            "competitor": "Lebossle",
+                            "time-left": "0:00.00",
+                            "strikes": 1,
+                            "solved-modules": 9,
+                            "log-link": "https://drive.google.com/open?id=1vfHsZ34cqy73kZor_eSbyu08JrObZNxx",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "elias5891",
+                            "time-left": "0:23.73",
+                            "strikes": 3,
+                            "solved-modules": 9,
+                            "log-link": "https://drive.google.com/open?id=1ohI-E1T0TDx7lt6Ymcr5y2FYTAZs2CV3",
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": "Lebossle"
                 }
             ],
-            "winner": null,
+            "winner": "Lebossle",
             "eliminations": null,
             "connection": null
         },
@@ -1862,15 +1964,15 @@
                             "vod-link": null
                         },
                         {
-                            "competitor": "Team2",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": null,
+                            "competitor": "OdderOtter",
+                            "time-left": "0:15.61",
+                            "strikes": 3,
+                            "solved-modules": 9,
+                            "log-link": "https://drive.google.com/open?id=1iVLr94IbJtjEvW1hYl-7Xwi10opbdxbh",
                             "vod-link": null
                         }
                     ],
-                    "winner": ""
+                    "winner": "Axwell15"
                 },
                 {
                     "template": "moddedStandard",
@@ -1888,15 +1990,15 @@
                             "vod-link": null
                         },
                         {
-                            "competitor": "Team2",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": null,
+                            "competitor": "OdderOtter",
+                            "time-left": "4:21.91",
+                            "strikes": 1,
+                            "solved-modules": 10,
+                            "log-link": "https://drive.google.com/open?id=1iVLr94IbJtjEvW1hYl-7Xwi10opbdxbh",
                             "vod-link": null
                         }
                     ],
-                    "winner": ""
+                    "winner": "OdderOtter"
                 },
                 {
                     "template": "moddedStandard",
@@ -1914,18 +2016,18 @@
                             "vod-link": null
                         },
                         {
-                            "competitor": "Team2",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": null,
+                            "competitor": "OdderOtter",
+                            "time-left": "4:42.15",
+                            "strikes": 3,
+                            "solved-modules": 6,
+                            "log-link": "https://drive.google.com/open?id=1iVLr94IbJtjEvW1hYl-7Xwi10opbdxbh",
                             "vod-link": null
                         }
                     ],
-                    "winner": ""
+                    "winner": "Axwell15"
                 }
             ],
-            "winner": null,
+            "winner": "Axwell15",
             "eliminations": null,
             "connection": null
         },
