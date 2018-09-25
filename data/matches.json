@@ -2414,7 +2414,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "Team Ralp",
                 "The Dream Team"
@@ -2866,8 +2866,8 @@
             "date": null,
             "status": "notstarted",
             "competitors": [
-                "Team Ralp",
-                "Main Street"
+                "The Odd Squad",
+                "Team ______"
             ],
             "bombs": [
                 {
@@ -2911,7 +2911,7 @@
             "date": null,
             "status": "notstarted",
             "competitors": [
-                "FUN",
+                "Main Street",
                 "The Dream Team"
             ],
             "bombs": [
@@ -2954,55 +2954,10 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "complete",
-            "competitors": [
-                "DragonBourne",
-                "The Odd Squad"
-            ],
-            "bombs": [
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": "The Odd Squad"
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": "The Odd Squad"
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": "The Odd Squad"
-                }
-            ],
-            "winner": "The Odd Squad",
-            "eliminations": "DragonBourne",
-            "connection": null
-        },
-        {
-            "id": "MT4X-D",
-            "match-group": "Week 4",
-            "group": null,
-            "category": "ModdedTeam",
-            "stream-channel": null,
-            "date": null,
             "status": "notstarted",
             "competitors": [
-                "Four Two",
-                "Team ______"
+                "FUN",
+                "Four Two"
             ],
             "bombs": [
                 {
@@ -3038,6 +2993,51 @@
             "connection": null
         },
         {
+            "id": "MT4X-D",
+            "match-group": "Week 4",
+            "group": null,
+            "category": "ModdedTeam",
+            "stream-channel": null,
+            "date": null,
+            "status": "complete",
+            "competitors": [
+                "FUN",
+                "Team Ralp"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "FUN"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "FUN"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "FUN"
+                }
+            ],
+            "winner": "FUN",
+            "eliminations": "Team Ralp",
+            "connection": null
+        },
+        {
             "id": "MT5X-A",
             "match-group": "Week 5",
             "group": null,
@@ -3047,7 +3047,7 @@
             "status": "notstarted",
             "competitors": [
                 "Team ______",
-                "The Dream Team"
+                "Main Street"
             ],
             "bombs": [
                 {
@@ -3092,7 +3092,7 @@
             "status": "notstarted",
             "competitors": [
                 "Four Two",
-                "Main Street"
+                "The Odd Squad"
             ],
             "bombs": [
                 {
@@ -3130,6 +3130,366 @@
         {
             "id": "MT5X-C",
             "match-group": "Week 5",
+            "group": null,
+            "category": "ModdedTeam",
+            "stream-channel": null,
+            "date": null,
+            "status": "not started",
+            "competitors": [
+                "FUN",
+                "The Dream Team"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
+            "winner": null,
+            "eliminations": null,
+            "connection": null
+        },
+        {
+            "id": "MT5X-D",
+            "match-group": "Week 5",
+            "group": null,
+            "category": "ModdedTeam",
+            "stream-channel": null,
+            "date": null,
+            "status": "complete",
+            "competitors": [
+                "Team Ralp",
+                "The Odd Squad"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "The Odd Squad"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "The Odd Squad"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "The Odd Squad"
+                }
+            ],
+            "winner": "The Odd Squad",
+            "eliminations": "Team Ralp",
+            "connection": null
+        },
+        {
+            "id": "MT6X-A",
+            "match-group": "Week 6",
+            "group": null,
+            "category": "ModdedTeam",
+            "stream-channel": null,
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "Main Street",
+                "Four Two"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
+            "winner": null,
+            "eliminations": null,
+            "connection": null
+        },
+        {
+            "id": "MT6X-B",
+            "match-group": "Week 6",
+            "group": null,
+            "category": "ModdedTeam",
+            "stream-channel": null,
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "The Dream Team",
+                "Team ______"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
+            "winner": null,
+            "eliminations": null,
+            "connection": null
+        },
+        {
+            "id": "MT6X-C",
+            "match-group": "Week 6",
+            "group": null,
+            "category": "ModdedTeam",
+            "stream-channel": null,
+            "date": null,
+            "status": "complete",
+            "competitors": [
+                "The Odd Squad",
+                "DragonBourne"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "The Odd Squad"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "The Odd Squad"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "The Odd Squad"
+                }
+            ],
+            "winner": "The Odd Squad",
+            "eliminations": "DragonBourne",
+            "connection": null
+        },
+        {
+            "id": "MT6X-D",
+            "match-group": "Week 6",
+            "group": null,
+            "category": "ModdedTeam",
+            "stream-channel": null,
+            "date": null,
+            "status": "complete",
+            "competitors": [
+                "DragonBourne",
+                "The Dream Team"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "The Dream Team"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "The Dream Team"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "The Dream Team"
+                }
+            ],
+            "winner": "The Dream Team",
+            "eliminations": "DragonBourne",
+            "connection": null
+        },
+        {
+            "id": "MT7X-A",
+            "match-group": "Week 7",
+            "group": null,
+            "category": "ModdedTeam",
+            "stream-channel": null,
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "Four Two",
+                "Team ______"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
+            "winner": null,
+            "eliminations": null,
+            "connection": null
+        },
+        {
+            "id": "MT7X-B",
+            "match-group": "Week 7",
+            "group": null,
+            "category": "ModdedTeam",
+            "stream-channel": null,
+            "date": null,
+            "status": "complete",
+            "competitors": [
+                "Main Street",
+                "Team Ralp"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "Main Street"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "Main Street"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "Main Street"
+                }
+            ],
+            "winner": "Main Street",
+            "eliminations": "Team Ralp",
+            "connection": null
+        },
+        {
+            "id": "MT7X-C",
+            "match-group": "Week 7",
             "group": null,
             "category": "ModdedTeam",
             "stream-channel": null,
@@ -3173,366 +3533,6 @@
             "connection": null
         },
         {
-            "id": "MT5X-D",
-            "match-group": "Week 5",
-            "group": null,
-            "category": "ModdedTeam",
-            "stream-channel": null,
-            "date": null,
-            "status": "notstarted",
-            "competitors": [
-                "Team Ralp",
-                "The Odd Squad"
-            ],
-            "bombs": [
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                }
-            ],
-            "winner": null,
-            "eliminations": null,
-            "connection": null
-        },
-        {
-            "id": "MT6X-A",
-            "match-group": "Week 6",
-            "group": null,
-            "category": "ModdedTeam",
-            "stream-channel": null,
-            "date": null,
-            "status": "notstarted",
-            "competitors": [
-                "The Odd Squad",
-                "Four Two"
-            ],
-            "bombs": [
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                }
-            ],
-            "winner": null,
-            "eliminations": null,
-            "connection": null
-        },
-        {
-            "id": "MT6X-B",
-            "match-group": "Week 6",
-            "group": null,
-            "category": "ModdedTeam",
-            "stream-channel": null,
-            "date": null,
-            "status": "complete",
-            "competitors": [
-                "The Dream Team",
-                "DragonBourne"
-            ],
-            "bombs": [
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": "The Dream Team"
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": "The Dream Team"
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": "The Dream Team"
-                }
-            ],
-            "winner": "The Dream Team",
-            "eliminations": "DragonBourne",
-            "connection": null
-        },
-        {
-            "id": "MT6X-C",
-            "match-group": "Week 6",
-            "group": null,
-            "category": "ModdedTeam",
-            "stream-channel": null,
-            "date": null,
-            "status": "notstarted",
-            "competitors": [
-                "Main Street",
-                "Team ______"
-            ],
-            "bombs": [
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                }
-            ],
-            "winner": null,
-            "eliminations": null,
-            "connection": null
-        },
-        {
-            "id": "MT6X-D",
-            "match-group": "Week 6",
-            "group": null,
-            "category": "ModdedTeam",
-            "stream-channel": null,
-            "date": null,
-            "status": "notstarted",
-            "competitors": [
-                "Team Ralp",
-                "FUN"
-            ],
-            "bombs": [
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                }
-            ],
-            "winner": null,
-            "eliminations": null,
-            "connection": null
-        },
-        {
-            "id": "MT7X-A",
-            "match-group": "Week 7",
-            "group": null,
-            "category": "ModdedTeam",
-            "stream-channel": null,
-            "date": null,
-            "status": "notstarted",
-            "competitors": [
-                "Main Street",
-                "The Dream Team"
-            ],
-            "bombs": [
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                }
-            ],
-            "winner": null,
-            "eliminations": null,
-            "connection": null
-        },
-        {
-            "id": "MT7X-B",
-            "match-group": "Week 7",
-            "group": null,
-            "category": "ModdedTeam",
-            "stream-channel": null,
-            "date": null,
-            "status": "notstarted",
-            "competitors": [
-                "Team ______",
-                "The Odd Squad"
-            ],
-            "bombs": [
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                }
-            ],
-            "winner": null,
-            "eliminations": null,
-            "connection": null
-        },
-        {
-            "id": "MT7X-C",
-            "match-group": "Week 7",
-            "group": null,
-            "category": "ModdedTeam",
-            "stream-channel": null,
-            "date": null,
-            "status": "notstarted",
-            "competitors": [
-                "FUN",
-                "Four Two"
-            ],
-            "bombs": [
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                }
-            ],
-            "winner": null,
-            "eliminations": null,
-            "connection": null
-        },
-        {
             "id": "MT7X-D",
             "match-group": "Week 7",
             "group": null,
@@ -3552,7 +3552,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": "Team Ralp"
+                    "winner": null
                 },
                 {
                     "template": "moddedStandard",
@@ -3561,7 +3561,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": "Team Ralp"
+                    "winner": null
                 },
                 {
                     "template": "moddedStandard",
@@ -3570,11 +3570,14 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": "Team Ralp"
+                    "winner": null
                 }
             ],
-            "winner": "Team Ralp",
-            "eliminations": "DragonBourne",
+            "winner": null,
+            "eliminations": [
+                "Team Ralp",
+                "DragonBourne"
+            ],
             "connection": null
         }
     ]
