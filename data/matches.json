@@ -215,7 +215,7 @@
         {
             "id": "VT1-3",
             "match-group": "Week 1",
-            "group": "Elimination",
+            "group": "Last Chance",
             "category": "VanillaTeam",
             "stream-channel": null,
             "date": null,
@@ -2594,7 +2594,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "billybao",
                 "Ralp"
@@ -2684,7 +2684,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "Axwell15",
                 "draket333"
@@ -2693,32 +2693,83 @@
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
+                    "seed": "seed",
+                    "mission": "mission",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                        {
+                            "competitor": "Axwell15",
+                            "time-left": "0:00.00",
+                            "strikes": 3,
+                            "solved-modules": 7,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "draket333",
+                            "time-left": "8:35.32",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=27e5d5e6385ee61b351970990ffbfcd1da35c38f;bomb=RM6GJ6",
+                            "vod-link": "https://youtu.be/7LucxXqAGBw"
+                        }
+                    ],
+                    "winner": "draket333"
                 },
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
+                    "seed": "seed",
+                    "mission": "mission",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                        {
+                            "competitor": "Axwell15",
+                            "time-left": "0:00.00",
+                            "strikes": 3,
+                            "solved-modules": 4,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "draket333",
+                            "time-left": "8:01.66",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=27e5d5e6385ee61b351970990ffbfcd1da35c38f;bomb=RM6GJ6",
+                            "vod-link": "https://youtu.be/IoTthLqjicg"
+                        }
+                    ],
+                    "winner": "draket333"
                 },
                 {
                     "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
+                    "type": "modpoolsC",
+                    "seed": "seed",
+                    "mission": "mission",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                        {
+                            "competitor": "Axwell15",
+                            "time-left": "0:41.94",
+                            "strikes": 3,
+                            "solved-modules": 5,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "draket333",
+                            "time-left": "7:58.33",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=27e5d5e6385ee61b351970990ffbfcd1da35c38f;bomb=RM6GJ6",
+                            "vod-link": "https://youtu.be/dw0CvHyhVog"
+                        }
+                    ],
+                    "winner": "draket333"
                 }
             ],
-            "winner": null,
+            "winner": "draket333",
             "eliminations": null,
             "connection": null
         },
@@ -2729,7 +2780,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "ZekNikZ",
                 "Livio"
@@ -2742,7 +2793,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "ZekNikZ"
                 },
                 {
                     "template": "moddedStandard",
@@ -2751,7 +2802,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "ZekNikZ"
                 },
                 {
                     "template": "moddedStandard",
@@ -2760,11 +2811,11 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "ZekNikZ"
                 }
             ],
-            "winner": null,
-            "eliminations": null,
+            "winner": "ZekNikZ",
+            "eliminations": "Livio",
             "connection": null
         },
         {
@@ -3035,6 +3086,276 @@
             ],
             "winner": "FUN",
             "eliminations": "Team Ralp",
+            "connection": null
+        },
+        	{
+            "id": "MI4X-A",
+            "match-group": "Week 4",
+            "group": null,
+            "category": "ModdedEFM",
+            "stream-channel": null,
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "Lebossle",
+                "draket333"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
+            "winner": null,
+            "eliminations": null,
+            "connection": null
+        },
+        {
+            "id": "MI4X-B",
+            "match-group": "Week 4",
+            "group": null,
+            "category": "ModdedEFM",
+            "stream-channel": null,
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "OdderOtter",
+                "ZekNikZ"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
+            "winner": null,
+            "eliminations": null,
+            "connection": null
+        },
+        {
+            "id": "MI4X-C",
+            "match-group": "Week 4",
+            "group": null,
+            "category": "ModdedEFM",
+            "stream-channel": null,
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "billybao",
+                "Grunkle"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
+            "winner": null,
+            "eliminations": null,
+            "connection": null
+        },
+        {
+            "id": "MI4X-D",
+            "match-group": "Week 4",
+            "group": null,
+            "category": "ModdedEFM",
+            "stream-channel": null,
+            "date": null,
+            "status": "complete",
+            "competitors": [
+                "Livio",
+                "River"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "River"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "River"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "River"
+                }
+            ],
+            "winner": "River",
+            "eliminations": "Livio",
+            "connection": null
+        },
+        {
+            "id": "MI4X-E",
+            "match-group": "Week 4",
+            "group": null,
+            "category": "ModdedEFM",
+            "stream-channel": null,
+            "date": null,
+            "status": "complete",
+            "competitors": [
+                "elias5891",
+                "Ralp"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "elias5891"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "elias5891"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "elias5891"
+                }
+            ],
+            "winner": "elias5891",
+            "eliminations": "Ralp",
+            "connection": null
+        },
+        {
+            "id": "MI4X-F",
+            "match-group": "Week 4",
+            "group": null,
+            "category": "ModdedEFM",
+            "stream-channel": null,
+            "date": null,
+            "status": "complete",
+            "competitors": [
+                "Axwell12",
+                "numdegased"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "Axwell12"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "Axwell12"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "Axwell12"
+                }
+            ],
+            "winner": "Axwell12",
+            "eliminations": "numdegased",
             "connection": null
         },
         {
