@@ -77,7 +77,7 @@
                         },
                             {
                             "competitor": "Team Ralp",
-                            "time-left": "13:45.86",
+                            "time-left": "0:00.00",
                             "strikes": 0,
                             "solved-modules": 0,
                             "log-link": null,
@@ -85,7 +85,7 @@
                         },
                             {
                             "competitor": "Team suihkuheebo",
-                            "time-left": "10:06.54",
+                            "time-left": "0:00.01",
                             "strikes": 3,
                             "solved-modules": 7,
                             "log-link": null,
@@ -113,7 +113,7 @@
             "category": "VanillaTeam",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "Ariana Grande Fan Club",
                 "Big Weeb, Little Weeb, Cardboard Socks",
@@ -219,7 +219,7 @@
             "category": "VanillaTeam",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "Team Ralp",
                 "Big Weeb, Little Weeb, Cardboard Socks"
@@ -236,7 +236,7 @@
                             "competitor": "Team Ralp",
                             "time-left": "6:37.39",
                             "strikes": 0,
-                            "solved-modules": 10,
+                            "solved-modules": 11,
                             "log-link": null,
                             "vod-link": null
                         },
@@ -244,12 +244,12 @@
                             "competitor": "Big Weeb, Little Weeb, Cardboard Socks",
                             "time-left": "9:47.67",
                             "strikes": 0,
-                            "solved-modules": 10,
+                            "solved-modules": 11,
                             "log-link": null,
                             "vod-link": null
                         }
                     ],
-                    "winner": null
+                    "winner": "Big Weeb, Little Weeb, Cardboard Socks"
                 }
             ],
             "eliminations": "Team Ralp",
@@ -262,18 +262,84 @@
             "category": "VanillaTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
-                "TBD",
-                "TBD",
-                "TBD",
-                "TBD",
-                "TBD",
-                "TBD",
-                "TBD",
-                "TBD"
+                "Ariana Grande Fan Club",
+                "DremTem",
+                "The Odd Squad",
+                "Team Probably Insane",
+                "Big Weeb, Little Weeb, Cardboard Socks",
+                "Team n00b",
+                "Team suihkuheebo"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "vanillaStandard",
+                    "type": null,
+                    "seed": "6162644",
+                    "mission": "794856",
+                    "rule-seed": "30052",
+                    "times": [
+                            {
+                            "competitor": "Ariana Grande Fan Club",
+                            "time-left": "11:17.71",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=1-pIXosVeJoORaO-sFisz1HubDgIeaNu_",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Big Weeb, Little Weeb, Cardboard Socks",
+                            "time-left": "7:44.98",
+                            "strikes": 2,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=1ylzYo05Ykhm4ZBdDJIERzJ0rLkxlEsHg",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "DremTem",
+                            "time-left": "9:17.77",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=16RP0ha0iGjt1VKE8IKh3IwDUmheAUPHp",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Team n00b",
+                            "time-left": "4:17.85",
+                            "strikes": 1,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=1QEsRUe2IOY7p0azNTYYt_pm2UHZsLWpQ",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Team Probably Insane",
+                            "time-left": "0:00.02",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Team suihkuheebo",
+                            "time-left": "0:00.01",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "The Odd Squad",
+                            "time-left": "9:07.12",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=1GAUQU3h-moTbNX0sukTdzohRYwzV0u0D",
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": null
+                }
+            ],
             "eliminations": null,
             "connection": null
         },
@@ -284,18 +350,84 @@
             "category": "VanillaTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
-                "TBD",
-                "TBD",
-                "TBD",
-                "TBD",
-                "TBD",
-                "TBD",
-                "TBD",
-                "TBD"
+                "Ariana Grande Fan Club",
+                "DremTem",
+                "The Odd Squad",
+                "Team Probably Insane",
+                "Big Weeb, Little Weeb, Cardboard Socks",
+                "Team n00b",
+                "Team suihkuheebo"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "vanillaStandard",
+                    "type": null,
+                    "seed": "6162644",
+                    "mission": "794856",
+                    "rule-seed": "30052",
+                    "times": [
+                            {
+                            "competitor": "Ariana Grande Fan Club",
+                            "time-left": "9:13.90",
+                            "strikes": 1,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=1-pIXosVeJoORaO-sFisz1HubDgIeaNu_",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Big Weeb, Little Weeb, Cardboard Socks",
+                            "time-left": "10:29.84",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=1ylzYo05Ykhm4ZBdDJIERzJ0rLkxlEsHg",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "DremTem",
+                            "time-left": "6:37.55",
+                            "strikes": 1,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=16RP0ha0iGjt1VKE8IKh3IwDUmheAUPHp",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Team n00b",
+                            "time-left": "5:30.92",
+                            "strikes": 1,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=1gJWx0lEVffyU152WeJpUj2GaO_UcJ1gw",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Team Probably Insane",
+                            "time-left": "0:00.02",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Team suihkuheebo",
+                            "time-left": "0:00.01",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "The Odd Squad",
+                            "time-left": "9:09.57",
+                            "strikes": 1,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=1GAUQU3h-moTbNX0sukTdzohRYwzV0u0D",
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": null
+                }
+            ],
             "eliminations": null,
             "connection": null
         },
@@ -306,12 +438,256 @@
             "category": "VanillaTeam",
             "stream-channel": null,
             "date": null,
+            "status": "inprogress",
+            "competitors": [
+                "TBD",
+                "TBD"
+            ],
+            "bombs": [
+                {
+                    "template": "vanillaStandard",
+                    "type": null,
+                    "seed": "8139923",
+                    "mission": "649831",
+                    "rule-seed": "30052",
+                    "times": [
+                            {
+                            "competitor": "Team n00b",
+                            "time-left": "8:25.48",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=1VPLU8fsDGoCjSFZ5CA2kFXPJNCy4yjgU",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "",
+                            "time-left": "10:41.72",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=1ylzYo05Ykhm4ZBdDJIERzJ0rLkxlEsHg",
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": null
+                }
+            ],
+            "eliminations": null,
+            "connection": null
+        },
+        {
+            "id": "VT3-1",
+            "match-group": "Week 3",
+            "group": "Bomb 1",
+            "category": "VanillaTeam",
+            "stream-channel": null,
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "Ariana Grande Fan Club",
+                "The Odd Squad",
+                "Big Weeb, Little Weeb, Cardboard Socks",
+                "DremTem",
+                "TBD",
+                "TBD"
+            ],
+            "bombs": [
+                   {
+                    "template": "vanillaStandard",
+                    "type": null,
+                    "seed": "6162644",
+                    "mission": "794856",
+                    "rule-seed": "30052",
+                    "times": [
+                            {
+                            "competitor": "Ariana Grande Fan Club",
+                            "time-left": "11:17.71",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=1-pIXosVeJoORaO-sFisz1HubDgIeaNu_",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Big Weeb, Little Weeb, Cardboard Socks",
+                            "time-left": "7:44.98",
+                            "strikes": 2,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=1ylzYo05Ykhm4ZBdDJIERzJ0rLkxlEsHg",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "DremTem",
+                            "time-left": "0:00.04",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Team n00b",
+                            "time-left": "0:00.03",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Team Probably Insane",
+                            "time-left": "0:00.02",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Team suihkuheebo",
+                            "time-left": "0:00.01",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "The Odd Squad",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": null
+                }
+            ],
+            "eliminations": null,
+            "connection": null
+        },
+        {
+            "id": "VT3-2",
+            "match-group": "Week 3",
+            "group": "Bomb 2",
+            "category": "VanillaTeam",
+            "stream-channel": null,
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "Ariana Grande Fan Club",
+                "The Odd Squad",
+                "Big Weeb, Little Weeb, Cardboard Socks",
+                "DremTem",
+                "TBD",
+                "TBD"
+            ],
+            "bombs": [
+                {
+                    "template": "vanillaStandard",
+                    "type": null,
+                    "seed": "6162644",
+                    "mission": "794856",
+                    "rule-seed": "30052",
+                    "times": [
+                            {
+                            "competitor": "Ariana Grande Fan Club",
+                            "time-left": "9:13.90",
+                            "strikes": 1,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=1-pIXosVeJoORaO-sFisz1HubDgIeaNu_",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Big Weeb, Little Weeb, Cardboard Socks",
+                            "time-left": "10:29.84",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=1ylzYo05Ykhm4ZBdDJIERzJ0rLkxlEsHg",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "DremTem",
+                            "time-left": "0:00.04",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Team n00b",
+                            "time-left": "0:00.03",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Team Probably Insane",
+                            "time-left": "0:00.02",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Team suihkuheebo",
+                            "time-left": "0:00.01",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "The Odd Squad",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": null
+                }
+            ],
+            "eliminations": null,
+            "connection": null
+        },
+        {
+            "id": "VT3-3",
+            "match-group": "Week 3",
+            "group": "Bomb 3",
+            "category": "VanillaTeam",
+            "stream-channel": null,
+            "date": null,
             "status": "notstarted",
             "competitors": [
                 "TBD",
                 "TBD"
             ],
-            "bombs": [],
+            "bombs": [
+                {
+                    "template": "vanillaStandard",
+                    "type": null,
+                    "seed": "8139923",
+                    "mission": "649831",
+                    "rule-seed": "30052",
+                    "times": [
+                            {
+                            "competitor": "Ariana Grande Fan Club",
+                            "time-left": "9:52.47",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=1-pIXosVeJoORaO-sFisz1HubDgIeaNu_",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Big Weeb, Little Weeb, Cardboard Socks",
+                            "time-left": "10:41.72",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": "https://drive.google.com/open?id=1ylzYo05Ykhm4ZBdDJIERzJ0rLkxlEsHg",
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": "Big Weeb, Little Weeb, Cardboard Socks"
+                }
+            ],
             "eliminations": null,
             "connection": null
         },
@@ -1327,7 +1703,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "The Odd Squad",
                 "FUN"
@@ -1350,14 +1726,14 @@
                   },
                   {
                     "competitor": "FUN",
-                    "time-left": "0:00.00",
+                    "time-left": "4:27.55",
                     "strikes": 0,
-                    "solved-modules": 8,
-                    "log-link": "https://drive.google.com/open?id=1O3VKDa7m-sy5e_x4mtUmb0pyoNOsEn8R",
+                    "solved-modules": 10,
+                    "log-link": "https://drive.google.com/open?id=16EZ9nHwupmN295nWR6HfLBSVREEYQVR3",
                     "vod-link": null
                   }
                 ],
-                "winner": ""
+                "winner": "FUN"
               },
               {
                 "template": "moddedStandard",
@@ -1368,7 +1744,7 @@
                 "times": [
                   {
                     "competitor": "The Odd Squad",
-                    "time-left": "7:47.95",
+                    "time-left": "0:00.00",
                     "strikes": 3,
                     "solved-modules": 2,
                     "log-link": "https://drive.google.com/open?id=1KSAKw4TrVaNzhf8xDJuufc8YdR9QHyAL",
@@ -1377,13 +1753,13 @@
                   {
                     "competitor": "FUN",
                     "time-left": "0:00.00",
-                    "strikes": 0,
-                    "solved-modules": 8,
-                    "log-link": "https://drive.google.com/open?id=1O3VKDa7m-sy5e_x4mtUmb0pyoNOsEn8R",
+                    "strikes": 3,
+                    "solved-modules": 9,
+                    "log-link": "https://drive.google.com/open?id=16EZ9nHwupmN295nWR6HfLBSVREEYQVR3",
                     "vod-link": null
                   }
                 ],
-                "winner": ""
+                "winner": "FUN"
               },
               {
                 "template": "moddedStandard",
@@ -1402,17 +1778,17 @@
                   },
                   {
                     "competitor": "FUN",
-                    "time-left": "0:00.00",
+                    "time-left": "4:17.51",
                     "strikes": 0,
-                    "solved-modules": 8,
-                    "log-link": "https://drive.google.com/open?id=1O3VKDa7m-sy5e_x4mtUmb0pyoNOsEn8R",
+                    "solved-modules": 10,
+                    "log-link": "https://drive.google.com/open?id=16EZ9nHwupmN295nWR6HfLBSVREEYQVR3",
                     "vod-link": null
                   }
                 ],
-                "winner": ""
+                "winner": "FUN"
               }
             ],
-            "winner": "",
+            "winner": "FUN",
             "eliminations": null,
             "connection": null
         },
@@ -1468,7 +1844,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "The Dream Team",
                 "Four Two"
@@ -1492,13 +1868,13 @@
                         {
                             "competitor": "Four Two",
                             "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
+                            "strikes": 3,
+                            "solved-modules": 7,
                             "log-link": null,
-                            "vod-link": null
+                            "vod-link": "https://www.youtube.com/watch?v=EgAZMcArHa4"
                         }
                     ],
-                    "winner": ""
+                    "winner": "The Dream Team"
                 },
                 {
                     "template": "moddedStandard",
@@ -1517,14 +1893,14 @@
                         },
                         {
                             "competitor": "Four Two",
-                            "time-left": "0:00.00",
+                            "time-left": "7:02.00",
                             "strikes": 0,
-                            "solved-modules": 0,
+                            "solved-modules": 10,
                             "log-link": null,
-                            "vod-link": null
+                            "vod-link": "https://youtu.be/uuVMR3xNfQg"
                         }
                     ],
-                    "winner": ""
+                    "winner": "Four Two"
                 },
                 {
                     "template": "moddedStandard",
@@ -1543,17 +1919,17 @@
                         },
                         {
                             "competitor": "Four Two",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
+                            "time-left": "1:07.00",
+                            "strikes": 1,
+                            "solved-modules": 9,
                             "log-link": null,
-                            "vod-link": null
+                            "vod-link": "https://youtu.be/Ym2p6Xd11xA"
                         }
                     ],
-                    "winner": ""
+                    "winner": "Four Two"
                 }
             ],
-            "winner": "",
+            "winner": "Four Two",
             "eliminations": null,
             "connection": null
         },
