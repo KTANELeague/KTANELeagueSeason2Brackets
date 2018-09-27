@@ -159,10 +159,10 @@ function dynamicSort(property) {
 }
 
 function timeSort(property) {
-    let sortOrder = 1;
+    let sortOrder = -1;
 
     if (property[0] === "-") {
-        sortOrder = -1;
+        sortOrder = 1;
         property = property.substr(1);
     }
 
