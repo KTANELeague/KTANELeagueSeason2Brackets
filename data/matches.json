@@ -103,7 +103,7 @@
                     "winner":  null
                 }
             ],
-            "eliminations": "Team Ralp",
+            "eliminations": null,
             "connection": null
         },
         {
@@ -209,7 +209,7 @@
                     "winner": null
                 }
             ],
-            "eliminations": "Big Weeb, Little Weeb, Cardboard Socks",
+            "eliminations": null,
             "connection": null
         },
         {
@@ -2094,7 +2094,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": "Livio"
+                    "winner": null
                 },
                 {
                     "template": "moddedStandard",
@@ -2103,7 +2103,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": "Livio"
+                    "winner": null
                 },
                 {
                     "template": "moddedStandard",
@@ -2112,11 +2112,14 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": "Livio"
+                    "winner": null
                 }
             ],
-            "winner": "Livio",
-            "eliminations": "Ralp",
+            "winner": null,
+            "eliminations": [ 
+                "Ralp", 
+                "Livio" 
+                ],
             "connection": null
         },
         {
@@ -2459,7 +2462,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "FUN",
                 "Team ______"
@@ -2504,7 +2507,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "Main Street",
                 "The Odd Squad"
@@ -2639,7 +2642,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "Lebossle",
                 "Grunkle"
@@ -2870,7 +2873,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "elias5891",
                 "OdderOtter"
