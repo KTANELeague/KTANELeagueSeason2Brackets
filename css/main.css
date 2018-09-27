@@ -126,7 +126,7 @@ body {
 }
 
 .match-card .eliminated {
-    background: #ffcccc;
+    text-decoration: line;
 }
 
 .match-card .score {
