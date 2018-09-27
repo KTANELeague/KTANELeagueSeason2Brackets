@@ -126,7 +126,7 @@ body {
 }
 
 .match-card .eliminated {
-    text-decoration: line;
+    text-decoration: line-through;
 }
 
 .match-card .score {
