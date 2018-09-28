@@ -75,7 +75,14 @@ function makeMatchCard(match, showInfo) {
     }
 
     // Build the card
-    var card = $("<div>", {"class": "card bg-light match-card"});
+    if (status === "inprogress") {
+       var card = $("<div>", {"class": "card match-card ip-card"});    
+    } else if (status === "complete") {
+        var card = $("<div>", {"class": "card match-card comp-card"});    
+    } else {
+       var card = $("<div>", {"class": "card bg-light match-card"});    
+    }
+    
     var cardBody = $("<div>", { "class": "card-body container" });
     if (showInfo) {
         let row = $("<div>", { "class": "row match-info" });
@@ -162,7 +169,7 @@ function timeSort(property) {
     let sortOrder = -1;
 
     if (property[0] === "-") {
-        sortOrder = 1;
+        sortOrder = -1;
         property = property.substr(1);
     }
 
