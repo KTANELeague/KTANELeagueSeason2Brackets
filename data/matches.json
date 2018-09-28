@@ -2001,9 +2001,9 @@
                         {
                             "competitor": "Grunkle",
                             "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": null,
+                            "strikes": 3,
+                            "solved-modules": 3,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=86fd768e5ebd7d9dbe1efe7c136715b786ad6da4",
                             "vod-link": null
                         },
                         {
@@ -2015,7 +2015,7 @@
                             "vod-link": null
                         }
                     ],
-                    "winner": ""
+                    "winner": "draket333"
                 },
                 {
                     "template": "moddedStandard",
@@ -2028,8 +2028,8 @@
                             "competitor": "Grunkle",
                             "time-left": "0:00.00",
                             "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": null,
+                            "solved-modules": 9,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=86fd768e5ebd7d9dbe1efe7c136715b786ad6da4",
                             "vod-link": null
                         },
                         {
@@ -2041,7 +2041,7 @@
                             "vod-link": null
                         }
                     ],
-                    "winner": ""
+                    "winner": "draket333"
                 },
                 {
                     "template": "moddedStandard",
@@ -2054,8 +2054,8 @@
                             "competitor": "Grunkle",
                             "time-left": "0:00.00",
                             "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": null,
+                            "solved-modules": 9,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=86fd768e5ebd7d9dbe1efe7c136715b786ad6da4",
                             "vod-link": null
                         },
                         {
@@ -2067,10 +2067,10 @@
                             "vod-link": null
                         }
                     ],
-                    "winner": ""
+                    "winner": "draket333"
                 }
             ],
-            "winner": null,
+            "winner": "draket333",
             "eliminations": null,
             "connection": null
         },
