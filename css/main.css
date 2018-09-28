@@ -121,6 +121,29 @@ body {
     margin-bottom: 10px;
 }
 
+.comp-card {
+    border-style: dotted;
+    border-width: 1px;
+    border-color: red;
+    background-color: #d6d6d6;
+}
+
+
+/*.ip-card {
+    border-style: dotted;
+    border-width: 4px;
+    border-color: green;
+    background-color: #c6ecd8;
+}*/
+
+.ip-card {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: green;
+    background-color: #e3f9f3;
+}
+
+
 .match-card .winner {
     font-weight: bold;
 }
