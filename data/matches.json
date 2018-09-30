@@ -500,10 +500,10 @@
                     "times": [
                             {
                             "competitor": "Ariana Grande Fan Club",
-                            "time-left": "0:00.09",
-                            "strikes": 0,
+                            "time-left": "9:31.78",
+                            "strikes": 1,
                             "solved-modules": 11,
-                            "log-link": null,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=51b9dbe5fff2f9e88a7fa1d52e14af3360c70644;bomb=XC2ZB7",
                             "vod-link": null
                         },
                             {
@@ -587,10 +587,10 @@
                     "times": [
                             {
                             "competitor": "Ariana Grande Fan Club",
-                            "time-left": "0:00.09",
-                            "strikes": 0,
+                            "time-left": "9:35.20",
+                            "strikes": 1,
                             "solved-modules": 11,
-                            "log-link": null,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=51b9dbe5fff2f9e88a7fa1d52e14af3360c70644;bomb=XC2ZB7",
                             "vod-link": null
                         },
                             {
@@ -669,7 +669,7 @@
                     "rule-seed": "30052",
                     "times": [
                             {
-                            "competitor": "Team n00b",
+                            "competitor": "A",
                             "time-left": "0:00.02",
                             "strikes": 3,
                             "solved-modules": 10,
@@ -701,7 +701,7 @@
             "status": "notstarted",
             "competitors": [
                 "DremTem",
-                "TBD",
+                "Ariana Grande Fan Club",
 		"TBD",
 		"TBD",
                 "TBD"
@@ -787,7 +787,7 @@
             "status": "notstarted",
             "competitors": [
                 "DremTem",
-                "TBD",
+                "Ariana Grande Fan Club",
 		"TBD",
 		"TBD",
                 "TBD"
