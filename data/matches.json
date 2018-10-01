@@ -3287,7 +3287,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "elias5891",
                 "OdderOtter"
@@ -3296,32 +3296,83 @@
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
+                    "seed": "seed",
+                    "mission": "mission",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                        {
+                            "competitor": "elias5891",
+                            "time-left": "2:55.21",
+                            "strikes": 1,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=79b446bdaba77b4676de6f3ccd91688625e1623f;bomb=AH8MJ9",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "OdderOtter",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 5,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=cd6a6ff2a9f87aea1126313e4194f1b18ee46190;bomb=AH8MJ9",
+                            "vod-link": null
+                        }
+                    ],
+	            "winner": "elias5891"
                 },
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
+                    "seed": "seed",
+                    "mission": "mission",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                       {
+                            "competitor": "elias5891",
+                            "time-left": "5:48.31",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=79b446bdaba77b4676de6f3ccd91688625e1623f;bomb=AH8MJ9",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "OdderOtter",
+                            "time-left": "0:00.00",
+                            "strikes": 3,
+                            "solved-modules": 5,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=cd6a6ff2a9f87aea1126313e4194f1b18ee46190;bomb=AH8MJ9",
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": "elias5891"
                 },
                 {
                     "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
+                    "type": "modpoolsC",
+                    "seed": "seed",
+                    "mission": "mission",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                       {
+                            "competitor": "elias5891",
+                            "time-left": "0:00.00",
+                            "strikes": 3,
+                            "solved-modules": 7,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=79b446bdaba77b4676de6f3ccd91688625e1623f;bomb=AH8MJ9",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "OdderOtter",
+                            "time-left": "0:00.00",
+                            "strikes": 3,
+                            "solved-modules": 3,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=cd6a6ff2a9f87aea1126313e4194f1b18ee46190;bomb=AH8MJ9",
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": "elias5891"
                 }
             ],
-            "winner": null,
+            "winner": "elias5891",
             "eliminations": null,
             "connection": null
         },
