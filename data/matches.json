@@ -262,7 +262,7 @@
             "category": "VanillaTeam",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "Ariana Grande Fan Club",
                 "DremTem",
@@ -314,7 +314,7 @@
                         },
                             {
                             "competitor": "Team Probably Insane",
-                            "time-left": "0:00.00",
+                            "time-left": "0:00.01",
                             "strikes": 3,
                             "solved-modules": 8,
                             "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=88a94710d2bf69ce97315fa5ed20913927ab7738;bomb=2D2QN9",
@@ -322,9 +322,9 @@
                         },
                             {
                             "competitor": "Team suihkuheebo",
-                            "time-left": "0:00.01",
+                            "time-left": "0:00.00",
                             "strikes": 0,
-                            "solved-modules": 10,
+                            "solved-modules": 00,
                             "log-link": null,
                             "vod-link": null
                         },
@@ -350,7 +350,7 @@
             "category": "VanillaTeam",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "Ariana Grande Fan Club",
                 "DremTem",
@@ -410,9 +410,9 @@
                         },
                             {
                             "competitor": "Team suihkuheebo",
-                            "time-left": "0:00.01",
+                            "time-left": "0:00.00",
                             "strikes": 0,
-                            "solved-modules": 10,
+                            "solved-modules": 00,
                             "log-link": null,
                             "vod-link": null
                         },
@@ -431,49 +431,7 @@
             "eliminations": null,
             "connection": null
         },
-        {
-            "id": "VT2-3",
-            "match-group": "Week 2",
-            "group": "Bomb 3",
-            "category": "VanillaTeam",
-            "stream-channel": null,
-            "date": null,
-            "status": "inprogress",
-            "competitors": [
-                "TBD",
-                "TBD"
-            ],
-            "bombs": [
-                {
-                    "template": "vanillaStandard",
-                    "type": null,
-                    "seed": "8139923",
-                    "mission": "649831",
-                    "rule-seed": "30052",
-                    "times": [
-                            {
-                            "competitor": "Team Probably Insane",
-                            "time-left": "2:52.48",
-                            "strikes": 2,
-                            "solved-modules": 11,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=88a94710d2bf69ce97315fa5ed20913927ab7738;bomb=2D2QN9",
-                            "vod-link": null
-                        },
-                            {
-                            "competitor": "",
-                            "time-left": "10:41.72",
-                            "strikes": 0,
-                            "solved-modules": 11,
-                            "log-link": "https://drive.google.com/open?id=1ylzYo05Ykhm4ZBdDJIERzJ0rLkxlEsHg",
-                            "vod-link": null
-                        }
-                    ],
-                    "winner": null
-                }
-            ],
-            "eliminations": null,
-            "connection": null
-        },
+       
         {
             "id": "VT3-1",
             "match-group": "Week 3",
@@ -488,7 +446,7 @@
                 "Big Weeb, Little Weeb, Cardboard Socks",
                 "DremTem",
                 "Team n00b",
-                "TBD"
+                "Team Probably Insane"
             ],
             "bombs": [
                    {
@@ -539,14 +497,6 @@
                             "vod-link": null
                         },
                             {
-                            "competitor": "Team suihkuheebo",
-                            "time-left": "0:00.01",
-                            "strikes": 0,
-                            "solved-modules": 10,
-                            "log-link": null,
-                            "vod-link": null
-                        },
-                            {
                             "competitor": "The Odd Squad",
                             "time-left": "0:00.05",
                             "strikes": 0,
@@ -575,7 +525,7 @@
                 "Big Weeb, Little Weeb, Cardboard Socks",
                 "DremTem",
                 "Team n00b",
-                "TBD"
+                "Team Probably Insane"
             ],
             "bombs": [
                 {
@@ -620,14 +570,6 @@
                             {
                             "competitor": "Team Probably Insane",
                             "time-left": "0:00.02",
-                            "strikes": 0,
-                            "solved-modules": 10,
-                            "log-link": null,
-                            "vod-link": null
-                        },
-                            {
-                            "competitor": "Team suihkuheebo",
-                            "time-left": "0:00.01",
                             "strikes": 0,
                             "solved-modules": 10,
                             "log-link": null,
@@ -3383,7 +3325,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "The Odd Squad",
                 "Team ______"
@@ -3428,7 +3370,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "Main Street",
                 "The Dream Team"
@@ -3473,7 +3415,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "FUN",
                 "Four Two"
@@ -3659,7 +3601,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "OdderOtter",
                 "ZekNikZ"
@@ -3704,7 +3646,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "billybao",
                 "Grunkle"
