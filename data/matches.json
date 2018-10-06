@@ -2998,7 +2998,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "Lebossle",
                 "Grunkle"
@@ -3011,7 +3011,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Lebossle"
                 },
                 {
                     "template": "moddedStandard",
@@ -3020,7 +3020,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Lebossle"
                 },
                 {
                     "template": "moddedStandard",
@@ -3029,10 +3029,10 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Lebossle"
                 }
             ],
-            "winner": null,
+            "winner": "Lebossle",
             "eliminations": null,
             "connection": null
         },
