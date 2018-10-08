@@ -2872,32 +2872,83 @@
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
+                    "seed": "1978361",
+                    "mission": "664219",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                        {
+                            "competitor": "Main Street",
+                            "time-left": "0:00.00",
+                            "strikes": 2,
+                            "solved-modules": 5,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=3c74626586aef174e288d56301a631d7ee676dcb;bomb=RI9AZ9",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "The Odd Squad",
+                            "time-left": "0:00.00",
+                            "strikes": 2,
+                            "solved-modules": 4,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=5ede11651fdee2743914155c5d2bc17e1feb3a7e;bomb=RI9AZ9",
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": "Main Street"
                 },
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
+                    "seed": "81960701",
+                    "mission": "444414",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                        {
+                            "competitor": "Main Street",
+                            "time-left": "0:00.00",
+                            "strikes": 1,
+                            "solved-modules": 7,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=3c74626586aef174e288d56301a631d7ee676dcb;bomb=RI9AZ9",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "The Odd Squad",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=5ede11651fdee2743914155c5d2bc17e1feb3a7e;bomb=RI9AZ9",
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": "The Odd Squad"
                 },
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
+                    "seed": "5535551",
+                    "mission": "5535553",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                        {
+                            "competitor": "Main Street",
+                            "time-left": "0:00.00",
+                            "strikes": 3,
+                            "solved-modules": 2,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=3c74626586aef174e288d56301a631d7ee676dcb;bomb=RI9AZ9",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "The Odd Squad",
+                            "time-left": "0:00.00",
+                            "strikes": 3,
+                            "solved-modules": 1,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=5ede11651fdee2743914155c5d2bc17e1feb3a7e;bomb=RI9AZ9",
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": "Main Street"
                 }
             ],
-            "winner": null,
+            "winner": "Main Street",
             "eliminations": null,
             "connection": null
         },
