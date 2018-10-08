@@ -2818,41 +2818,92 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "FUN",
                 "Team ______"
             ],
-            "bombs": [
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": null
-                }
+"bombs": [
+              {
+                "template": "moddedStandard",
+                "type": "modpoolsA",
+                "seed": null,
+                "mission": "null",
+                "rule-seed": null,
+                "times": [
+                  {
+                    "competitor": "FUN",
+                    "time-left": "0:00.00",
+                    "strikes": 1,
+                    "solved-modules": 8,
+                    "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=9dadede52aa5d7e201269f49bcaedd019b531d2f;bomb=EZ9BC2",
+                    "vod-link": null
+                  },
+                  {
+                    "competitor": "Team ______",
+                    "time-left": "0:00.00",
+                    "strikes": 3,
+                    "solved-modules": 5,
+                    "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=2b0be01bc6e8054c3b68ea00176cfbc5f815a233;bomb=8M1VQ3",
+                    "vod-link": null
+                  }
+                ],
+                "winner": "FUN"
+              },
+              {
+                "template": "moddedStandard",
+                "type": "modpoolsB",
+                "seed": "null",
+                "mission": null,
+                "rule-seed": null,
+                "times": [
+                  {
+                    "competitor": "FUN",
+                    "time-left": "0:07.47",
+                    "strikes": 2,
+                    "solved-modules": 10,
+                    "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=9dadede52aa5d7e201269f49bcaedd019b531d2f;bomb=EZ9BC2",
+                    "vod-link": null
+                  },
+                  {
+                    "competitor": "Team ______",
+                    "time-left": "0:00.00",
+                    "strikes": 3,
+                    "solved-modules": 8,
+                    "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=2b0be01bc6e8054c3b68ea00176cfbc5f815a233;bomb=8M1VQ3",
+                    "vod-link": null
+                  }
+                ],
+                "winner": "FUN"
+              },
+              {
+                "template": "moddedStandard",
+                "type": "modpoolsEven",
+                "seed": null,
+                "mission": null,
+                "rule-seed": null,
+                "times": [
+                  {
+                    "competitor": "FUN",
+                    "time-left": "0:00.01",
+                    "strikes": 3,
+                    "solved-modules": 9,
+                    "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=9dadede52aa5d7e201269f49bcaedd019b531d2f;bomb=EZ9BC2",
+                    "vod-link": null
+                  },
+                  {
+                    "competitor": "Team ______",
+                    "time-left": "0:00.00",
+                    "strikes": 1,
+                    "solved-modules": 9,
+                    "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=2b0be01bc6e8054c3b68ea00176cfbc5f815a233;bomb=8M1VQ3",
+                    "vod-link": null
+                  }
+                ],
+                "winner": "FUN"
+              }
             ],
-            "winner": null,
+            "winner": "FUN",
             "eliminations": null,
             "connection": null
         },
