@@ -490,7 +490,7 @@
                         },
                             {
                             "competitor": "Team Probably Insane",
-                            "time-left": "0:00.02",
+                            "time-left": "3:19.88",
                             "strikes": 0,
                             "solved-modules": 10,
                             "log-link": null,
@@ -498,7 +498,7 @@
                         },
                             {
                             "competitor": "The Odd Squad",
-                            "time-left": "0:00.05",
+                            "time-left": "7:36.72",
                             "strikes": 0,
                             "solved-modules": 10,
                             "log-link": null,
@@ -545,7 +545,7 @@
                         },
                             {
                             "competitor": "Big Weeb, Little Weeb, Cardboard Socks",
-                            "time-left": "0:00.00",
+                            "time-left": "0:00.01",
                             "strikes": 3,
                             "solved-modules": 6,
                             "log-link": "https://drive.google.com/open?id=1ylzYo05Ykhm4ZBdDJIERzJ0rLkxlEsHg",
@@ -561,7 +561,7 @@
                         },
                             {
                             "competitor": "Team n00b",
-                            "time-left": "0:00.05",
+                            "time-left": "0:00.00",
                             "strikes": 3,
                             "solved-modules": 4,
                             "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=e3e05145125e6db492a05a84b11f95bbcc49175a;bomb=MK6ZM9",
@@ -569,7 +569,7 @@
                         },
                             {
                             "competitor": "Team Probably Insane",
-                            "time-left": "0:00.02",
+                            "time-left": "7:27.46",
                             "strikes": 0,
                             "solved-modules": 10,
                             "log-link": null,
@@ -577,7 +577,7 @@
                         },
                             {
                             "competitor": "The Odd Squad",
-                            "time-left": "0:00.03",
+                            "time-left": "9:40.90",
                             "strikes": 0,
                             "solved-modules": 10,
                             "log-link": null,
@@ -599,8 +599,8 @@
             "date": null,
             "status": "inprogress",
             "competitors": [
-                "TBD",
-                "TBD"
+                "Big Weeb, Little Weeb, Cardboard Socks",
+                "Team n00b"
             ],
             "bombs": [
                 {
@@ -611,7 +611,7 @@
                     "rule-seed": "30052",
                     "times": [
                             {
-                            "competitor": "A",
+                            "competitor": "Team n00b",
                             "time-left": "0:00.02",
                             "strikes": 3,
                             "solved-modules": 10,
@@ -627,10 +627,10 @@
                             "vod-link": null
                         }
                     ],
-                    "winner": "Big Weeb, Little Weeb, Cardboard Socks"
+                    "winner": "Team n00b"
                 }
             ],
-            "eliminations": null,
+            "eliminations": "Big Weeb, Little Weeb, Cardboard Socks",
             "connection": null
         },
         {
@@ -642,11 +642,11 @@
             "date": null,
             "status": "inprogress",
             "competitors": [
-                "DremTem",
                 "Ariana Grande Fan Club",
-		"TBD",
-		"TBD",
-                "TBD"
+                "DremTem",
+		"The Odd Squad",
+                "Team Probably Insane",
+	        "Team n00b"
             ],
             "bombs": [
                    {
@@ -728,11 +728,11 @@
             "date": null,
             "status": "inprogress",
             "competitors": [
-                "DremTem",
                 "Ariana Grande Fan Club",
-		"TBD",
-		"TBD",
-                "TBD"
+                "DremTem",
+		"The Odd Squad",
+                "Team Probably Insane",
+	        "Team n00b"
             ],
             "bombs": [
                 {
