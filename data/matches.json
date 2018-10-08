@@ -3520,10 +3520,10 @@
                     "times": [
                         {
                             "competitor": "Lebossle",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
+                            "time-left": "1:09.52",
+                            "strikes": 1,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=dbf60fbe02d410c9cf14ede8df6571fad93bc560;bomb=2I3HP4",
                             "vod-link": null
                         },
                         {
@@ -3535,7 +3535,7 @@
                             "vod-link": "https://youtu.be/ddPE6329cv4"
                         }
                     ],
-                    "winner": "null"
+                    "winner": "Lebossle"
                 },
                 {
                     "template": "moddedStandard",
@@ -3546,10 +3546,10 @@
                     "times": [
                         {
                             "competitor": "Lebossle",
-                            "time-left": "0:00.00",
+                            "time-left": "01:54.93",
                             "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=dbf60fbe02d410c9cf14ede8df6571fad93bc560;bomb=2I3HP4",
                             "vod-link": null
                         },
                         {
@@ -3561,7 +3561,7 @@
                             "vod-link": "https://youtu.be/F8AJrPMQ1mI"
                         }
                     ],
-                    "winner": "null"
+                    "winner": "draket333"
                 },
                {
                     "template": "moddedStandard",
@@ -3572,10 +3572,10 @@
                     "times": [
                         {
                             "competitor": "Lebossle",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
+                            "time-left": "4:09.99",
+                            "strikes": 1,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=dbf60fbe02d410c9cf14ede8df6571fad93bc560;bomb=2I3HP4",
                             "vod-link": null
                         },
                         {
@@ -3587,10 +3587,10 @@
                             "vod-link": "https://youtu.be/EhwMKZYfiPM"
                         }
                     ],
-                    "winner": "null"
+                    "winner": "Lebossle"
                 }
             ],
-            "winner": null,
+            "winner": "Lebossle",
             "eliminations": null,
             "connection": null
         },
