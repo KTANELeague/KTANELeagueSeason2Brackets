@@ -4345,42 +4345,93 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "River",
                 "Axwell12"
             ],
             "bombs": [
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": "River"
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": "River"
-                },
-                {
-                    "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
-                    "rule-seed": null,
-                    "times": [],
-                    "winner": "River"
-                }
+              {
+                "template": "moddedStandard",
+                "type": "modpoolsA",
+                "seed": "seed",
+                "mission": "mission",
+                "rule-seed": null,
+                "times": [
+                  {
+                    "competitor": "River",
+                    "time-left": "0:00.00",
+                    "strikes": 2,
+                    "solved-modules": 8,
+                    "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=e867d616d57726d5664cfd9a12e55b73a17ea865;bomb=UI6PW9",
+                    "vod-link": null
+                  },
+                  {
+                    "competitor": "Axwell12",
+                    "time-left": "0:00.00",
+                    "strikes": 2,
+                    "solved-modules": 7,
+                    "log-link": "ktane.timwi.de/More/Logfile%20Analyzer.html#file=aa333344c6fd0695ee3d179e1eb603d9ee57fde5;bomb=E07BM6",
+                    "vod-link": null
+                  }
+                ],
+                "winner": "River"
+              },
+              {
+                "template": "moddedStandard",
+                "type": "modpoolsB",
+                "seed": "seed",
+                "mission": "mission",
+                "rule-seed": null,
+                "times": [
+                  {
+                    "competitor": "River",
+                    "time-left": "0:00.00",
+                    "strikes": 2,
+                    "solved-modules": 9,
+                    "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=e867d616d57726d5664cfd9a12e55b73a17ea865;bomb=UI6PW9",
+                    "vod-link": null
+                  },
+                  {
+                    "competitor": "Axwell12",
+                    "time-left": "0:00.00",
+                    "strikes": 2,
+                    "solved-modules": 4,
+                    "log-link": "ktane.timwi.de/More/Logfile%20Analyzer.html#file=aa333344c6fd0695ee3d179e1eb603d9ee57fde5;bomb=E07BM6",
+                    "vod-link": null
+                  }
+                ],
+                "winner": "River"
+              },
+              {
+                "template": "moddedStandard",
+                "type": "modpoolsEven",
+                "seed": "seed",
+                "mission": "mission",
+                "rule-seed": null,
+                "times": [
+                  {
+                    "competitor": "River",
+                    "time-left": "0:00.00",
+                    "strikes": 2,
+                    "solved-modules": 6,
+                    "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=e867d616d57726d5664cfd9a12e55b73a17ea865;bomb=UI6PW9",
+                    "vod-link": null
+                  },
+                  {
+                    "competitor": "Axwell12",
+                    "time-left": "0:00.00",
+                    "strikes": 2,
+                    "solved-modules": 7,
+                    "log-link": "ktane.timwi.de/More/Logfile%20Analyzer.html#file=aa333344c6fd0695ee3d179e1eb603d9ee57fde5;bomb=E07BM6",
+                    "vod-link": null
+                  }
+                ],
+                "winner": "Axwell12"
+              }
             ],
             "winner": "River",
-            "eliminations": "Livio",
+            "eliminations": null,
             "connection": null
         },
         {
