@@ -3517,7 +3517,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "FUN",
                 "Four Two"
@@ -3526,32 +3526,83 @@
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsA",
-                    "seed": null,
-                    "mission": null,
+                    "seed": "seed",
+                    "mission": "mission",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                        {
+                            "competitor": "FUN",
+                            "time-left": "0:00.00",
+                            "strikes": 2,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=b205b21614c88b04c3fa359f3596c62a1a744ff5;bomb=XJ4CQ7",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "Four Two",
+                            "time-left": "0:00.00",
+                            "strikes": 2,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=b5f13684b7c20e6647d56cb60a4c1e1c12ad10cb;bomb=K17CX3",
+                            "vod-link": null
+                        }
+                    ],
+	            "winner": "Four Two"
                 },
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsB",
-                    "seed": null,
-                    "mission": null,
+                    "seed": "seed",
+                    "mission": "mission",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                        {
+                            "competitor": "FUN",
+                            "time-left": "0:00.00",
+                            "strikes": 2,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=b205b21614c88b04c3fa359f3596c62a1a744ff5;bomb=XJ4CQ7",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "Four Two",
+                            "time-left": "0:00.00",
+                            "strikes": 2,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=b5f13684b7c20e6647d56cb60a4c1e1c12ad10cb;bomb=K17CX3",
+                            "vod-link": null
+                        }
+                    ],
+	            "winner": "Four Two"
                 },
                 {
                     "template": "moddedStandard",
-                    "type": "modpoolsEven",
-                    "seed": null,
-                    "mission": null,
+                    "type": "modpoolsC",
+                    "seed": "seed",
+                    "mission": "mission",
                     "rule-seed": null,
-                    "times": [],
-                    "winner": null
+                    "times": [
+                        {
+                            "competitor": "FUN",
+                            "time-left": "0:00.00",
+                            "strikes": 2,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=b205b21614c88b04c3fa359f3596c62a1a744ff5;bomb=XJ4CQ7",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "Four Two",
+                            "time-left": "0:00.00",
+                            "strikes": 2,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=b5f13684b7c20e6647d56cb60a4c1e1c12ad10cb;bomb=K17CX3",
+                            "vod-link": null
+                        }
+                    ],
+	            "winner": "Four Two"
                 }
             ],
-            "winner": null,
+            "winner": "Four Two",
             "eliminations": null,
             "connection": null
         },
@@ -3928,7 +3979,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "Team ______",
                 "Main Street"
@@ -3973,7 +4024,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "Four Two",
                 "The Odd Squad"
@@ -4018,7 +4069,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "not started",
+            "status": "inprogress",
             "competitors": [
                 "FUN",
                 "The Dream Team"
@@ -4108,7 +4159,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "draket333",
                 "billybao"
@@ -4204,7 +4255,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "Lebossle",
                 "OdderOtter"
@@ -4249,7 +4300,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "ZekNikZ",
                 "elias5891"
@@ -4294,7 +4345,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "River",
                 "Axwell12"
@@ -4557,6 +4608,282 @@
             "eliminations": "DragonBourne",
             "connection": null
         },
+	                    	{
+            "id": "MI6-A",
+            "match-group": "Week 6",
+            "group": null,
+            "category": "ModdedEFM",
+            "stream-channel": null,
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "ZekNikZ",
+                "Axwell12"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": "seed",
+                    "mission": "mission",
+                    "rule-seed": null,
+                    "times": [
+                        {
+                            "competitor": "Lebossle",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "draket333",
+                            "time-left": "8:35.32",
+                            "strikes": 1,
+                            "solved-modules": 9,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=9ea6bf88bb98de0fd3b728c21895adcd410072de;bomb=ZG5NT0",
+                            "vod-link": "https://youtu.be/ddPE6329cv4"
+                        }
+                    ],
+                    "winner": "null"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": "seed",
+                    "mission": "mission",
+                    "rule-seed": null,
+                    "times": [
+                        {
+                            "competitor": "Lebossle",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "draket333",
+                            "time-left": "7:05.67",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=52e0a3d838a874214ab67315ca9e60e6b8737013;bomb=2I3HP4",
+                            "vod-link": "https://youtu.be/F8AJrPMQ1mI"
+                        }
+                    ],
+                    "winner": "null"
+                },
+               {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": "seed",
+                    "mission": "mission",
+                    "rule-seed": null,
+                    "times": [
+                        {
+                            "competitor": "Lebossle",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "draket333",
+                            "time-left": "3:46.57",
+                            "strikes": 1,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=52e0a3d838a874214ab67315ca9e60e6b8737013;bomb=2I3HP4",
+                            "vod-link": "https://youtu.be/EhwMKZYfiPM"
+                        }
+                    ],
+                    "winner": "null"
+                }
+            ],
+            "winner": null,
+            "eliminations": null,
+            "connection": null
+        },
+        {
+            "id": "MI6X-B",
+            "match-group": "Week 6",
+            "group": null,
+            "category": "ModdedEFM",
+            "stream-channel": null,
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "Lebossle",
+                "billybao"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
+            "winner": null,
+            "eliminations": null,
+            "connection": null
+        },
+        {
+            "id": "MI6X-C",
+            "match-group": "Week 6",
+            "group": null,
+            "category": "ModdedEFM",
+            "stream-channel": null,
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "Grunkle",
+                "River"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
+            "winner": null,
+            "eliminations": null,
+            "connection": null
+        },
+        {
+            "id": "MI6X-D",
+            "match-group": "Week 6",
+            "group": null,
+            "category": "ModdedEFM",
+            "stream-channel": null,
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "Elias",
+                "draket333"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "River"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "River"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "River"
+                }
+            ],
+            "winner": "River",
+            "eliminations": "Livio",
+            "connection": null
+        },
+        {
+            "id": "MI6X-E",
+            "match-group": "Week 6",
+            "group": null,
+            "category": "ModdedEFM",
+            "stream-channel": null,
+            "date": null,
+            "status": "complete",
+            "competitors": [
+                "OdderOdder",
+                "numdegased"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "OdderOdder"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "OdderOdder"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "OdderOdder"
+                }
+            ],
+            "winner": "Grunkle",
+            "eliminations": "Ralp",
+            "connection": null
+        },
         {
             "id": "MT7X-A",
             "match-group": "Week 7",
@@ -4739,6 +5066,283 @@
                 "DragonBourne"
             ],
             "connection": null
+        },
+        	                    	{
+            "id": "MI7-A",
+            "match-group": "Week 7",
+            "group": null,
+            "category": "ModdedEFM",
+            "stream-channel": null,
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "draket333",
+                "ZekNikZ"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": "seed",
+                    "mission": "mission",
+                    "rule-seed": null,
+                    "times": [
+                        {
+                            "competitor": "Lebossle",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "draket333",
+                            "time-left": "8:35.32",
+                            "strikes": 1,
+                            "solved-modules": 9,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=9ea6bf88bb98de0fd3b728c21895adcd410072de;bomb=ZG5NT0",
+                            "vod-link": "https://youtu.be/ddPE6329cv4"
+                        }
+                    ],
+                    "winner": "null"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": "seed",
+                    "mission": "mission",
+                    "rule-seed": null,
+                    "times": [
+                        {
+                            "competitor": "Lebossle",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "draket333",
+                            "time-left": "7:05.67",
+                            "strikes": 0,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=52e0a3d838a874214ab67315ca9e60e6b8737013;bomb=2I3HP4",
+                            "vod-link": "https://youtu.be/F8AJrPMQ1mI"
+                        }
+                    ],
+                    "winner": "null"
+                },
+               {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": "seed",
+                    "mission": "mission",
+                    "rule-seed": null,
+                    "times": [
+                        {
+                            "competitor": "Lebossle",
+                            "time-left": "0:00.00",
+                            "strikes": 0,
+                            "solved-modules": 0,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
+                            "vod-link": null
+                        },
+                        {
+                            "competitor": "draket333",
+                            "time-left": "3:46.57",
+                            "strikes": 1,
+                            "solved-modules": 10,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=52e0a3d838a874214ab67315ca9e60e6b8737013;bomb=2I3HP4",
+                            "vod-link": "https://youtu.be/EhwMKZYfiPM"
+                        }
+                    ],
+                    "winner": "null"
+                }
+            ],
+            "winner": null,
+            "eliminations": null,
+            "connection": null
+        },
+        {
+            "id": "MI7X-B",
+            "match-group": "Week 7",
+            "group": null,
+            "category": "ModdedEFM",
+            "stream-channel": null,
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "River",
+                "OdderOtter"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
+            "winner": null,
+            "eliminations": null,
+            "connection": null
+        },
+        {
+            "id": "MI7X-C",
+            "match-group": "Week 7",
+            "group": null,
+            "category": "ModdedEFM",
+            "stream-channel": null,
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "billybao",
+                "Elias"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": null
+                }
+            ],
+            "winner": null,
+            "eliminations": null,
+            "connection": null
+        },
+        {
+            "id": "MI7X-D",
+            "match-group": "Week 7",
+            "group": null,
+            "category": "ModdedEFM",
+            "stream-channel": null,
+            "date": null,
+            "status": "notstarted",
+            "competitors": [
+                "Lebossle",
+                "Axwell12"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "River"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "River"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "River"
+                }
+            ],
+            "winner": "River",
+            "eliminations": "Livio",
+            "connection": null
+        },
+        {
+            "id": "MI7X-E",
+            "match-group": "Week 7",
+            "group": null,
+            "category": "ModdedEFM",
+            "stream-channel": null,
+            "date": null,
+            "status": "complete",
+            "competitors": [
+                "Grunkle",
+                "Livio"
+            ],
+            "bombs": [
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsA",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "Grunkle"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsB",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "Grunkle"
+                },
+                {
+                    "template": "moddedStandard",
+                    "type": "modpoolsEven",
+                    "seed": null,
+                    "mission": null,
+                    "rule-seed": null,
+                    "times": [],
+                    "winner": "Grunkle"
+                }
+            ],
+            "winner": "Grunkle",
+            "eliminations": "Livio",
+            "connection": null
         }
+
     ]
 }
