@@ -3395,7 +3395,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "The Odd Squad",
                 "Team ______"
@@ -3408,7 +3408,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Team ______"
                 },
                 {
                     "template": "moddedStandard",
@@ -3417,7 +3417,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Team ______"
                 },
                 {
                     "template": "moddedStandard",
@@ -3426,10 +3426,10 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Team ______"
                 }
             ],
-            "winner": null,
+            "winner": "Team ______",
             "eliminations": null,
             "connection": null
         },
