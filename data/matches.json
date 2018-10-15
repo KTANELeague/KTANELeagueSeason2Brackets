@@ -827,7 +827,7 @@
             "competitors": [
                 "DremTem",
                 "Ariana Grande Fan Club",
-                "The Odd Squad,
+                "The Odd Squad",
                 "Team n00b"
             ],
             "bombs": [
@@ -900,12 +900,12 @@
             "category": "VanillaTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
-                "TBD",
-		        "TBD",
-		        "TBD",
-                "TBD"
+                "DremTem",
+                "Ariana Grande Fan Club",
+                "The Odd Squad",
+                "Team n00b"
             ],
             "bombs": [
                 {
@@ -977,7 +977,7 @@
             "category": "VanillaTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "TBD",
                 "TBD"
