@@ -3472,7 +3472,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "Main Street",
                 "The Dream Team"
@@ -3485,7 +3485,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "The Dream Team"
                 },
                 {
                     "template": "moddedStandard",
@@ -3494,7 +3494,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "The Dream Team"
                 },
                 {
                     "template": "moddedStandard",
@@ -3503,10 +3503,10 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "The Dream Team"
                 }
             ],
-            "winner": null,
+            "winner": "The Dream Team",
             "eliminations": null,
             "connection": null
         },
