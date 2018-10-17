@@ -1556,7 +1556,7 @@
                             "vod-link": null
                         }
                     ],
-                    "winner": "elias5891"
+                    "winner": "River"
                 },
                 {
                     "template": "moddedStandard",
@@ -1585,7 +1585,7 @@
                     "winner": "elias5891"
                 }
             ],
-            "winner": "elias5891",
+            "winner": "River",
             "eliminations": null,
             "connection": null
         },
@@ -3708,10 +3708,10 @@
                             "vod-link": "https://youtu.be/EhwMKZYfiPM"
                         }
                     ],
-                    "winner": "Lebossle"
+                    "winner": null
                 }
             ],
-            "winner": "Lebossle",
+            "winner": null,
             "eliminations": null,
             "connection": null
         },
