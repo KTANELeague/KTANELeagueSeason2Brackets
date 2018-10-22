@@ -4005,7 +4005,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Team ______"
                 },
                 {
                     "template": "moddedStandard",
@@ -4014,7 +4014,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Team ______"
                 },
                 {
                     "template": "moddedStandard",
@@ -4023,10 +4023,10 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Team ______"
                 }
             ],
-            "winner": null,
+            "winner": "Team ______",
             "eliminations": null,
             "connection": null
         },
