@@ -823,7 +823,7 @@
             "category": "VanillaTeam",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "Ariana Grande Fan Club",
                 "DremTem",
@@ -840,49 +840,33 @@
                     "times": [
                             {
                             "competitor": "Ariana Grande Fan Club",
-                            "time-left": "0:00.09",
+                            "time-left": "7:18.25",
                             "strikes": 0,
                             "solved-modules": 11,
                             "log-link": null,
                             "vod-link": null
                         },
                             {
-                            "competitor": "Big Weeb, Little Weeb, Cardboard Socks",
-                            "time-left": "0:00.00",
-                            "strikes": 3,
-                            "solved-modules": 6,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=d2989c3b61c383b26dd54305cda62c01bf1c3d38;bomb=6E8JV5",
-                            "vod-link": null
-                        },
-                            {
                             "competitor": "DremTem",
-                            "time-left": "9:54.88",
+                            "time-left": "7:34.25",
                             "strikes": 0,
-                            "solved-modules": 10,
+                            "solved-modules": 11,
                             "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=17428e81930c7effc9eaf34b70db3804de7f2b6e;bomb=6E8JV5",
                             "vod-link": null
                         },
                             {
                             "competitor": "Team n00b",
-                            "time-left": "0:",
+                            "time-left": "1:12.90",
                             "strikes": 0,
                             "solved-modules": 11,
                             "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=d255c3440cc7f822470a8087d1526f83715b7ae1;bomb=6E8JV5",
                             "vod-link": null
                         },
                             {
-                            "competitor": "Team Probably Insane",
-                            "time-left": "0:00.02",
+                            "competitor": "The Odd Squad",
+                            "time-left": "5:24.92",
                             "strikes": 0,
-                            "solved-modules": 10,
-                            "log-link": null,
-                            "vod-link": null
-                        },
-                            {
-                            "competitor": "Team suihkuheebo",
-                            "time-left": "0:00.01",
-                            "strikes": 0,
-                            "solved-modules": 10,
+                            "solved-modules": 11,
                             "log-link": null,
                             "vod-link": null
                         }
@@ -900,7 +884,7 @@
             "category": "VanillaTeam",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "Ariana Grande Fan Club",
                 "DremTem",
@@ -916,50 +900,94 @@
                     "rule-seed": "30052",
                     "times": [
                             {
-                            "competitor": "Big Weeb, Little Weeb, Cardboard Socks",
-                            "time-left": "0:00.00",
-                            "strikes": 3,
-                            "solved-modules": 6,
-                            "log-link": "https://drive.google.com/open?id=1ylzYo05Ykhm4ZBdDJIERzJ0rLkxlEsHg",
+                            "competitor": "Ariana Grande Fan Club",
+                            "time-left": "5:45.40",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": null,
                             "vod-link": null
                         },
                             {
                             "competitor": "DremTem",
-                            "time-left": "10:13.88",
-                            "strikes": 2,
+                            "time-left": "6:22.62",
+                            "strikes": 0,
                             "solved-modules": 11,
                             "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=17428e81930c7effc9eaf34b70db3804de7f2b6e;bomb=6E8JV5",
                             "vod-link": null
                         },
                             {
                             "competitor": "Team n00b",
-                            "time-left": "0:00.05",
-                            "strikes": 3,
-                            "solved-modules": 4,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=e3e05145125e6db492a05a84b11f95bbcc49175a;bomb=MK6ZM9",
-                            "vod-link": null
-                        },
-                            {
-                            "competitor": "Team Probably Insane",
-                            "time-left": "0:00.02",
+                            "time-left": "0:33.66",
                             "strikes": 0,
-                            "solved-modules": 10,
-                            "log-link": null,
-                            "vod-link": null
-                        },
-                            {
-                            "competitor": "Team suihkuheebo",
-                            "time-left": "0:00.01",
-                            "strikes": 0,
-                            "solved-modules": 10,
-                            "log-link": null,
+                            "solved-modules": 11,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=d255c3440cc7f822470a8087d1526f83715b7ae1;bomb=6E8JV5",
                             "vod-link": null
                         },
                             {
                             "competitor": "The Odd Squad",
-                            "time-left": "0:00.03",
+                            "time-left": "2:59.85",
                             "strikes": 0,
-                            "solved-modules": 10,
+                            "solved-modules": 11,
+                            "log-link": null,
+                            "vod-link": null
+                        }
+                    ],
+                    "winner": null
+                }
+            ],
+            "eliminations": "Team n00b",
+            "connection": null
+        },
+        {
+            "id": "VT6-1",
+            "match-group": "Week 6",
+            "group": "Bomb 1",
+            "category": "VanillaTeam",
+            "stream-channel": null,
+            "date": null,
+            "status": "inprogress",
+            "competitors": [
+                "Ariana Grande Fan Club",
+                "DremTem",
+    		"The Odd Squad"
+            ],
+            "bombs": [
+                   {
+                    "template": "vanillaStandard",
+                    "type": null,
+                    "seed": "6162644",
+                    "mission": "794856",
+                    "rule-seed": "30052",
+                    "times": [
+                            {
+                            "competitor": "Ariana Grande Fan Club",
+                            "time-left": "7:18.25",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": null,
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "DremTem",
+                            "time-left": "7:34.25",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=17428e81930c7effc9eaf34b70db3804de7f2b6e;bomb=6E8JV5",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Team n00b",
+                            "time-left": "1:12.90",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=d255c3440cc7f822470a8087d1526f83715b7ae1;bomb=6E8JV5",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "The Odd Squad",
+                            "time-left": "5:24.92",
+                            "strikes": 0,
+                            "solved-modules": 11,
                             "log-link": null,
                             "vod-link": null
                         }
@@ -971,49 +999,66 @@
             "connection": null
         },
         {
-            "id": "VT5-3",
-            "match-group": "Week 5",
-            "group": "Bomb 3",
+            "id": "VT6-2",
+            "match-group": "Week 6",
+            "group": "Bomb 2",
             "category": "VanillaTeam",
             "stream-channel": null,
             "date": null,
             "status": "inprogress",
             "competitors": [
-                "TBD",
-                "TBD"
+                "Ariana Grande Fan Club",
+                "DremTem",
+    		"The Odd Squad"
             ],
             "bombs": [
                 {
                     "template": "vanillaStandard",
                     "type": null,
-                    "seed": "8139923",
-                    "mission": "649831",
+                    "seed": "6162644",
+                    "mission": "794856",
                     "rule-seed": "30052",
                     "times": [
                             {
-                            "competitor": "Team n00b",
-                            "time-left": "0:00.02",
-                            "strikes": 3,
-                            "solved-modules": 10,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=87f39782bbb681a8a4fb3b140c17e53bb61262d5;bomb=XC2ZB7",
+                            "competitor": "Ariana Grande Fan Club",
+                            "time-left": "5:45.40",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": null,
                             "vod-link": null
                         },
                             {
-                            "competitor": "Big Weeb, Little Weeb, Cardboard Socks",
-                            "time-left": "0:00.01",
-                            "strikes": 3,
-                            "solved-modules": 6,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=d2989c3b61c383b26dd54305cda62c01bf1c3d38;bomb=MK6ZM9",
+                            "competitor": "DremTem",
+                            "time-left": "6:22.62",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=17428e81930c7effc9eaf34b70db3804de7f2b6e;bomb=6E8JV5",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "Team n00b",
+                            "time-left": "0:33.66",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=d255c3440cc7f822470a8087d1526f83715b7ae1;bomb=6E8JV5",
+                            "vod-link": null
+                        },
+                            {
+                            "competitor": "The Odd Squad",
+                            "time-left": "2:59.85",
+                            "strikes": 0,
+                            "solved-modules": 11,
+                            "log-link": null,
                             "vod-link": null
                         }
                     ],
-                    "winner": "Big Weeb, Little Weeb, Cardboard Socks"
+                    "winner": null
                 }
             ],
             "eliminations": null,
             "connection": null
         },
-        {
+	{
             "id": "MT1X-A",
             "match-group": "Week 1",
             "group": null,
