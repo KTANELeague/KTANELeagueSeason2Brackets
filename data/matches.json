@@ -4172,7 +4172,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "draket333",
                 "billybao"
@@ -4181,83 +4181,32 @@
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsA",
-                    "seed": "seed",
-                    "mission": "mission",
+                    "seed": null,
+                    "mission": null,
                     "rule-seed": null,
-                    "times": [
-                        {
-                            "competitor": "Lebossle",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
-                            "vod-link": null
-                        },
-                        {
-                            "competitor": "draket333",
-                            "time-left": "8:35.32",
-                            "strikes": 1,
-                            "solved-modules": 9,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=9ea6bf88bb98de0fd3b728c21895adcd410072de;bomb=ZG5NT0",
-                            "vod-link": "https://youtu.be/ddPE6329cv4"
-                        }
-                    ],
-                    "winner": "null"
+                    "times": [],
+                    "winner": "draket333"
                 },
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsB",
-                    "seed": "seed",
-                    "mission": "mission",
+                    "seed": null,
+                    "mission": null,
                     "rule-seed": null,
-                    "times": [
-                        {
-                            "competitor": "Lebossle",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
-                            "vod-link": null
-                        },
-                        {
-                            "competitor": "draket333",
-                            "time-left": "7:05.67",
-                            "strikes": 0,
-                            "solved-modules": 10,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=52e0a3d838a874214ab67315ca9e60e6b8737013;bomb=2I3HP4",
-                            "vod-link": "https://youtu.be/F8AJrPMQ1mI"
-                        }
-                    ],
-                    "winner": "null"
+                    "times": [],
+                    "winner": "draket333"
                 },
-               {
+                {
                     "template": "moddedStandard",
                     "type": "modpoolsEven",
-                    "seed": "seed",
-                    "mission": "mission",
+                    "seed": null,
+                    "mission": null,
                     "rule-seed": null,
-                    "times": [
-                        {
-                            "competitor": "Lebossle",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
-                            "vod-link": null
-                        },
-                        {
-                            "competitor": "draket333",
-                            "time-left": "3:46.57",
-                            "strikes": 1,
-                            "solved-modules": 10,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=52e0a3d838a874214ab67315ca9e60e6b8737013;bomb=2I3HP4",
-                            "vod-link": "https://youtu.be/EhwMKZYfiPM"
-                        }
-                    ],
-                    "winner": "null"
+                    "times": [],
+                    "winner": "draket333"
                 }
             ],
-            "winner": null,
+            "winner": "draket333",
             "eliminations": null,
             "connection": null
         },
@@ -4268,7 +4217,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "Lebossle",
                 "OdderOtter"
@@ -4281,7 +4230,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Lebossle"
                 },
                 {
                     "template": "moddedStandard",
@@ -4290,7 +4239,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Lebossle"
                 },
                 {
                     "template": "moddedStandard",
@@ -4299,10 +4248,10 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Lebossle"
                 }
             ],
-            "winner": null,
+            "winner": "Lebossle",
             "eliminations": null,
             "connection": null
         },
@@ -4313,7 +4262,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "ZekNikZ",
                 "elias5891"
@@ -4326,7 +4275,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "elias5891"
                 },
                 {
                     "template": "moddedStandard",
@@ -4344,10 +4293,10 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "elias5891"
                 }
             ],
-            "winner": null,
+            "winner": "elias5891",
             "eliminations": null,
             "connection": null
         },
@@ -4865,7 +4814,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "Elias",
                 "draket333"
@@ -4878,7 +4827,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": "River"
+                    "winner": "draket333"
                 },
                 {
                     "template": "moddedStandard",
@@ -4887,7 +4836,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": "River"
+                    "winner": "draket333"
                 },
                 {
                     "template": "moddedStandard",
@@ -4896,11 +4845,11 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": "River"
+                    "winner": "draket333"
                 }
             ],
-            "winner": "River",
-            "eliminations": "Livio",
+            "winner": "draket333",
+            "eliminations": null
             "connection": null
         },
         {
