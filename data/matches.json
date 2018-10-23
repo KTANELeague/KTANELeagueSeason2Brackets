@@ -4499,7 +4499,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "Main Street",
                 "Four Two"
@@ -4544,7 +4544,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "The Dream Team",
                 "Team ______"
@@ -4679,7 +4679,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "ZekNikZ",
                 "Axwell12"
@@ -4775,7 +4775,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "Lebossle",
                 "billybao"
@@ -4820,7 +4820,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "Grunkle",
                 "River"
@@ -4865,7 +4865,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "complete",
             "competitors": [
                 "Elias",
                 "draket333"
@@ -4878,7 +4878,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": "River"
+                    "winner": "draket333"
                 },
                 {
                     "template": "moddedStandard",
@@ -4887,7 +4887,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": "River"
+                    "winner": "draket333"
                 },
                 {
                     "template": "moddedStandard",
@@ -4896,11 +4896,11 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": "River"
+                    "winner": "draket333"
                 }
             ],
-            "winner": "River",
-            "eliminations": "Livio",
+            "winner": "draket333",
+            "eliminations": null,
             "connection": null
         },
         {
@@ -4955,7 +4955,7 @@
             "category": "ModdedTeam",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "Four Two",
                 "Team ______"
@@ -5138,7 +5138,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "draket333",
                 "ZekNikZ"
@@ -5234,7 +5234,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "River",
                 "OdderOtter"
@@ -5279,7 +5279,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "billybao",
                 "Elias"
@@ -5324,7 +5324,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "notstarted",
+            "status": "inprogress",
             "competitors": [
                 "Lebossle",
                 "Axwell12"
