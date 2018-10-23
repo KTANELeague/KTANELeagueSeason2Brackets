@@ -3,7 +3,6 @@ var matchStatuses = {
     "notcomplete": "Not Completed",
     "complete": "Final Score",
     "timetbd": "Time TBD",
-    "standings": "Standings",
     "inprogress": "Match In Progress"
     // Special case for 'settime', 'live'
 }
@@ -14,7 +13,7 @@ function makeMatchCard(match, showInfo) {
     var competitors = match["competitors"];
     var bombs = match["bombs"];
     var eliminations = match["eliminations"];
-    if (status === "complete" || status === "standings") {
+    if (status === "complete") {
         if (eliminations === undefined || eliminations === null) {
             eliminations = [];
         } else if (eliminations.constructor !== Array) {
@@ -22,7 +21,7 @@ function makeMatchCard(match, showInfo) {
         }
     }
     var winners = match["winner"];
-    if (status === "complete" || status === "standings") {
+    if (status === "complete") {
         if (winners === undefined || winners === null) {
             winners = [];
         } else if (winners.constructor !== Array) {
@@ -41,7 +40,7 @@ function makeMatchCard(match, showInfo) {
     // Get the displayed information by each name
     var displayedInfo = {};
     var showWinner = false;
-    if ((status === "complete" || status === "standings") && bombs.length === 1) {
+    if (status === "complete" && bombs.length === 1) {
         showWinner = true;
         competitors = multipleSort(bombs[0]["times"], ["time-left", "-modules", "competitor"], competitors, "competitor");
         if (bombs[0]["times"][0]["time-left"] != null) {
@@ -58,7 +57,7 @@ function makeMatchCard(match, showInfo) {
         for (var competitor of competitors) {
             displayedInfo[competitor] = 0;
         }
-        if (status === "complete" || status === "standings") {
+        if (status === "complete") {
             showWinner = true;
             for (var bomb of bombs) {
                 if (displayedInfo[bomb["winner"]] === undefined) {
@@ -80,8 +79,6 @@ function makeMatchCard(match, showInfo) {
        var card = $("<div>", {"class": "card match-card ip-card"});    
     } else if (status === "complete") {
         var card = $("<div>", {"class": "card match-card comp-card"});    
-    } else if (status === "standings") {
-        var card = $("<div>", {"class": "card match-card stand-card"});    
     } else {
        var card = $("<div>", {"class": "card bg-light match-card"});    
     }
@@ -94,9 +91,9 @@ function makeMatchCard(match, showInfo) {
     }
     for (var competitor of competitors) {
         let row;
-        if ((status === "complete" || status === "standings") && winners.includes(competitor)) {
+        if (status === "complete" && winners.includes(competitor)) {
             row = $("<div>", {"class": "row winner"});
-        } else if ((status === "complete" || status === "standings") && eliminations.includes(competitor)) {
+        } else if (status === "complete" && eliminations.includes(competitor)) {
             row = $("<div>", {"class": "row eliminated"});
         } else {
             row = $("<div>", {"class": "row"});
@@ -255,7 +252,7 @@ $(function(){
         categories = data["categories"];
         if (--dataCount === 0) setupPage();
     });
-    $.getJSON("http://elias5891.com/Testing/Brack/data/matches.json").then(function(data, status, jqXHR) {
+    $.getJSON("https://raw.githubusercontent.com/KTANECommunity/KTANELeagueSeason2Brackets/master/data/matches.json").then(function(data, status, jqXHR) {
         matches = data["matches"];
         if (--dataCount === 0) setupPage();
     });
