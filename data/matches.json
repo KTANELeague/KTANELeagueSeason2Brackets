@@ -4181,80 +4181,29 @@
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsA",
-                    "seed": "seed",
-                    "mission": "mission",
+                    "seed": null,
+                    "mission": null,
                     "rule-seed": null,
-                    "times": [
-                        {
-                            "competitor": "Lebossle",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
-                            "vod-link": null
-                        },
-                        {
-                            "competitor": "draket333",
-                            "time-left": "8:35.32",
-                            "strikes": 1,
-                            "solved-modules": 9,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=9ea6bf88bb98de0fd3b728c21895adcd410072de;bomb=ZG5NT0",
-                            "vod-link": "https://youtu.be/ddPE6329cv4"
-                        }
-                    ],
-                    "winner": "null"
+                    "times": [],
+                    "winner": null
                 },
                 {
                     "template": "moddedStandard",
                     "type": "modpoolsB",
-                    "seed": "seed",
-                    "mission": "mission",
+                    "seed": null,
+                    "mission": null,
                     "rule-seed": null,
-                    "times": [
-                        {
-                            "competitor": "Lebossle",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
-                            "vod-link": null
-                        },
-                        {
-                            "competitor": "draket333",
-                            "time-left": "7:05.67",
-                            "strikes": 0,
-                            "solved-modules": 10,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=52e0a3d838a874214ab67315ca9e60e6b8737013;bomb=2I3HP4",
-                            "vod-link": "https://youtu.be/F8AJrPMQ1mI"
-                        }
-                    ],
-                    "winner": "null"
+                    "times": [],
+                    "winner": null
                 },
-               {
+                {
                     "template": "moddedStandard",
                     "type": "modpoolsEven",
-                    "seed": "seed",
-                    "mission": "mission",
+                    "seed": null,
+                    "mission": null,
                     "rule-seed": null,
-                    "times": [
-                        {
-                            "competitor": "Lebossle",
-                            "time-left": "0:00.00",
-                            "strikes": 0,
-                            "solved-modules": 0,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=36086417e8498053d85175fe42ddecab09c8bd0d;bomb=EM8MU3",
-                            "vod-link": null
-                        },
-                        {
-                            "competitor": "draket333",
-                            "time-left": "3:46.57",
-                            "strikes": 1,
-                            "solved-modules": 10,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=52e0a3d838a874214ab67315ca9e60e6b8737013;bomb=2I3HP4",
-                            "vod-link": "https://youtu.be/EhwMKZYfiPM"
-                        }
-                    ],
-                    "winner": "null"
+                    "times": [],
+                    "winner": null
                 }
             ],
             "winner": null,
@@ -4912,7 +4861,7 @@
             "date": null,
             "status": "complete",
             "competitors": [
-                "OdderOdder",
+                "OdderOtter",
                 "numdegased"
             ],
             "bombs": [
@@ -4923,7 +4872,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": "OdderOdder"
+                    "winner": "OdderOtter"
                 },
                 {
                     "template": "moddedStandard",
@@ -4932,7 +4881,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": "OdderOdder"
+                    "winner": "OdderOtter"
                 },
                 {
                     "template": "moddedStandard",
@@ -4941,10 +4890,10 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": "OdderOdder"
+                    "winner": "OdderOtter"
                 }
             ],
-            "winner": "Grunkle",
+            "winner": "OdderOtter",
             "eliminations": "Ralp",
             "connection": null
         },
