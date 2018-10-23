@@ -121,20 +121,19 @@ body {
     margin-bottom: 10px;
 }
 
+.stand-card {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: blue;
+    background-color: #c8f5f7;
+}
+
 .comp-card {
     border-style: dotted;
     border-width: 1px;
     border-color: red;
     background-color: #d6d6d6;
 }
-
-
-/*.ip-card {
-    border-style: dotted;
-    border-width: 4px;
-    border-color: green;
-    background-color: #c6ecd8;
-}*/
 
 .ip-card {
     border-style: dotted;
