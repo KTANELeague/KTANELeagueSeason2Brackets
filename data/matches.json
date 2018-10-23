@@ -4172,7 +4172,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "draket333",
                 "billybao"
@@ -4185,7 +4185,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "draket333"
                 },
                 {
                     "template": "moddedStandard",
@@ -4194,7 +4194,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "draket333"
                 },
                 {
                     "template": "moddedStandard",
@@ -4203,10 +4203,10 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "draket333"
                 }
             ],
-            "winner": null,
+            "winner": "draket333",
             "eliminations": null,
             "connection": null
         },
@@ -4217,7 +4217,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "Lebossle",
                 "OdderOtter"
@@ -4262,7 +4262,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "ZekNikZ",
                 "elias5891"
@@ -4275,7 +4275,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "elias5891"
                 },
                 {
                     "template": "moddedStandard",
@@ -4293,10 +4293,10 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "elias5891"
                 }
             ],
-            "winner": null,
+            "winner": "elias5891",
             "eliminations": null,
             "connection": null
         },
