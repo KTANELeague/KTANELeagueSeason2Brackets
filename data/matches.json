@@ -4769,7 +4769,7 @@
             "category": "ModdedEFM",
             "stream-channel": null,
             "date": null,
-            "status": "inprogress",
+            "status": "complete",
             "competitors": [
                 "Grunkle",
                 "River"
@@ -4782,7 +4782,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Grunkle"
                 },
                 {
                     "template": "moddedStandard",
@@ -4791,7 +4791,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Grunkle"
                 },
                 {
                     "template": "moddedStandard",
@@ -4800,10 +4800,10 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "River"
                 }
             ],
-            "winner": null,
+            "winner": "Grunkle",
             "eliminations": null,
             "connection": null
         },
