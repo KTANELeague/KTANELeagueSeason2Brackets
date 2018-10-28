@@ -3738,25 +3738,25 @@
                     "times": [
                         {
                             "competitor": "Lebossle",
-                            "time-left": "4:09.99",
+                            "time-left": "5:26",
                             "strikes": 1,
                             "solved-modules": 10,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=dbf60fbe02d410c9cf14ede8df6571fad93bc560;bomb=2I3HP4",
+                            "log-link": null,
                             "vod-link": null
                         },
                         {
                             "competitor": "draket333",
-                            "time-left": "3:46.57",
+                            "time-left": "5:44",
                             "strikes": 1,
                             "solved-modules": 10,
-                            "log-link": "https://ktane.timwi.de/More/Logfile%20Analyzer.html#file=52e0a3d838a874214ab67315ca9e60e6b8737013;bomb=2I3HP4",
-                            "vod-link": "https://youtu.be/EhwMKZYfiPM"
+                            "log-link": null,
+                            "vod-link": null
                         }
                     ],
-                    "winner": null
+                    "winner": "draket333"
                 }
             ],
-            "winner": null,
+            "winner": "draket333",
             "eliminations": null,
             "connection": null
         },
@@ -4737,7 +4737,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Lebossle"
                 },
                 {
                     "template": "moddedStandard",
@@ -4746,7 +4746,7 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Lebossle"
                 },
                 {
                     "template": "moddedStandard",
@@ -4755,10 +4755,10 @@
                     "mission": null,
                     "rule-seed": null,
                     "times": [],
-                    "winner": null
+                    "winner": "Lebossle"
                 }
             ],
-            "winner": null,
+            "winner": "Lebossle",
             "eliminations": null,
             "connection": null
         },
